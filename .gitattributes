@@ -1,2 +1,6 @@
 * text=auto !eol
+/Makefile -text
 /apertium-ava-rus.ava-rus.dix -text
+/apertium-ava-rus.ava-rus.t1x -text
+/apertium-ava-rus.ava-rus.t2x -text
+/apertium-ava-rus.ava-rus.t3x -text
