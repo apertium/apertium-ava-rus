@@ -3,6 +3,8 @@
   <sdefs>
     <sdef n="abbr"/>
     <sdef n="adj"/>
+    <sdef n="neg"/>
+    <sdef n="mfn"/>
     <sdef n="adv"/>
     <sdef n="al"/>
     <sdef n="ant"/>
@@ -23,7 +25,7 @@
     <sdef n="vblex"/>
     <sdef n="rel"/>
     <sdef n="top"/>
-    <sdef n="v"/>
+    <sdef n="vblex"/>
 
     <sdef n="AD"/>
     <sdef n="GD"/>
@@ -542,103 +544,104 @@
     <e><p><l>гьанже<s n="adv"/></l><r>сейчас<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->
-    <e><p><l>букӀин<s n="v"/></l><r>быть<s n="vblex"/></r></p></e>
-    <e><p><l>лъа<s n="v"/></l><r>знать<s n="vblex"/></r></p></e>
-    <e><p><l>хъва<s n="v"/></l><r>писать<s n="vblex"/></r></p></e>
-    <e><p><l>кӀалъа<s n="v"/></l><r>@кӀалъа<s n="vblex"/></r></p></e>
-    <e><p><l>кке<s n="v"/></l><r>оказываться<s n="vblex"/></r></p></e>
-    <e><p><l>цӀали<s n="v"/></l><r>читать<s n="vblex"/></r></p></e>
-    <e><p><l>гаргади<s n="v"/></l><r>сказать<s n="vblex"/></r></p></e>
-    <e><p><l>аби<s n="v"/></l><r>сказать<s n="vblex"/></r></p></e>
-    <e><p><l>гьикъи<s n="v"/></l><r>@гьикъи<s n="vblex"/></r></p></e>
-    <e><p><l>гвангъи<s n="v"/></l><r>@гвангъи<s n="vblex"/></r></p></e>
-    <e><p><l>гьаби<s n="v"/></l><r>делать<s n="vblex"/></r></p></e>
-    <e><p><l>кӀодолъ<s n="v"/></l><r>увеличиваться<s n="vblex"/></r></p></e>
-    <e><p><l>лъугьи<s n="v"/></l><r>входить<s n="vblex"/></r></p></e>
-    <e><p><l>хутӀи<s n="v"/></l><r>оставаться<s n="vblex"/></r></p></e>
-    <e><p><l>цӀуни<s n="v"/></l><r>беречь<s n="vblex"/></r></p></e>
-    <e><p><l>цӀуни<s n="v"/></l><r>берегать хранить<s n="vblex"/></r></p></e>
-    <e><p><l>цӀуни<s n="v"/></l><r>сохранять<s n="vblex"/></r></p></e>
-    <e><p><l>тӀуба<s n="v"/></l><r>кончаться<s n="vblex"/></r></p></e>
-    <e><p><l>квача<s n="v"/></l><r>охлаждаться<s n="vblex"/></r></p></e>
-    <e><p><l>квача<s n="v"/></l><r>остужатьтся<s n="vblex"/></r></p></e>
-    <e><p><l>къа<s n="v"/></l><r>закрываться<s n="vblex"/></r></p></e>
-    <e><p><l>къа<s n="v"/></l><r>закрыться<s n="vblex"/></r></p></e>
-    <e><p><l>хага<s n="v"/></l><r>быть<s n="vblex"/></r></p></e>
-    <e><p><l>хага<s n="v"/></l><r>стать бесчувственным<s n="vblex"/></r></p></e>
-    <e><p><l>дандба<s n="v"/></l><r>собирать<s n="vblex"/></r></p></e>
-    <e><p><l>дандба<s n="v"/></l><r>собрать<s n="vblex"/></r></p></e>
-    <e><p><l>квана<s n="v"/></l><r>есть<s n="vblex"/></r></p></e>
-    <e><p><l>квана<s n="v"/></l><r>кушать<s n="vblex"/></r></p></e>
-    <e><p><l>куца<s n="v"/></l><r>приучать<s n="vblex"/></r></p></e>
-    <e><p><l>куца<s n="v"/></l><r>приучить<s n="vblex"/></r></p></e>
-    <e><p><l>раха<s n="v"/></l><r>@раха<s n="vblex"/></r></p></e>
-    <e><p><l>су<s n="v"/></l><r>срезать<s n="vblex"/></r></p></e>
-    <e><p><l>су<s n="v"/></l><r>срезать<s n="vblex"/></r></p></e>
-    <e><p><l>ха<s n="v"/></l><r>чесать<s n="vblex"/></r></p></e>
-    <e><p><l>ха<s n="v"/></l><r>расчёсывать<s n="vblex"/></r></p></e>
-    <e><p><l>ха<s n="v"/></l><r>причёсывать<s n="vblex"/></r></p></e>
-    <e><p><l>хӀа<s n="v"/></l><r>играть<s n="vblex"/></r></p></e>
-    <e><p><l>чӀва<s n="v"/></l><r>убивать<s n="vblex"/></r></p></e>
-    <e><p><l>чӀва<s n="v"/></l><r>убить<s n="vblex"/></r></p></e>
-    <e><p><l>цу<s n="v"/></l><r>примыкать<s n="vblex"/></r></p></e>
-    <e><p><l>цӀа<s n="v"/></l><r>тянуть<s n="vblex"/></r></p></e>
-    <e><p><l>цӀа<s n="v"/></l><r>тащить<s n="vblex"/></r></p></e>
-    <e><p><l>цӀа<s n="v"/></l><r>вытащить<s n="vblex"/></r></p></e>
-    <e><p><l>цӀоро<s n="v"/></l><r>холодеть<s n="vblex"/></r></p></e>
-    <e><p><l>цӀоро<s n="v"/></l><r>мёрзнуть<s n="vblex"/></r></p></e>
-    <e><p><l>цӀоро<s n="v"/></l><r>замёрзнуть<s n="vblex"/></r></p></e>
-    <e><p><l>цӀу<s n="v"/></l><r>цедить<s n="vblex"/></r></p></e>
-    <e><p><l>цӀу<s n="v"/></l><r>процеживать<s n="vblex"/></r></p></e>
-    <e><p><l>цӀу<s n="v"/></l><r>сцеживать<s n="vblex"/></r></p></e>
-    <e><p><l>чӀара<s n="v"/></l><r>полоть<s n="vblex"/></r></p></e>
-    <e><p><l>ками<s n="v"/></l><r>не хватать<s n="vblex"/></r></p></e>
-    <e><p><l>ками<s n="v"/></l><r>не хватить<s n="vblex"/></r></p></e>
-    <e><p><l>кьаби<s n="v"/></l><r>(по)бить<s n="vblex"/></r></p></e>
-    <e><p><l>кьаби<s n="v"/></l><r>избить<s n="vblex"/></r></p></e>
-    <e><p><l>кьаби<s n="v"/></l><r>(по)колотить кого-л.<s n="vblex"/></r></p></e>
-    <e><p><l>сверизаби<s n="v"/></l><r>(за)вертеть<s n="vblex"/></r></p></e>
-    <e><p><l>сверизаби<s n="v"/></l><r>(за)крутить<s n="vblex"/></r></p></e>
-    <e><p><l>хъами<s n="v"/></l><r>уносить<s n="vblex"/></r></p></e>
-    <e><p><l>хъами<s n="v"/></l><r>унести<s n="vblex"/></r></p></e>
-    <e><p><l>чӀами<s n="v"/></l><r>(раз)жевать<s n="vblex"/></r></p></e>
-    <e><p><l>чӀами<s n="v"/></l><r>разжёвывать<s n="vblex"/></r></p></e>
-    <e><p><l>кье<s n="v"/></l><r>давать<s n="vblex"/></r></p></e>
-    <e><p><l>кье<s n="v"/></l><r>дать<s n="vblex"/></r></p></e>
-    <e><p><l>лъе<s n="v"/></l><r>складывть<s n="vblex"/></r></p></e>
-    <e><p><l>лъе<s n="v"/></l><r>класть<s n="vblex"/></r></p></e>
-    <e><p><l>лъе<s n="v"/></l><r>(по)ложить<s n="vblex"/></r></p></e>
-    <e><p><l>лъе<s n="v"/></l><r>уложить<s n="vblex"/></r></p></e>
-    <e><p><l>тІе<s n="v"/></l><r>(со)рвать<s n="vblex"/></r></p></e>
-    <e><p><l>тІе<s n="v"/></l><r>отрывать<s n="vblex"/></r></p></e>
-    <e><p><l>ххе<s n="v"/></l><r>вдевать<s n="vblex"/></r></p></e>
-    <e><p><l>ххе<s n="v"/></l><r>вдеть<s n="vblex"/></r></p></e>
-    <e><p><l>цӀе<s n="v"/></l><r>заполняться<s n="vblex"/></r></p></e>
-    <e><p><l>цӀе<s n="v"/></l><r>заполниться<s n="vblex"/></r></p></e>
-    <e><p><l>боси<s n="v"/></l><r>брать<s n="vblex"/></r></p></e>
-    <e><p><l>боси<s n="v"/></l><r>взять<s n="vblex"/></r></p></e>
-    <e><p><l>боси<s n="v"/></l><r>получать<s n="vblex"/></r></p></e>
-    <e><p><l>боси<s n="v"/></l><r>получить принимать<s n="vblex"/></r></p></e>
-    <e><p><l>боси<s n="v"/></l><r>принять<s n="vblex"/></r></p></e>
-    <e><p><l>бахъи<s n="v"/></l><r>получаться<s n="vblex"/></r></p></e>
-    <e><p><l>бахъи<s n="v"/></l><r>получиться выходить<s n="vblex"/></r></p></e>
-    <e><p><l>бахъи<s n="v"/></l><r>выйти<s n="vblex"/></r></p></e>
-    <e><p><l>багъи<s n="v"/></l><r>драться<s n="vblex"/></r></p></e>
-    <e><p><l>балагьи<s n="v"/></l><r>смотреть<s n="vblex"/></r></p></e>
-    <e><p><l>балагьи<s n="v"/></l><r>глядеть<s n="vblex"/></r></p></e>
-    <e><p><l>борхи<s n="v"/></l><r>подниматься<s n="vblex"/></r></p></e>
-    <e><p><l>борхи<s n="v"/></l><r>подняться<s n="vblex"/></r></p></e>
-    <e><p><l>биххи<s n="v"/></l><r>рушиться<s n="vblex"/></r></p></e>
-    <e><p><l>биххи<s n="v"/></l><r>разрушаться<s n="vblex"/></r></p></e>
-    <e><p><l>биххи<s n="v"/></l><r>разрушиться<s n="vblex"/></r></p></e>
-    <e><p><l>баччи<s n="v"/></l><r>вести<s n="vblex"/></r></p></e>
-    <e><p><l>бищи<s n="v"/></l><r>выбирать<s n="vblex"/></r></p></e>
-    <e><p><l>бищи<s n="v"/></l><r>выбрать<s n="vblex"/></r></p></e>
-    <e><p><l>бати<s n="v"/></l><r>находиться<s n="vblex"/></r></p></e>
-    <e><p><l>бати<s n="v"/></l><r>найтись<s n="vblex"/></r></p></e>
-    <e><p><l>бачӀи<s n="v"/></l><r>приходить<s n="vblex"/></r></p></e>
-    <e><p><l>бици<s n="v"/></l><r>говорить<s n="vblex"/></r></p></e>
-    <e><p><l>бици<s n="v"/></l><r>сказать<s n="vblex"/></r></p></e>
+    <e><p><l>букӀин<s n="vblex"/><s n="mfn"/><s n="neg"/></l><r>нет<s n="vblex"/></r></p></e>
+    <e><p><l>букӀин<s n="vblex"/></l><r>быть<s n="vblex"/></r></p></e>
+    <e><p><l>лъа<s n="vblex"/></l><r>знать<s n="vblex"/></r></p></e>
+    <e><p><l>хъва<s n="vblex"/></l><r>писать<s n="vblex"/></r></p></e>
+    <e><p><l>кӀалъа<s n="vblex"/></l><r>@кӀалъа<s n="vblex"/></r></p></e>
+    <e><p><l>кке<s n="vblex"/></l><r>оказываться<s n="vblex"/></r></p></e>
+    <e><p><l>цӀали<s n="vblex"/></l><r>читать<s n="vblex"/></r></p></e>
+    <e><p><l>гаргади<s n="vblex"/></l><r>сказать<s n="vblex"/></r></p></e>
+    <e><p><l>аби<s n="vblex"/></l><r>сказать<s n="vblex"/></r></p></e>
+    <e><p><l>гьикъи<s n="vblex"/></l><r>@гьикъи<s n="vblex"/></r></p></e>
+    <e><p><l>гвангъи<s n="vblex"/></l><r>@гвангъи<s n="vblex"/></r></p></e>
+    <e><p><l>гьаби<s n="vblex"/></l><r>делать<s n="vblex"/></r></p></e>
+    <e><p><l>кӀодолъ<s n="vblex"/></l><r>увеличиваться<s n="vblex"/></r></p></e>
+    <e><p><l>лъугьи<s n="vblex"/></l><r>входить<s n="vblex"/></r></p></e>
+    <e><p><l>хутӀи<s n="vblex"/></l><r>оставаться<s n="vblex"/></r></p></e>
+    <e><p><l>цӀуни<s n="vblex"/></l><r>беречь<s n="vblex"/></r></p></e>
+    <e><p><l>цӀуни<s n="vblex"/></l><r>берегать хранить<s n="vblex"/></r></p></e>
+    <e><p><l>цӀуни<s n="vblex"/></l><r>сохранять<s n="vblex"/></r></p></e>
+    <e><p><l>тӀуба<s n="vblex"/></l><r>кончаться<s n="vblex"/></r></p></e>
+    <e><p><l>квача<s n="vblex"/></l><r>охлаждаться<s n="vblex"/></r></p></e>
+    <e><p><l>квача<s n="vblex"/></l><r>остужатьтся<s n="vblex"/></r></p></e>
+    <e><p><l>къа<s n="vblex"/></l><r>закрываться<s n="vblex"/></r></p></e>
+    <e><p><l>къа<s n="vblex"/></l><r>закрыться<s n="vblex"/></r></p></e>
+    <e><p><l>хага<s n="vblex"/></l><r>быть<s n="vblex"/></r></p></e>
+    <e><p><l>хага<s n="vblex"/></l><r>стать бесчувственным<s n="vblex"/></r></p></e>
+    <e><p><l>дандба<s n="vblex"/></l><r>собирать<s n="vblex"/></r></p></e>
+    <e><p><l>дандба<s n="vblex"/></l><r>собрать<s n="vblex"/></r></p></e>
+    <e><p><l>квана<s n="vblex"/></l><r>есть<s n="vblex"/></r></p></e>
+    <e><p><l>квана<s n="vblex"/></l><r>кушать<s n="vblex"/></r></p></e>
+    <e><p><l>куца<s n="vblex"/></l><r>приучать<s n="vblex"/></r></p></e>
+    <e><p><l>куца<s n="vblex"/></l><r>приучить<s n="vblex"/></r></p></e>
+    <e><p><l>раха<s n="vblex"/></l><r>@раха<s n="vblex"/></r></p></e>
+    <e><p><l>су<s n="vblex"/></l><r>срезать<s n="vblex"/></r></p></e>
+    <e><p><l>су<s n="vblex"/></l><r>срезать<s n="vblex"/></r></p></e>
+    <e><p><l>ха<s n="vblex"/></l><r>чесать<s n="vblex"/></r></p></e>
+    <e><p><l>ха<s n="vblex"/></l><r>расчёсывать<s n="vblex"/></r></p></e>
+    <e><p><l>ха<s n="vblex"/></l><r>причёсывать<s n="vblex"/></r></p></e>
+    <e><p><l>хӀа<s n="vblex"/></l><r>играть<s n="vblex"/></r></p></e>
+    <e><p><l>чӀва<s n="vblex"/></l><r>убивать<s n="vblex"/></r></p></e>
+    <e><p><l>чӀва<s n="vblex"/></l><r>убить<s n="vblex"/></r></p></e>
+    <e><p><l>цу<s n="vblex"/></l><r>примыкать<s n="vblex"/></r></p></e>
+    <e><p><l>цӀа<s n="vblex"/></l><r>тянуть<s n="vblex"/></r></p></e>
+    <e><p><l>цӀа<s n="vblex"/></l><r>тащить<s n="vblex"/></r></p></e>
+    <e><p><l>цӀа<s n="vblex"/></l><r>вытащить<s n="vblex"/></r></p></e>
+    <e><p><l>цӀоро<s n="vblex"/></l><r>холодеть<s n="vblex"/></r></p></e>
+    <e><p><l>цӀоро<s n="vblex"/></l><r>мёрзнуть<s n="vblex"/></r></p></e>
+    <e><p><l>цӀоро<s n="vblex"/></l><r>замёрзнуть<s n="vblex"/></r></p></e>
+    <e><p><l>цӀу<s n="vblex"/></l><r>цедить<s n="vblex"/></r></p></e>
+    <e><p><l>цӀу<s n="vblex"/></l><r>процеживать<s n="vblex"/></r></p></e>
+    <e><p><l>цӀу<s n="vblex"/></l><r>сцеживать<s n="vblex"/></r></p></e>
+    <e><p><l>чӀара<s n="vblex"/></l><r>полоть<s n="vblex"/></r></p></e>
+    <e><p><l>ками<s n="vblex"/></l><r>не хватать<s n="vblex"/></r></p></e>
+    <e><p><l>ками<s n="vblex"/></l><r>не хватить<s n="vblex"/></r></p></e>
+    <e><p><l>кьаби<s n="vblex"/></l><r>(по)бить<s n="vblex"/></r></p></e>
+    <e><p><l>кьаби<s n="vblex"/></l><r>избить<s n="vblex"/></r></p></e>
+    <e><p><l>кьаби<s n="vblex"/></l><r>(по)колотить кого-л.<s n="vblex"/></r></p></e>
+    <e><p><l>сверизаби<s n="vblex"/></l><r>(за)вертеть<s n="vblex"/></r></p></e>
+    <e><p><l>сверизаби<s n="vblex"/></l><r>(за)крутить<s n="vblex"/></r></p></e>
+    <e><p><l>хъами<s n="vblex"/></l><r>уносить<s n="vblex"/></r></p></e>
+    <e><p><l>хъами<s n="vblex"/></l><r>унести<s n="vblex"/></r></p></e>
+    <e><p><l>чӀами<s n="vblex"/></l><r>(раз)жевать<s n="vblex"/></r></p></e>
+    <e><p><l>чӀами<s n="vblex"/></l><r>разжёвывать<s n="vblex"/></r></p></e>
+    <e><p><l>кье<s n="vblex"/></l><r>давать<s n="vblex"/></r></p></e>
+    <e><p><l>кье<s n="vblex"/></l><r>дать<s n="vblex"/></r></p></e>
+    <e><p><l>лъе<s n="vblex"/></l><r>складывть<s n="vblex"/></r></p></e>
+    <e><p><l>лъе<s n="vblex"/></l><r>класть<s n="vblex"/></r></p></e>
+    <e><p><l>лъе<s n="vblex"/></l><r>(по)ложить<s n="vblex"/></r></p></e>
+    <e><p><l>лъе<s n="vblex"/></l><r>уложить<s n="vblex"/></r></p></e>
+    <e><p><l>тІе<s n="vblex"/></l><r>(со)рвать<s n="vblex"/></r></p></e>
+    <e><p><l>тІе<s n="vblex"/></l><r>отрывать<s n="vblex"/></r></p></e>
+    <e><p><l>ххе<s n="vblex"/></l><r>вдевать<s n="vblex"/></r></p></e>
+    <e><p><l>ххе<s n="vblex"/></l><r>вдеть<s n="vblex"/></r></p></e>
+    <e><p><l>цӀе<s n="vblex"/></l><r>заполняться<s n="vblex"/></r></p></e>
+    <e><p><l>цӀе<s n="vblex"/></l><r>заполниться<s n="vblex"/></r></p></e>
+    <e><p><l>боси<s n="vblex"/></l><r>брать<s n="vblex"/></r></p></e>
+    <e><p><l>боси<s n="vblex"/></l><r>взять<s n="vblex"/></r></p></e>
+    <e><p><l>боси<s n="vblex"/></l><r>получать<s n="vblex"/></r></p></e>
+    <e><p><l>боси<s n="vblex"/></l><r>получить принимать<s n="vblex"/></r></p></e>
+    <e><p><l>боси<s n="vblex"/></l><r>принять<s n="vblex"/></r></p></e>
+    <e><p><l>бахъи<s n="vblex"/></l><r>получаться<s n="vblex"/></r></p></e>
+    <e><p><l>бахъи<s n="vblex"/></l><r>получиться выходить<s n="vblex"/></r></p></e>
+    <e><p><l>бахъи<s n="vblex"/></l><r>выйти<s n="vblex"/></r></p></e>
+    <e><p><l>багъи<s n="vblex"/></l><r>драться<s n="vblex"/></r></p></e>
+    <e><p><l>балагьи<s n="vblex"/></l><r>смотреть<s n="vblex"/></r></p></e>
+    <e><p><l>балагьи<s n="vblex"/></l><r>глядеть<s n="vblex"/></r></p></e>
+    <e><p><l>борхи<s n="vblex"/></l><r>подниматься<s n="vblex"/></r></p></e>
+    <e><p><l>борхи<s n="vblex"/></l><r>подняться<s n="vblex"/></r></p></e>
+    <e><p><l>биххи<s n="vblex"/></l><r>рушиться<s n="vblex"/></r></p></e>
+    <e><p><l>биххи<s n="vblex"/></l><r>разрушаться<s n="vblex"/></r></p></e>
+    <e><p><l>биххи<s n="vblex"/></l><r>разрушиться<s n="vblex"/></r></p></e>
+    <e><p><l>баччи<s n="vblex"/></l><r>вести<s n="vblex"/></r></p></e>
+    <e><p><l>бищи<s n="vblex"/></l><r>выбирать<s n="vblex"/></r></p></e>
+    <e><p><l>бищи<s n="vblex"/></l><r>выбрать<s n="vblex"/></r></p></e>
+    <e><p><l>бати<s n="vblex"/></l><r>находиться<s n="vblex"/></r></p></e>
+    <e><p><l>бати<s n="vblex"/></l><r>найтись<s n="vblex"/></r></p></e>
+    <e><p><l>бачӀи<s n="vblex"/></l><r>приходить<s n="vblex"/></r></p></e>
+    <e><p><l>бици<s n="vblex"/></l><r>говорить<s n="vblex"/></r></p></e>
+    <e><p><l>бици<s n="vblex"/></l><r>сказать<s n="vblex"/></r></p></e>
 
 
     <!-- SECTION: Abbreviations -->
