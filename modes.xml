@@ -56,9 +56,6 @@
       <program name="lt-proc -d">
         <file name="ava-rus.autogen.bin"/>
       </program>
-      <program name="lt-proc -p">
-        <file name="ava-rus.autopgen.bin"/>
-      </program>
     </pipeline>
   </mode>
 
