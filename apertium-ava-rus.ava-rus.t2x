@@ -2,9 +2,11 @@
 <!-- -*- nxml -*- -->
 <interchunk>
   <section-def-cats>
-    <def-cat n="SN">
-      <cat-item tags="SN"/>
-      <cat-item tags="SN.*"/>
+    <def-cat n="SN-GEN">
+      <cat-item tags="SN.GEN.*"/>
+    </def-cat>
+    <def-cat n="SN-ABS">
+      <cat-item tags="SN.ABS.*"/>
     </def-cat>
     <def-cat n="SENT">
       <cat-item tags="SENT"/>
@@ -40,12 +42,19 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
-    <rule comment="REGLA: SN">
+    <rule comment="REGLA: SN-GEN SN-ABS">
       <pattern>
-        <pattern-item n="SN"/>
+        <pattern-item n="SN-GEN"/>
+        <pattern-item n="SN-ABS"/>
       </pattern>
       <action>
         <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
           <chunk>
             <clip pos="1" part="lem"/>
             <clip pos="1" part="tags"/>
