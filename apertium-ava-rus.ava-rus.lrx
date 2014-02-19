@@ -1,5 +1,8 @@
 <rules>
   <rule>
+    <match lemma="хӀукумат" tags="n.*"><select lemma="государство"/></match>
+  </rule>
+  <rule>
     <match lemma="магӀарул" tags="adj"><select lemma="аварский"/></match>
     <match lemma="мацӀ" tags="n.*" />
   </rule>

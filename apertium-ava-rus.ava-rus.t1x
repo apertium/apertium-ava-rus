@@ -2,11 +2,17 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="bugeb">
+      <cat-item lemma="бугеб" tags="prn.*.rel.*"/>
+    </def-cat>
     <def-cat n="ant-attr">
       <cat-item tags="np.ant.*.attr"/>
     </def-cat>
     <def-cat n="cog-erg">
       <cat-item tags="np.cog.*.erg"/>
+    </def-cat>
+    <def-cat n="top-loc">
+      <cat-item tags="np.top.*.loc"/>
     </def-cat>
     <def-cat n="top-gen">
       <cat-item tags="np.top.*.gen"/>
@@ -364,6 +370,30 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: top-loc">
+      <pattern>
+        <pattern-item n="top-loc"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="prp"/></let>
+        <out>
+          <chunk name="top" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.ADVL"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <lit v="в"/><lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: n-loc">
       <pattern>
         <pattern-item n="n-loc"/>
@@ -425,6 +455,25 @@
     </rule>
 
 
+    <rule comment="REGLA: top-gen">
+      <pattern>
+        <pattern-item n="top-gen"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="top" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.GEN"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: top-gen adj n-gen">
       <pattern>
         <pattern-item n="top-gen"/>
@@ -460,6 +509,31 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: bugeb">
+      <pattern>
+        <pattern-item n="bugeb"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="whole"/>
+          <concat>
+            <lit v="--"/>
+            <lit-tag v="guio"/>
+          </concat>
+        </let> 
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="COP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: bugo-hečo">
       <pattern>
