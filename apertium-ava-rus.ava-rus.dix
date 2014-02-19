@@ -89,7 +89,7 @@
     <!-- SECTION: Pronouns -->
 
     <e><p><l>дун<s n="prn"/><s n="pers"/></l><r>я<s n="prn"/><s n="pers"/></r></p></e>
-    <e><p><l>мун<s n="prn"/><s n="pers"/></l><r>ты<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>мун<s n="prn"/><s n="pers"/><s n="p2"/></l><r>ты<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/></r></p></e>
     <e><p><l>нилъ<s n="prn"/><s n="pers"/><s n="p1i"/></l><r>мы<s n="prn"/><s n="pers"/><s n="p1"/></r></p></e>
     <e><p><l>ниж<s n="prn"/><s n="pers"/><s n="p1x"/></l><r>мы<s n="prn"/><s n="pers"/><s n="p2"/></r></p></e>
     <e><p><l>нуж<s n="prn"/><s n="pers"/></l><r>вы<s n="prn"/><s n="pers"/></r></p></e>
