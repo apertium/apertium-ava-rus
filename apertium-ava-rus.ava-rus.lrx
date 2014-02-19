@@ -3,4 +3,29 @@
     <match lemma="магӀарул" tags="adj"><select lemma="аварский"/></match>
     <match lemma="мацӀ" tags="n.*" />
   </rule>
+  <rule>
+    <match lemma="гьеб" tags="prn.dem.m.*"><select lemma="он" tags="prn.pers.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="гьеб" tags="prn.dem.f.*"><select lemma="она" tags="prn.pers.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="гьеб" tags="prn.dem.nt.*"><select lemma="тот" tags="prn.dem.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="гьеб" tags="prn.dem.pl.*"><select lemma="они" tags="prn.pers.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="гьаб" tags="prn.dem.m.*"><select lemma="он" tags="prn.pers.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="гьаб" tags="prn.dem.f.*"><select lemma="она" tags="prn.pers.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="гьаб" tags="prn.dem.nt.*"><select lemma="это" tags="prn.dem.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="гьаб" tags="prn.dem.pl.*"><select lemma="они" tags="prn.pers.*"/></match>
+  </rule>
+
 </rules>
