@@ -3,6 +3,9 @@
     <match lemma="балагьи" tags="vblex.*"><select lemma="смотреть"/></match>
   </rule>
   <rule>
+    <match lemma="щай" tags="adv.itg"><select lemma="почему"/></match>
+  </rule>
+  <rule>
     <match lemma="хӀукумат" tags="n.*"><select lemma="государство"/></match>
   </rule>
   <rule>

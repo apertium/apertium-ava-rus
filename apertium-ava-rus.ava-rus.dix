@@ -9,6 +9,7 @@
     <sdef n="dist"/>
     <sdef n="p1x"/>
     <sdef n="an"/>
+    <sdef n="nom"/>
     <sdef n="p1i"/>
     <sdef n="p2"/>
     <sdef n="p1"/>
@@ -100,7 +101,7 @@
     <e><p><l>дун<s n="prn"/><s n="pers"/></l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
     <e><p><l>мун<s n="prn"/><s n="pers"/><s n="p2"/></l><r>ты<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/></r></p></e>
     <e><p><l>нилъ<s n="prn"/><s n="pers"/><s n="p1i"/></l><r>мы<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
-    <e><p><l>ниж<s n="prn"/><s n="pers"/><s n="p1x"/></l><r>мы<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/></r></p></e>
+    <e><p><l>ниж<s n="prn"/><s n="pers"/><s n="p1x"/></l><r>мы<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
     <e><p><l>нуж<s n="prn"/><s n="pers"/></l><r>вы<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/></r></p></e>
 
     <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="m"/></l><r>кто<s n="prn"/><s n="itg"/></r></p></e>
@@ -291,7 +292,7 @@
     <e><p><l>бару<s n="n"/><s n="nt"/></l><r>лекарство<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
     <e><p><l>рагӀи<s n="n"/><s n="nt"/></l><r>слово<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
     <e><p><l>итаркӀо<s n="n"/><s n="nt"/></l><r>сокол<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
-    <e><p><l>цӀва<s n="n"/><s n="nt"/></l><r>звезда<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
+    <e><p><l>цӀва<s n="n"/><s n="nt"/></l><r>звезда<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>машина<s n="n"/><s n="nt"/></l><r>машина<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
     <e><p><l>тӀехь<s n="n"/><s n="nt"/></l><r>книга<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>росу<s n="n"/><s n="nt"/></l><r>аул<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
@@ -731,8 +732,12 @@
     <e><p><l>щай<s n="adv"/><s n="itg"/></l><r>зачем<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>кин<s n="adv"/><s n="itg"/></l><r>как<s n="adv"/><s n="itg"/></r></p></e>
 
+    <e><p><l>чан<s n="adv"/><s n="itg"/></l><r>сколько<s n="prn"/><s n="itg"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
+
     <e><p><l>гуро<s n="adv"/></l><r>не<s n="adv"/></r></p></e>
     <e><p><l>гуро<s n="adv"/></l><r>нет<s n="adv"/></r></p></e>
+
+    <e><p><l>зодиб<s n="adv"/></l><r>в<b/>небе<s n="adv"/></r></p></e>
 
     <e><p><l>бащадго<s n="adv"/></l><r>поровну<s n="adv"/></r></p></e>
     <e><p><l>бащадго<s n="adv"/></l><r>одинаково<s n="adv"/></r></p></e>
@@ -785,7 +790,6 @@
     <e><p><l>мехалъ<s n="adv"/></l><r>в<b/>то<b/>время<s n="adv"/></r></p></e>
     <e><p><l>мехалъ<s n="adv"/></l><r>когда<s n="adv"/></r></p></e>
     <e><p><l>бищун<s n="adv"/></l><r>самый<s n="adv"/></r></p></e>
-    <e><p><l>чан<s n="adv"/></l><r>несколько<s n="adv"/></r></p></e>
     <e><p><l>хас<s n="adv"/></l><r>особенно<s n="adv"/></r></p></e>
     <e><p><l>гьоркьо<s n="adv"/></l><r>между<s n="adv"/></r></p></e>
     <e><p><l>гьени<s n="adv"/></l><r>там<s n="adv"/></r></p></e>
