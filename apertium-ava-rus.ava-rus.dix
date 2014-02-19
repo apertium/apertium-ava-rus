@@ -81,7 +81,7 @@
     <e><p><l>гӀоло<s n="post"/></l><r>ради<s n="post"/></r></p></e>
     <e><p><l>гӀоло<s n="post"/></l><r>за<s n="post"/></r></p></e>
     <e><p><l>жаниб<s n="post"/></l><r>внутри<s n="post"/></r></p></e>
-    <e><p><l>тӀад<s n="post"/></l><r>@тӀад<s n="post"/></r></p></e>
+    <e><p><l>тӀад<s n="post"/></l><r>над<s n="post"/></r></p></e>
     <e><p><l>гъоркь<s n="post"/></l><r>@гъоркь<s n="post"/></r></p></e>
     <e><p><l>аскӀоб<s n="post"/></l><r>@аскӀоб<s n="post"/></r></p></e>
     <e><p><l>нахъа<s n="post"/></l><r>@нахъа<s n="post"/></r></p></e>
@@ -98,17 +98,17 @@
 
     <!-- SECTION: Pronouns -->
 
-    <e><p><l>дун<s n="prn"/><s n="pers"/></l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
+    <e><p><l>дун<s n="prn"/><s n="pers"/><s n="p1"/></l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
     <e><p><l>мун<s n="prn"/><s n="pers"/><s n="p2"/></l><r>ты<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/></r></p></e>
     <e><p><l>нилъ<s n="prn"/><s n="pers"/><s n="p1i"/></l><r>мы<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
     <e><p><l>ниж<s n="prn"/><s n="pers"/><s n="p1x"/></l><r>мы<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
-    <e><p><l>нуж<s n="prn"/><s n="pers"/></l><r>вы<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/></r></p></e>
+    <e><p><l>нуж<s n="prn"/><s n="pers"/><s n="p2"/></l><r>вы<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/></r></p></e>
 
-    <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="m"/></l><r>кто<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="f"/></l><r>кто<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="nt"/></l><r>что<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="pl"/></l><r>кто<s n="prn"/><s n="itg"/></r></p></e>
-    <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="pl"/></l><r>что<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="m"/></l><r>кто<s n="prn"/><s n="itg"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="f"/></l><r>кто<s n="prn"/><s n="itg"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="nt"/></l><r>что<s n="prn"/><s n="itg"/><s n="nt"/></r></p></e>
+    <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="pl"/></l><r>кто<s n="prn"/><s n="itg"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="pl"/></l><r>что<s n="prn"/><s n="itg"/><s n="nt"/></r></p></e>
 
     <e><p><l>гьаб<s n="prn"/><s n="dem"/><s n="m"/></l><r>этот<s n="prn"/><s n="dem"/><s n="m"/><s n="an"/></r></p></e>
     <e><p><l>гьаб<s n="prn"/><s n="dem"/><s n="f"/></l><r>этот<s n="prn"/><s n="dem"/><s n="f"/><s n="an"/></r></p></e>
@@ -630,6 +630,8 @@
     <e><p><l>цогидаб<s n="adj"/></l><r>другой<s n="adj"/></r></p></e>
     <e><p><l>цогидаб<s n="adj"/></l><r>иной<s n="adj"/></r></p></e>
 
+    <e><p><l>рахьдал<s n="adj"/></l><r>родной<s n="adj"/></r></p></e>
+    <e><p><l>рахьдал<s n="adj"/></l><r>молочный<s n="adj"/></r></p></e>
     <e><p><l>кӀудияб<s n="adj"/></l><r>большой<s n="adj"/></r></p></e>
     <e><p><l>кӀудияб<s n="adj"/></l><r>великий<s n="adj"/></r></p></e>
     <e><p><l>лъикӀаб<s n="adj"/></l><r>хороший<s n="adj"/></r></p></e>

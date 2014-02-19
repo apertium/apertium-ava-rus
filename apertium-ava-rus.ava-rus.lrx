@@ -9,6 +9,10 @@
     <match lemma="хӀукумат" tags="n.*"><select lemma="государство"/></match>
   </rule>
   <rule>
+    <match lemma="рахьдал" tags="adj"><select lemma="родной"/></match>
+    <match lemma="мацӀ" tags="n.*" />
+  </rule>
+  <rule>
     <match lemma="магӀарул" tags="adj"><select lemma="аварский"/></match>
     <match lemma="мацӀ" tags="n.*" />
   </rule>
