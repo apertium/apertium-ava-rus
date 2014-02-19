@@ -5,7 +5,9 @@
     <sdef n="adj"/>
     <sdef n="neg"/>
     <sdef n="sg"/>
+    <sdef n="vbser"/>
     <sdef n="p1x"/>
+    <sdef n="an"/>
     <sdef n="p1i"/>
     <sdef n="p2"/>
     <sdef n="p1"/>
@@ -101,7 +103,10 @@
     <e><p><l>щиб<s n="prn"/><s n="itg"/><s n="pl"/></l><r>что<s n="prn"/><s n="itg"/></r></p></e>
 
     <e><p><l>гьаб<s n="prn"/><s n="dem"/></l><r>это<s n="prn"/><s n="dem"/></r></p></e>
-    <e><p><l>гьеб<s n="prn"/><s n="dem"/></l><r>то<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>гьеб<s n="prn"/><s n="dem"/><s n="m"/></l><r>тот<s n="prn"/><s n="dem"/><s n="m"/><s n="an"/></r></p></e>
+    <e><p><l>гьеб<s n="prn"/><s n="dem"/><s n="f"/></l><r>тот<s n="prn"/><s n="dem"/><s n="f"/><s n="an"/></r></p></e>
+    <e><p><l>гьеб<s n="prn"/><s n="dem"/><s n="nt"/></l><r>тот<s n="prn"/><s n="dem"/><s n="nt"/><s n="an"/></r></p></e>
+    <e><p><l>гьеб<s n="prn"/><s n="dem"/><s n="pl"/></l><r>тот<s n="prn"/><s n="dem"/><s n="mfn"/><s n="an"/><s n="pl"/></r></p></e>
     <e><p><l>доб<s n="prn"/><s n="dem"/></l><r>то<s n="prn"/><s n="dem"/></r></p></e>
 
     <e><p><l>бугеб<s n="prn"/><s n="m"/><s n="rel"/></l><r>то,<b/>что<b/>есть<s n="prn"/><s n="rel"/></r></p></e>
@@ -757,7 +762,7 @@
 
     <!-- SECTION: Verbs -->
     <e><p><l>букӀин<s n="vblex"/><s n="mfn"/><s n="neg"/></l><r>нет<s n="vblex"/></r></p></e>
-    <e><p><l>букӀин<s n="vblex"/></l><r>быть<s n="vblex"/></r></p></e>
+    <e><p><l>букӀин<s n="vblex"/></l><r>быть<s n="vbser"/></r></p></e>
     <e><p><l>лъа<s n="vblex"/></l><r>знать<s n="vblex"/></r></p></e>
     <e><p><l>хъва<s n="vblex"/></l><r>писать<s n="vblex"/></r></p></e>
     <e><p><l>кӀалъа<s n="vblex"/></l><r>@кӀалъа<s n="vblex"/></r></p></e>

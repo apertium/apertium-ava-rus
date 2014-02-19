@@ -33,16 +33,39 @@
     <def-cat n="n-loc">
       <cat-item tags="n.*.*.loc"/>
     </def-cat>
+    <def-cat n="bugo-hečo">
+      <cat-item lemma="букӏин" tags="vblex.*.pres"/>
+      <cat-item lemma="букӏин" tags="vblex.*.neg"/>
+    </def-cat>
+    <def-cat n="verb-past">
+      <cat-item tags="vblex.*.past"/>
+    </def-cat>
+    <def-cat n="gna2">
+      <cat-item tags="vblex.*.gna2"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
+    </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
+    </def-attr>
+    <def-attr n="a_neg">
+      <attr-item tags="neg"/>
+    </def-attr>
+    <def-attr n="a_class">
+      <attr-item tags="m"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="f"/>
+      <attr-item tags="nt"/>
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="sg"/>
@@ -80,13 +103,23 @@
 
   </section-def-attrs>
   <section-def-vars>
-    <def-var n="number"/>
+    <def-var n="число"/>
+    <def-var n="род"/>
+    <def-var n="neg"/>
     <def-var n="current_verb"/>
   </section-def-vars>
   <section-def-macros>
     <def-macro n="test" npar="1">
           <let>
-            <var n="number"/>
+            <var n="neg"/>
+            <lit v=""/>
+          </let>
+          <let>
+            <var n="род"/>
+            <lit v=""/>
+          </let>
+          <let>
+            <var n="число"/>
             <lit v=""/>
           </let>
     </def-macro>
@@ -302,6 +335,86 @@
         </out>
       </action>
     </rule>
+
+
+
+    <rule comment="REGLA: gna2 + bugo-hečo">
+      <pattern>
+        <pattern-item n="gna2"/>
+        <pattern-item n="bugo-hečo"/>
+      </pattern>
+      <action>
+        <choose>
+          <when><test><or><equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="m"/></equal>
+                          <equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="nt"/></equal>
+                          <equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="f"/></equal></or></test>
+                <let><var n="число"/><lit-tag v="sg"/></let>
+                <let><var n="род"/><clip pos="2" side="tl" part="a_gen"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when><test><equal><clip pos="2" side="sl" part="a_neg"/><lit-tag v="neg"/></equal></test>
+                <let><var n="neg"/><concat><lit v="^не"/><lit-tag v="adv"/><lit v="$ "/></concat></let>
+          </when>
+          <otherwise>
+            <let><var n="neg"/><lit v=""/></let>
+          </otherwise>
+        </choose>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <var n="neg"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="past"/>
+              <var n="род"/>
+              <var n="число"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: verb-past">
+      <pattern>
+        <pattern-item n="verb-past"/>
+      </pattern>
+      <action>
+        <choose>
+          <when><test><or><equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="m"/></equal>
+                          <equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="nt"/></equal>
+                          <equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="f"/></equal></or></test>
+                <let><var n="число"/><lit-tag v="sg"/></let>
+                <let><var n="род"/><clip pos="1" side="tl" part="a_gen"/></let>
+          </when>
+          <when><test><equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="pl"/></equal></test>
+                <let><var n="число"/><lit-tag v="pl"/></let>
+                <let><var n="род"/><lit-tag v="mfn"/></let>
+          </when>
+
+        </choose>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="past"/>
+              <var n="род"/>
+              <var n="число"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
 
