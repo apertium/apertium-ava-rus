@@ -23,6 +23,12 @@
     <def-cat n="top-attr">
       <cat-item tags="np.top.*.attr"/>
     </def-cat>
+    <def-cat n="qst">
+      <cat-item tags="qst"/>
+    </def-cat>
+    <def-cat n="emph">
+      <cat-item tags="emph"/>
+    </def-cat>
     <def-cat n="ni">
       <cat-item tags="adv"/>
     </def-cat>
@@ -48,6 +54,9 @@
     </def-cat>
     <def-cat n="n-loc">
       <cat-item tags="n.*.*.loc"/>
+    </def-cat>
+    <def-cat n="bugo">
+      <cat-item lemma="букӏин" tags="vblex.*.pres"/>
     </def-cat>
     <def-cat n="bugo-hečo">
       <cat-item lemma="букӏин" tags="vblex.*.pres"/>
@@ -378,6 +387,26 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: n-gen">
+      <pattern>
+        <pattern-item n="n-gen"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.GEN"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: adj n-gen">
       <pattern>
         <pattern-item n="adj"/>
@@ -574,6 +603,38 @@
     </rule>
 
 
+    <rule comment="REGLA: bugo qst">
+      <pattern>
+        <pattern-item n="bugo"/>
+        <pattern-item n="qst"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="whole"/>
+             <concat>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pres.p3.sg"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </concat>
+        </let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="COP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: bugo-hečo">
       <pattern>
         <pattern-item n="bugo-hečo"/>
@@ -743,9 +804,6 @@
         </out>
       </action>
     </rule>
-
-
-
 
     <rule comment="REGLA: SENT">
       <pattern>

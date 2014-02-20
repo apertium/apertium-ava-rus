@@ -2,6 +2,9 @@
 <!-- -*- nxml -*- -->
 <interchunk>
   <section-def-cats>
+    <def-cat n="default">
+      <cat-item lemma="*" tags="*"/>
+    </def-cat>
     <def-cat n="SN-GEN">
       <cat-item tags="SN.GEN.*"/>
     </def-cat>

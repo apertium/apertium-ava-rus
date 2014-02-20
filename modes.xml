@@ -79,6 +79,18 @@
     </pipeline>
   </mode>
 
+  <mode name="ava-rus-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ava-rus.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="ava-rus.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="ava-rus-tagger" install="no">
     <pipeline>
       <program name="lt-proc -w">
