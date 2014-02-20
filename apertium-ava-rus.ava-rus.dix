@@ -10,6 +10,9 @@
     <sdef n="p1x"/>
     <sdef n="an"/>
     <sdef n="nom"/>
+    <sdef n="det"/>
+    <sdef n="ind"/>
+    <sdef n="def"/>
     <sdef n="p1i"/>
     <sdef n="p2"/>
     <sdef n="p1"/>
@@ -39,6 +42,7 @@
     <sdef n="pl"/>
     <sdef n="post"/>
     <sdef n="part"/>
+    <sdef n="qst"/>
     <sdef n="prn"/>
     <sdef n="ref"/>
     <sdef n="rel"/>
@@ -63,6 +67,7 @@
     <!-- SECTION: Miscellaneous -->
 
     <e><p><l>ни<s n="adv"/></l><r>бы<s n="part"/></r></p></e>
+    <e><p><l>ищ<s n="qst"/></l><r>ли<s n="part"/></r></p></e>
 
     <!-- SECTION: Conjunctions -->
 
@@ -200,9 +205,9 @@
     <e><p><l>лъар<s n="n"/><s n="nt"/></l><r>река<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
     <e><p><l>стол<s n="n"/><s n="nt"/></l><r>стол<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
     <e><p><l>вац<s n="n"/><s n="m"/></l><r>брат<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
-    <e><p><l>кьо<s n="n"/><s n="nt"/></l><r>мост<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
+    <e><p><l>кьо<s n="n"/><s n="nt"/></l><r>мост<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>ци<s n="n"/><s n="nt"/></l><r>медвед<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
-    <e><p><l>район<s n="n"/><s n="nt"/></l><r>район<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
+    <e><p><l>район<s n="n"/><s n="nt"/></l><r>район<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>алфавит<s n="n"/><s n="nt"/></l><r>алфавит<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
     <e><p><l>гьава<b/>-бакъ<s n="n"/><s n="nt"/></l><r>погода<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
     <e><p><l>бахӀарчи<s n="n"/><s n="m"/></l><r>смельчак<s n="n"/><s n="m"/><s n="AD"/></r></p></e>
@@ -389,6 +394,8 @@
     <e><p><l>календарь<s n="n"/><s n="nt"/></l><r>@календарь<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>мактаб<s n="n"/><s n="nt"/></l><r>школа<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>объект<s n="n"/><s n="nt"/></l><r>объект<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>найихъан<s n="n"/><s n="nt"/></l><r>пчеловод<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>найихъан<s n="n"/><s n="nt"/></l><r>пасечник<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>олимпиада<s n="n"/><s n="nt"/></l><r>олимпиада<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>парламент<s n="n"/><s n="nt"/></l><r>парламент<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>предмет<s n="n"/><s n="nt"/></l><r>предмет<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -621,8 +628,8 @@
  
     <!-- SECTION: Adjectives -->
 
-    <e><p><l>щибаб<s n="adj"/></l><r>каждый<s n="adj"/></r></p></e>
-    <e><p><l>кинабго<s n="adj"/></l><r>всё<s n="adj"/></r></p></e>
+    <e><p><l>щибаб<s n="adj"/></l><r>каждый<s n="det"/><s n="def"/></r></p></e>
+    <e><p><l>кинабго<s n="adj"/></l><r>весь<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>гьадинаб<s n="adj"/></l><r>такой<s n="adj"/></r></p></e>
     <e><p><l>гьединаб<s n="adj"/></l><r>такой<s n="adj"/></r></p></e>
     <e><p><l>гуреб<s n="adj"/></l><r>не<s n="adj"/></r></p></e>
@@ -779,6 +786,7 @@
     <e><p><l>гӀемер<s n="adv"/></l><r>много<s n="adv"/></r></p></e>
     <e><p><l>хекко<s n="adv"/></l><r>быстро<s n="adv"/></r></p></e>
     <e><p><l>жеги<s n="adv"/></l><r>ещё<s n="adv"/></r></p></e>
+    <e><p><l>жеги<s n="adv"/></l><r>уже<s n="adv"/></r></p></e>
     <e><p><l>цадахъ<s n="adv"/></l><r>вместе<s n="adv"/></r></p></e>
     <e><p><l>нахъеги<s n="adv"/></l><r>ещё раз<s n="adv"/></r></p></e>
     <e><p><l>цоги<s n="adv"/></l><r>ещё<s n="adv"/></r></p></e>
@@ -806,6 +814,8 @@
     <e><p><l>букӀин<s n="vblex"/><s n="mfn"/><s n="neg"/></l><r>быть<s n="vbser"/><s n="neg"/></r></p></e>
     <e><p><l>букӀин<s n="vblex"/></l><r>быть<s n="vbser"/></r></p></e>
     <e><p><l>лъа<s n="vblex"/></l><r>знать<s n="vblex"/></r></p></e>
+    <e><p><l>ине<s n="vblex"/></l><r>идти<s n="vblex"/></r></p></e>
+    <e><p><l>ине<s n="vblex"/></l><r>ходить<s n="vblex"/></r></p></e>
     <e><p><l>хъва<s n="vblex"/></l><r>писать<s n="vblex"/></r></p></e>
     <e><p><l>кӀалъа<s n="vblex"/></l><r>@кӀалъа<s n="vblex"/></r></p></e>
     <e><p><l>кке<s n="vblex"/></l><r>оказываться<s n="vblex"/></r></p></e>
