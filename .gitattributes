@@ -13,3 +13,5 @@
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
+/pending-tests.sh -text
+/wiki-tests.sh -text
