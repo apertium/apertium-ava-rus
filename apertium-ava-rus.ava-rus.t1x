@@ -14,6 +14,9 @@
     <def-cat n="top-abl">
       <cat-item tags="np.top.*.abl"/>
     </def-cat>
+    <def-cat n="top-tra">
+      <cat-item tags="np.top.*.tra"/>
+    </def-cat>
     <def-cat n="top-all">
       <cat-item tags="np.top.*.all"/>
     </def-cat>
@@ -45,6 +48,9 @@
     <def-cat n="num">
       <cat-item tags="num"/>
       <cat-item tags="num.dist"/>
+    </def-cat>
+    <def-cat n="prn-pers-all">
+      <cat-item tags="prn.pers.*.*.all"/>
     </def-cat>
     <def-cat n="prn-pers-gen">
       <cat-item tags="prn.pers.*.*.gen"/>
@@ -135,6 +141,7 @@
     <def-attr n="a_case">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
+      <attr-item tags="tra"/>
       <attr-item tags="dat"/>
       <attr-item tags="gen"/>
       <attr-item tags="all"/>
@@ -253,6 +260,32 @@
       </action>
     </rule>
 
+
+
+    <rule comment="REGLA: prn-pers-all">
+      <pattern>
+        <pattern-item n="prn-pers-all"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="dat"/></let>
+        <out>
+          <chunk name="prn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.ALL"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <lit v="к"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: prn-pers-gen">
@@ -466,6 +499,30 @@
             </tags>
             <lu>
               <lit v="из"/><lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: top-tra">
+      <pattern>
+        <pattern-item n="top-tra"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="acc"/></let>
+        <out>
+          <chunk name="top" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.ADVL"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <lit v="через"/><lit-tag v="pr"/>
             </lu>
             <b/>
             <lu>
