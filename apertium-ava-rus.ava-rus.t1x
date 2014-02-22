@@ -542,6 +542,94 @@
     </rule>
 
 
+    <rule comment="REGLA: n-gen n-gen n-gen n-gen">
+      <pattern>
+        <pattern-item n="n-gen"/>
+        <pattern-item n="n-gen"/>
+        <pattern-item n="n-gen"/>
+        <pattern-item n="n-gen"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n-n-n-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.GEN"/></tag>
+              <tag><clip pos="3" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: n-gen n-gen n-gen">
+      <pattern>
+        <pattern-item n="n-gen"/>
+        <pattern-item n="n-gen"/>
+        <pattern-item n="n-gen"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n-n-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.GEN"/></tag>
+              <tag><clip pos="3" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: n-gen n-gen">
+      <pattern>
+        <pattern-item n="n-gen"/>
+        <pattern-item n="n-gen"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.GEN"/></tag>
+              <tag><clip pos="2" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: n-gen">
       <pattern>
         <pattern-item n="n-gen"/>
