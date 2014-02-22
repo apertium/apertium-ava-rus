@@ -183,7 +183,8 @@
     <e><p><l>кӀикъого<s n="num"/></l><r>сорок<s n="num"/></r></p></e>
     <e><p><l>азарго<s n="num"/></l><r>тысяча<s n="num"/></r></p></e>
 
-    <e><p><l>миллион<s n="num"/><s n="nt"/></l><r>миллион<s n="num"/><s n="m"/></r></p></e>
+    <e r="LR"><p><l>миллион<s n="num"/><s n="nt"/></l><r>миллион<s n="num"/><s n="m"/><s n="nn"/></r></p></e>
+    <e r="RL"><p><l>миллион<s n="num"/><s n="nt"/></l><r>миллион<s n="num"/><s n="m"/></r></p></e>
 
     <!-- SECTION: Nouns -->
     <e><p><l>вас<s n="n"/><s n="m"/></l><r>мальчик<s n="n"/><s n="m"/><s n="aa"/></r></p></e>

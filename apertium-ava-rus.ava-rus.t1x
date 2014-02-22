@@ -68,15 +68,19 @@
     </def-cat>
     <def-cat n="n-gen">
       <cat-item tags="n.*.*.gen"/>
+      <cat-item tags="num.*.*.gen"/>
     </def-cat>
     <def-cat n="n-erg">
       <cat-item tags="n.*.*.erg"/>
+      <cat-item tags="num.*.*.erg"/>
     </def-cat>
     <def-cat n="n-nom">
       <cat-item tags="n.*.*.nom"/>
+      <cat-item tags="num.*.*.nom"/>
     </def-cat>
     <def-cat n="n-all">
       <cat-item tags="n.*.*.all"/>
+      <cat-item tags="num.*.*.all"/>
     </def-cat>
     <def-cat n="n-loc">
       <cat-item tags="n.*.*.loc"/>
@@ -684,6 +688,36 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: num n-all">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="n-all"/>
+      </pattern>
+      <action>
+        <let><clip pos="2" side="tl" part="a_case"/><lit-tag v="acc"/></let>
+        <out>
+          <chunk name="num-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.ADVL"/></tag>
+              <tag><clip pos="2" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <lit v="в"/><lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: n-all">
       <pattern>
