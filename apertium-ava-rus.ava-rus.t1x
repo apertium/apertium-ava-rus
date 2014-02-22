@@ -8,6 +8,9 @@
     <def-cat n="ant-attr">
       <cat-item tags="np.ant.*.attr"/>
     </def-cat>
+    <def-cat n="cog-gen">
+      <cat-item tags="np.cog.*.gen"/>
+    </def-cat>
     <def-cat n="cog-erg">
       <cat-item tags="np.cog.*.erg"/>
     </def-cat>
@@ -307,6 +310,26 @@
       </action>
     </rule>
 
+
+
+    <rule comment="REGLA: cog-gen">
+      <pattern>
+        <pattern-item n="cog-gen"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="cog" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.GEN"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: ant-gen">
