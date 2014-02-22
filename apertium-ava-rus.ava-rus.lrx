@@ -1,5 +1,17 @@
 <rules>
   <rule>
+    <match lemma="ДР" tags="np.top.*"><select lemma="Дагестан"/></match>
+  </rule>
+  <rule>
+    <match lemma="бахунеб" tags="adj.*"><select lemma="заразный"/></match>
+  </rule>
+  <rule>
+    <match lemma="бетӀераб" tags="adj.*"><select lemma="главный"/></match>
+  </rule>
+  <rule>
+    <match lemma="гӀуцӀи" tags="n.*"><select lemma="организация"/></match>
+  </rule>
+  <rule>
     <match lemma="беги" tags="vblex.*"><select lemma="ложать"/></match>
   </rule>
   <rule>

@@ -8,6 +8,12 @@
     <def-cat n="ant-attr">
       <cat-item tags="np.ant.*.attr"/>
     </def-cat>
+    <def-cat n="son-loc">
+      <cat-item lemma="сон" tags="n.nt.sg.loc"/>
+    </def-cat>
+    <def-cat n="post">
+      <cat-item tags="post"/>
+    </def-cat>
     <def-cat n="cog-gen">
       <cat-item tags="np.cog.*.gen"/>
     </def-cat>
@@ -51,9 +57,11 @@
     <def-cat n="num">
       <cat-item tags="num"/>
       <cat-item tags="num.dist"/>
+      <cat-item tags="num.subst.*"/>
     </def-cat>
     <def-cat n="prn-pers-all">
       <cat-item tags="prn.pers.*.*.all"/>
+      <cat-item tags="prn.dem.*.*.all"/>
     </def-cat>
     <def-cat n="prn-pers-gen">
       <cat-item tags="prn.pers.*.*.gen"/>
@@ -180,6 +188,35 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+
+    <rule comment="REGLA: num son-loc">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="son-loc"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="num-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.LOC"/></tag>
+              <tag><clip pos="2" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <lit v="в"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: num n-nom">
       <pattern>
@@ -456,6 +493,27 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: n-erg">
+      <pattern>
+        <pattern-item n="n-erg"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="nom"/></let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.ERG"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: n-gen">
       <pattern>
@@ -967,6 +1025,24 @@
               <var n="род"/>
               <var n="число"/>
               <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: POST">
+      <pattern>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="post" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="POST"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
