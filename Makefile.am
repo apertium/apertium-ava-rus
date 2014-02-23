@@ -152,7 +152,6 @@ modes/$(PREFIX1).mode: modes.xml
 
 EXTRA_DIST= \
            $(BASENAME).$(PREFIX1).dix \
-           $(BASENAME).post-$(LANG1).dix \
            $(BASENAME).post-$(LANG2).dix \
            $(BASENAME).$(PREFIX1).lrx \
            $(BASENAME).$(PREFIX1).t1x \
@@ -164,8 +163,10 @@ apertium_modesdir=$(prefix)/share/apertium/modes/
 apertium_ava_rusdir=$(prefix)/share/apertium/$(BASENAME)/
 
 apertium_ava_rus_DATA=$(TARGETS_COMMON) \
-                    $(PREFIX1).prob $(PREFIX2).prob \
+                    $(PREFIX1).prob \
 		    modes.xml
+
+# $(PREFIX2).prob
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
@@ -178,13 +179,15 @@ install-data-local:
 	mv modes~ modes
 	test -d $(DESTDIR)$(apertium_modesdir) || mkdir $(DESTDIR)$(apertium_modesdir)
 	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_modesdir)
+#	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_modesdir)
 	rm $(PREFIX1).mode
-	rm $(PREFIX2).mode
+#	rm $(PREFIX2).mode
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_ava_rusdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_ava_rusdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_ava_rusdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_ava_rusdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_ava_rusdir)
+#	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_ava_rusdir)
+#	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_ava_rusdir)
+#	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_ava_rusdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
