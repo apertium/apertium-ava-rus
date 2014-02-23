@@ -12,6 +12,15 @@
     <match lemma="гӀуцӀи" tags="n.*"><select lemma="организация"/></match>
   </rule>
   <rule>
+    <match lemma="хъвазе" tags="vblex.*"><select lemma="писать"/></match>
+  </rule>
+  <rule weight="1.1">
+    <match lemma="хъвазе" tags="vblex.*.*.fut"><select lemma="написать"/></match>
+  </rule>
+  <rule>
+    <match lemma="кьезе" tags="vblex.*"><select lemma="давать"/></match>
+  </rule>
+  <rule>
     <match lemma="беги" tags="vblex.*"><select lemma="ложать"/></match>
   </rule>
   <rule>
