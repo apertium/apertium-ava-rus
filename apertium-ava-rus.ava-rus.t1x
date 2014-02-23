@@ -49,6 +49,10 @@
     <def-cat n="ant-erg">
       <cat-item tags="np.ant.*.erg"/>
     </def-cat>
+    <def-cat n="ant-nom">
+      <cat-item tags="np.ant.*.nom"/>
+      <cat-item tags="np.ant.*.nom.*"/>
+    </def-cat>
     <def-cat n="ant-gen">
       <cat-item tags="np.ant.*.gen"/>
     </def-cat>
@@ -544,6 +548,42 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="syn-func"/></tag>
               <tag><clip pos="1" side="tl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+        <let><var n="syn-func"/><lit v=""/></let>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: ant-nom">
+      <pattern>
+        <pattern-item n="ant-nom"/>
+      </pattern>
+      <action>
+        <let><var n="syn-func"/><lit-tag v="ABS"/></let>
+        <choose>
+          <when><test><or>
+                        <equal><clip pos="1" side="tl" part="a_func"/><lit-tag v="@SUBJ→"/></equal>
+                        <equal><clip pos="1" side="tl" part="a_func"/><lit-tag v="@←SUBJ"/></equal>
+                      </or>
+                </test>
+                <let><var n="syn-func"/><lit-tag v="SUBJ"/></let>
+          </when>
+        </choose>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <out>
+          <chunk name="ant" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="syn-func"/></tag>
+              <tag><lit-tag v="p3"/></tag>
               <tag><clip pos="1" side="tl" part="a_gen"/></tag>
               <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
               <tag><clip pos="1" side="sl" part="a_case"/></tag>
