@@ -84,6 +84,10 @@
       <cat-item tags="prn.pers.*.*.loc"/>
       <cat-item tags="prn.dem.*.*.loc"/>
     </def-cat>
+    <def-cat n="prn-pers-abl">
+      <cat-item tags="prn.pers.*.*.abl"/>
+      <cat-item tags="prn.dem.*.*.abl"/>
+    </def-cat>
     <def-cat n="prn-pers-all">
       <cat-item tags="prn.pers.*.*.all"/>
       <cat-item tags="prn.dem.*.*.all"/>
@@ -632,6 +636,26 @@
       </pattern>
       <action>
         <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="dat"/></let>
+        <out>
+          <chunk name="prn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.ADVL"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: prn-pers-abl">
+      <pattern>
+        <pattern-item n="prn-pers-abl"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="gen"/></let>
         <out>
           <chunk name="prn" case="caseFirstWord">
             <tags>
