@@ -3,6 +3,9 @@
     <match lemma="ДР" tags="np.top.*"><select lemma="Дагестан"/></match>
   </rule>
   <rule>
+    <match lemma="росу" tags="n.*"><select lemma="село"/></match>
+  </rule>
+  <rule>
     <match lemma="бахунеб" tags="adj.*"><select lemma="заразный"/></match>
   </rule>
   <rule>
@@ -45,6 +48,10 @@
   </rule>
   <rule>
     <match lemma="гьеб" tags="prn.dem.f.*"><select lemma="она" tags="prn.pers.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="гьеб" tags="det.dem.nt.*"><select lemma="этот" tags="det.dem.*"/></match>
+    <match lemma="го" />
   </rule>
   <rule>
     <match lemma="гьеб" tags="prn.dem.nt.*"><select lemma="тот" tags="prn.dem.*"/></match>

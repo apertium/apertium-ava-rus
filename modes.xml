@@ -84,7 +84,7 @@
       <program name="lt-proc -w">
         <file name="ava-rus.automorf.bin"/>
       </program>
-      <program name="cg-conv -a -r"/>
+      <program name="cg-conv -a -l"/>
       <program name="vislcg3 --trace --grammar">
         <file name="ava-rus.rlx.bin"/>
       </program>
