@@ -327,13 +327,27 @@
         <pattern-item n="n-nom"/>
       </pattern>
       <action>
+
+        <let><var n="syn-func"/><lit-tag v="ABS"/></let>
+        <choose>
+          <when><test><or>
+                        <equal><clip pos="2" side="tl" part="a_func"/><lit-tag v="@SUBJ→"/></equal>
+                        <equal><clip pos="2" side="tl" part="a_func"/><lit-tag v="@←SUBJ"/></equal>
+                      </or>
+                </test>
+                <let><var n="syn-func"/><lit-tag v="SUBJ"/></let>
+          </when>
+        </choose>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="nom"/></let>
         <let><clip pos="1" side="tl" part="a_gen_gd"/><clip pos="2" side="tl" part="a_gen"/></let>
         <let><clip pos="1" side="tl" part="a_anim"/><lit-tag v="an"/></let>
 
         <choose>
           <when>
-            <test><equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="один"/></equal></test>
+            <test><or><equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="один"/></equal>
+                      <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="только один"/></equal>
+                  </or></test>
             <let><clip pos="1" side="tl" part="a_gen_gd"/><clip pos="2" side="tl" part="a_gen"/></let>
           </when>
           <when>
