@@ -3,6 +3,9 @@
     <match lemma="ДР" tags="np.top.*"><select lemma="Дагестан"/></match>
   </rule>
   <rule>
+    <match lemma="вас" tags="n.*"><select lemma="парень"/></match>
+  </rule>
+  <rule>
     <match lemma="росу" tags="n.*"><select lemma="село"/></match>
   </rule>
   <rule>
