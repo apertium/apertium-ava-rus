@@ -1703,13 +1703,9 @@
                 <let><var n="число"/><lit-tag v="sg"/></let>
                 <let><var n="род"/><clip pos="2" side="tl" part="a_gen"/></let>
           </when>
-        </choose>
-        <choose>
-          <when><test><equal><clip pos="2" side="sl" part="a_neg"/><lit-tag v="neg"/></equal></test>
-                <let><var n="neg"/><concat><lit v="^не"/><lit-tag v="adv"/><lit v="$ "/></concat></let>
-          </when>
           <otherwise>
-            <let><var n="neg"/><lit v=""/></let>
+                <let><var n="число"/><lit-tag v="pl"/></let>
+                <let><var n="род"/><lit-tag v="mfn"/></let>
           </otherwise>
         </choose>
         <out>
