@@ -503,6 +503,9 @@
     <e><p><l>календарь<s n="n"/><s n="nt"/></l><r>@календарь<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>мактаб<s n="n"/><s n="nt"/></l><r>школа<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>объект<s n="n"/><s n="nt"/></l><r>объект<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>данделъи<s n="n"/><s n="nt"/></l><r>собрание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>данделъи<s n="n"/><s n="nt"/></l><r>заседание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>данделъи<s n="n"/><s n="nt"/></l><r>сход<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>найихъан<s n="n"/><s n="nt"/></l><r>пчеловод<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>найихъан<s n="n"/><s n="nt"/></l><r>пасечник<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>олимпиада<s n="n"/><s n="nt"/></l><r>олимпиада<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
@@ -621,6 +624,8 @@
     <e><p><l>лъим<s n="n"/><s n="nt"/></l><r>вода<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>магӀишат<s n="n"/><s n="nt"/></l><r>бытовые<b/>условия<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>магӀишат<s n="n"/><s n="nt"/></l><r>жизненный<b/>уровень<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>магӀишат<s n="n"/><s n="nt"/></l><r>материальное<b/>положение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>магӀишат<s n="n"/><s n="nt"/></l><r>хозяйство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>масъала<s n="n"/><s n="nt"/></l><r>задача<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>анищ<s n="n"/><s n="nt"/></l><r>мечта<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>милиция<s n="n"/><s n="nt"/></l><r>милиция<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
@@ -1134,6 +1139,7 @@
     <e><p><l>Ражабов<s n="np"/><s n="cog"/></l><r>Ражабов<s n="np"/><s n="cog"/></r></p></e>
 
 
+    <e><p><l>МВД<s n="np"/><s n="al"/></l><r>МВД<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
     <e><p><l>НКВД<s n="np"/><s n="al"/></l><r>НКВД<s n="np"/><s n="al"/></r></p></e>
 
     <e><p><l>Александр<s n="np"/><s n="ant"/><s n="m"/></l><r>Александр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -1404,7 +1410,9 @@
     <e><p><l>хъвазе<s n="vblex"/><s n="tv"/></l><r>писать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>хъвазе<s n="vblex"/><s n="tv"/></l><r>написать<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>кӀалъа<s n="vblex"/></l><r>@кӀалъа<s n="vblex"/></r></p></e>
-    <e><p><l>кке<s n="vblex"/></l><r>оказываться<s n="vblex"/></r></p></e>
+
+    <e><p><l>кке<s n="vblex"/></l><r>оказываться<s n="vblex"/><s n="impf"/></r></p></e>
+
     <e><p><l>цӀали<s n="vblex"/></l><r>читать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>гаргади<s n="vblex"/></l><r>сказать<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>абизе<s n="vblex"/></l><r>сказать<s n="vblex"/><s n="perf"/></r></p></e>
@@ -1434,7 +1442,11 @@
     <e><p><l>кваназе<s n="vblex"/></l><r>кушать<s n="vblex"/></r></p></e>
     <e><p><l>куцазе<s n="vblex"/></l><r>приучать<s n="vblex"/></r></p></e>
     <e><p><l>куцазе<s n="vblex"/></l><r>приучить<s n="vblex"/></r></p></e>
-    <e><p><l>лъазаби<s n="vblex"/></l><r>учить<s n="vblex"/></r></p></e>
+    <e><p><l>лъазаби<s n="vblex"/></l><r>учить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>лъазаби<s n="vblex"/></l><r>сообщить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>лъазаби<s n="vblex"/></l><r>объявить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>лъазаби<s n="vblex"/></l><r>информировать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>лъазаби<s n="vblex"/></l><r>указать<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>рахазе<s n="vblex"/></l><r>@раха<s n="vblex"/></r></p></e>
     <e><p><l>сузе<s n="vblex"/></l><r>срезать<s n="vblex"/></r></p></e>
     <e><p><l>сузе<s n="vblex"/></l><r>срезать<s n="vblex"/></r></p></e>
