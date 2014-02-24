@@ -18,6 +18,9 @@
     <match lemma="гӀуцӀи" tags="n.*"><select lemma="организация"/></match>
   </rule>
   <rule>
+    <match lemma="бицине" tags="vblex.*"><select lemma="говорить"/></match>
+  </rule>
+  <rule>
     <match lemma="хъвазе" tags="vblex.*"><select lemma="писать"/></match>
   </rule>
   <rule weight="1.1">
