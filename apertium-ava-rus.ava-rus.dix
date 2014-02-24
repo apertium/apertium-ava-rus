@@ -1525,8 +1525,6 @@
     <e><p><l>бицине<s n="vblex"/></l><r>сказать<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>гӀумру<b/>гьабизе<s n="vblex"/></l><r>жить<s n="vblex"/><s n="impf"/><s n="iv"/></r></p></e>
 
-    <e><p><l>байбихьи<s n="vblex"/></l><r>начинаться<s n="vblex"/></r></p></e>
-    <e><p><l>байбихьи<s n="vblex"/></l><r>начаться<s n="vblex"/></r></p></e>
     <e><p><l>бахъи<s n="vblex"/></l><r>получаться<s n="vblex"/></r></p></e>
     <e><p><l>бахъи<s n="vblex"/></l><r>выходить<s n="vblex"/></r></p></e>
     <e><p><l>бахъи<s n="vblex"/></l><r>выйти<s n="vblex"/></r></p></e>
@@ -1582,6 +1580,9 @@
     <e><p><l>тӀобитӀизе<s n="vblex"/><s n="iv"/></l><r>проводиться<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>тӀобитӀизе<s n="vblex"/><s n="tv"/></l><r>проводить<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>нухмалълъизе<s n="vblex"/><s n="iv"/></l><r>руководить<s n="vblex"/><s n="impf"/></r></p></e>
+
+    <e><p><l>байбихьизе<s n="vblex"/><s n="iv"/></l><r>начинаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>байбихьизе<s n="vblex"/><s n="iv"/></l><r>начаться<s n="vblex"/><s n="perf"/></r></p></e>
 
     <!-- SECTION: Abbreviations -->
 
