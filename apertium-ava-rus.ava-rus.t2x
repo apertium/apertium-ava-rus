@@ -44,6 +44,10 @@
       <attr-item tags="mfn"/>
       <attr-item tags="GD"/>
     </def-attr>
+    <def-attr n="a_trans">
+      <attr-item tags="tv"/>
+      <attr-item tags="iv"/>
+    </def-attr>
     <def-attr n="a_pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
@@ -74,7 +78,10 @@
       <choose>
         <when><test> 
                 <and>
-                  <equal><clip pos="2" part="a_nbr"/><lit-tag v="ND"/></equal>
+                  <or>
+                    <equal><clip pos="2" part="a_nbr"/><lit-tag v="ND"/></equal>
+                    <equal><clip pos="2" part="a_trans"/><lit-tag v="tv"/></equal>
+                  </or>
                   <not><equal><clip pos="1" part="a_nbr"/><lit v=""/></equal></not>
                 </and>
               </test>
@@ -84,7 +91,10 @@
     <choose>
         <when><test> 
                 <and>
-                  <equal><clip pos="2" part="a_gen"/><lit-tag v="GD"/></equal>
+                  <or>
+                    <equal><clip pos="2" part="a_gen"/><lit-tag v="GD"/></equal>
+                    <equal><clip pos="2" part="a_trans"/><lit-tag v="tv"/></equal>
+                  </or>
                   <not><equal><clip pos="1" part="a_gen"/><lit v=""/></equal></not>
                 </and>
               </test>
@@ -94,7 +104,10 @@
     <choose>
         <when><test> 
                 <and>
-                  <equal><clip pos="2" part="a_pers"/><lit-tag v="PD"/></equal>
+                  <or> 
+                    <equal><clip pos="2" part="a_pers"/><lit-tag v="PD"/></equal>
+                    <equal><clip pos="2" part="a_trans"/><lit-tag v="tv"/></equal>
+                  </or> 
                   <not><equal><clip pos="1" part="a_pers"/><lit v=""/></equal></not>
                 </and>
               </test>
@@ -140,6 +153,40 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: V-FIN SN-GEN SN-SUBJ">
+      <pattern>
+        <pattern-item n="V-FIN"/>
+        <pattern-item n="SN-GEN"/>
+        <pattern-item n="SN-SUBJ"/>
+      </pattern>
+      <action>
+        <call-macro n="concord-pers2">
+          <with-param pos="3"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: V-FIN SN-SUBJ">
       <pattern>

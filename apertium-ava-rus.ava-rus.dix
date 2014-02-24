@@ -378,8 +378,8 @@
     <e><p><l>итаркӀо<s n="n"/><s n="nt"/></l><r>сокол<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>цӀва<s n="n"/><s n="nt"/></l><r>звезда<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>машина<s n="n"/><s n="nt"/></l><r>машина<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>къецал<s n="n"/><s n="mf"/><s n="pl"/></l><r>соревнование<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/></r></p></e>
-    <e><p><l>къецал<s n="n"/><s n="mf"/><s n="pl"/></l><r>состязание<s n="n"/><s n="nt"/><s n="nn"/><s n="sg"/></r></p></e>
+    <e><p><l>къецал<s n="n"/><s n="mf"/></l><r>соревнование<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>къецал<s n="n"/><s n="mf"/></l><r>состязание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>тӀехь<s n="n"/><s n="nt"/></l><r>книга<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>росу<s n="n"/><s n="nt"/></l><r>аул<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>росу<s n="n"/><s n="nt"/></l><r>село<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
@@ -394,7 +394,7 @@
     <e><p><l>курхьен<s n="n"/><s n="nt"/></l><r>браслет<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
     <e><p><l>рехъен<s n="n"/><s n="nt"/></l><r>стадо<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
     <e><p><l>капек<s n="n"/><s n="nt"/></l><r>копейка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>цӀа<s n="n"/><s n="nt"/></l><r>огонь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>цӀа<s n="n"/><s n="nt"/></l><r>огонь<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>налъи<s n="n"/><s n="nt"/></l><r>долг<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>налъи<s n="n"/><s n="nt"/></l><r>задолженность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>учитель<s n="n"/><s n="m"/></l><r>учитель<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
@@ -919,7 +919,8 @@
     <e><p><l>гьунар<s n="n"/><s n="nt"/></l><r>искусство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>дагӀба<s n="n"/><s n="nt"/></l><r>тяжба<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
     <e><p><l>дагӀба<s n="n"/><s n="nt"/></l><r>иск<s n="n"/><s n="GD"/><s n="AD"/></r></p></e>
-    <e><p><l>кечӀ<s n="n"/><s n="nt"/></l><r>песня<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
+    <e><p><l>кечӀ<s n="n"/><s n="nt"/></l><r>стихи<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>кечӀ<s n="n"/><s n="nt"/></l><r>песня<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>кечӀ<s n="n"/><s n="nt"/></l><r>пение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>кутак<s n="n"/><s n="nt"/></l><r>сила<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
     <e><p><l>кутак<s n="n"/><s n="nt"/></l><r>мощь<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
@@ -1024,6 +1025,7 @@
     <e><p><l>яшав<s n="n"/><s n="nt"/></l><r>жизнь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>яшав<s n="n"/><s n="nt"/></l><r>житьё<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
 
+    <e><p><l>рос-лъади<s n="n"/><s n="nt"/></l><r>муж<g><b/>с<b/>женой</g><s n="n"/><s n="m"/><s n="aa"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -1413,7 +1415,7 @@
     <e><p><l>гьабизе<s n="vblex"/></l><r>делать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>кӀодолъ<s n="vblex"/></l><r>увеличиваться<s n="vblex"/></r></p></e>
     <e><p><l>лъугьи<s n="vblex"/></l><r>входить<s n="vblex"/></r></p></e>
-    <e><p><l>хутӀи<s n="vblex"/></l><r>оставаться<s n="vblex"/></r></p></e>
+    <e><p><l>хутӀи<s n="vblex"/></l><r>оставаться<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>гвангъи<s n="vblex"/></l><r>сиять<s n="vblex"/></r></p></e>
     <e><p><l>цӀуни<s n="vblex"/></l><r>беречь<s n="vblex"/></r></p></e>
     <e><p><l>цӀуни<s n="vblex"/></l><r>берегать<s n="vblex"/></r></p></e>
@@ -1566,6 +1568,7 @@
     <e><p><l>тезе<s n="vblex"/><s n="tv"/></l><r>покинуть<s n="vblex"/><s n="perf"/></r></p></e>
 
     <e><p><l>тӀобитӀизе<s n="vblex"/><s n="iv"/></l><r>проводиться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>тӀобитӀизе<s n="vblex"/><s n="tv"/></l><r>проводить<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>нухмалълъизе<s n="vblex"/><s n="iv"/></l><r>руководить<s n="vblex"/><s n="impf"/></r></p></e>
 
     <!-- SECTION: Abbreviations -->
