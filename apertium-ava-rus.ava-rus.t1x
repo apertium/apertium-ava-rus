@@ -11,6 +11,10 @@
     <def-cat n="time-loc">
       <cat-item lemma="сон" tags="n.nt.sg.loc"/>
       <cat-item lemma="март" tags="n.nt.sg.loc"/>
+      <cat-item lemma="февраль" tags="n.nt.sg.loc"/>
+    </def-cat>
+    <def-cat n="guio">
+      <cat-item lemma="-" tags="guio"/>
     </def-cat>
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo"/>
@@ -157,6 +161,9 @@
       <cat-item tags="vblex.*.*.past"/>
       <cat-item tags="vblex.*.past"/>
     </def-cat>
+    <def-cat n="inf">
+      <cat-item tags="vblex.*.*.inf.*"/>
+    </def-cat>
     <def-cat n="ger">
       <cat-item tags="vblex.*.*.ger"/>
     </def-cat>
@@ -283,6 +290,54 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+
+    <rule comment="REGLA: num guio num time-loc">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="guio"/>
+        <pattern-item n="num"/>
+        <pattern-item n="time-loc"/>
+      </pattern>
+      <action>
+        <choose>
+          <when><test><not> <equal caseless="yes">
+                        <clip pos="4" side="tl" part="lemh"/><lit v="год"/>
+                      </equal></not>
+                </test>
+                <let><clip pos="4" side="tl" part="a_case"/><lit-tag v="prp"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="num-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.LOC"/></tag>
+              <tag><clip pos="4" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <lit v="в"/>
+              <lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: num time-loc">
       <pattern>
@@ -1754,6 +1809,28 @@
               <lit v="быть"/>
               <lit-tag v="vbser.fut.3"/>
               <var n="число"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: inf">
+      <pattern>
+        <pattern-item n="inf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="inf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.INF"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_aspec"/>
+              <lit-tag v="inf"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
