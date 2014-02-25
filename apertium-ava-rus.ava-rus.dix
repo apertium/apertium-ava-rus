@@ -999,8 +999,8 @@
     <e><p><l>хӀал<s n="n"/><s n="nt"/></l><r>положение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>хӀал<s n="n"/><s n="nt"/></l><r>дело<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>хӀал<s n="n"/><s n="nt"/></l><r>настроение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
-    <e><p><l>хӀалтӀи<s n="n"/><s n="nt"/></l><r>работа<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
-    <e><p><l>хӀалтӀи<s n="n"/><s n="nt"/></l><r>труд<s n="n"/><s n="GD"/><s n="AD"/></r></p></e>
+    <e><p><l>хӀалтӀи<s n="n"/><s n="nt"/></l><r>работа<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>хӀалтӀи<s n="n"/><s n="nt"/></l><r>труд<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>хӀалтӀи<s n="n"/><s n="nt"/></l><r>действие<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>хӀалтӀи<s n="n"/><s n="nt"/></l><r>занятие<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>хӀалтӀухъан<s n="n"/><s n="f"/></l><r>рабочая<s n="n"/><s n="GD"/><s n="AD"/></r></p></e>
@@ -1583,6 +1583,12 @@
 
     <e><p><l>байбихьизе<s n="vblex"/><s n="iv"/></l><r>начинаться<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>байбихьизе<s n="vblex"/><s n="iv"/></l><r>начаться<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>бажаризе<s n="vblex"/><s n="iv"/></l><r>мочь<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бажаризе<s n="vblex"/><s n="iv"/></l><r>смочь<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>бажаризе<s n="vblex"/><s n="iv"/></l><r>уметь<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бажаризе<s n="vblex"/><s n="iv"/></l><r>суметь<s n="vblex"/><s n="perf"/></r></p></e>
+
 
     <!-- SECTION: Abbreviations -->
 

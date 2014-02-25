@@ -21,6 +21,9 @@
     <match lemma="гӀуцӀи" tags="n.*"><select lemma="организация"/></match>
   </rule>
   <rule>
+    <match lemma="бажаризе" tags="vblex.*"><select lemma="уметь"/></match>
+  </rule>
+  <rule>
     <match lemma="бицине" tags="vblex.*"><select lemma="говорить"/></match>
   </rule>
   <rule>

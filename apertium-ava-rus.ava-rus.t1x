@@ -159,6 +159,9 @@
       <cat-item lemma="букӏин" tags="vblex.*.pres"/>
       <cat-item lemma="букӏин" tags="vblex.*.neg"/>
     </def-cat>
+    <def-cat n="verb-aor">
+      <cat-item tags="vblex.*.*.aor"/>
+    </def-cat>
     <def-cat n="verb-fut">
       <cat-item tags="vblex.*.*.fut"/>
     </def-cat>
@@ -281,6 +284,7 @@
     <def-var n="время"/>
     <def-var n="neg"/>
     <def-var n="syn-func"/>
+    <def-var n="chunk-lema"/>
     <def-var n="current_verb"/>
   </section-def-vars>
   <section-def-macros>
@@ -2015,11 +2019,12 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: verb-fut">
+    <rule comment="REGLA: verb-aor">
       <pattern>
-        <pattern-item n="verb-fut"/>
+        <pattern-item n="verb-aor"/>
       </pattern>
       <action>
+        <let><var n="chunk-lema"/><lit v="v"/></let>
         <choose>
           <when><test><or><equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="m"/></equal>
                           <equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="nt"/></equal>
@@ -2043,12 +2048,84 @@
             <let><var n="время"/><lit-tag v="fut"/></let>
           </otherwise>
         </choose>
+        <choose>
+          <when><test><equal><clip pos="1" side="sl" part="a_neg"/><lit-tag v="neg"/></equal></test>
+                <let><var n="neg"/><concat><lit v="^не"/><lit-tag v="adv"/><lit v="$ "/></concat></let>
+                <let><var n="chunk-lema"/><lit v="adv-v"/></let>
+          </when>
+          <otherwise>
+            <let><var n="neg"/><lit v=""/></let>
+          </otherwise>
+        </choose>
+
         <out>
-          <chunk name="v" case="caseFirstWord">
+          <chunk namefrom="chunk-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.AOR.PD"/></tag>
+              <tag><var n="число"/></tag>
+            </tags>
+            <var n="neg"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_aspec"/>
+              <var n="время"/>
+              <lit-tag v="3"/>
+              <var n="число"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: verb-fut">
+      <pattern>
+        <pattern-item n="verb-fut"/>
+      </pattern>
+      <action>
+        <let><var n="chunk-lema"/><lit v="v"/></let>
+        <choose>
+          <when><test><or><equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="m"/></equal>
+                          <equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="nt"/></equal>
+                          <equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="f"/></equal></or></test>
+                <let><var n="число"/><lit-tag v="sg"/></let>
+                <let><var n="род"/><clip pos="1" side="tl" part="a_gen"/></let>
+          </when>
+          <when><test><equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="pl"/></equal></test>
+                <let><var n="число"/><lit-tag v="pl"/></let>
+                <let><var n="род"/><lit-tag v="mfn"/></let>
+          </when>
+          <otherwise>
+                <let><var n="число"/><lit-tag v="ND"/></let>
+          </otherwise>
+        </choose>
+        <choose>
+          <when><test><equal><clip pos="1" side="tl" part="a_aspec"/><lit-tag v="impf"/></equal></test>
+                <let><var n="время"/><lit-tag v="pres"/></let>
+          </when>
+          <otherwise>
+            <let><var n="время"/><lit-tag v="fut"/></let>
+          </otherwise>
+        </choose>
+        <choose>
+          <when><test><equal><clip pos="1" side="sl" part="a_neg"/><lit-tag v="neg"/></equal></test>
+                <let><var n="neg"/><concat><lit v="^не"/><lit-tag v="adv"/><lit v="$ "/></concat></let>
+                <let><var n="chunk-lema"/><lit v="adv-v"/></let>
+          </when>
+          <otherwise>
+            <let><var n="neg"/><lit v=""/></let>
+          </otherwise>
+        </choose>
+
+        <out>
+          <chunk namefrom="chunk-lema" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV.FUT.PD"/></tag>
               <tag><var n="число"/></tag>
             </tags>
+            <var n="neg"/>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
