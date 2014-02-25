@@ -67,7 +67,10 @@
     <def-cat n="qst">
       <cat-item tags="qst"/>
     </def-cat>
-    <def-cat n="v-gpr1">
+    <def-cat n="gpr2">
+      <cat-item tags="vblex.*.*.gpr2.*"/>
+    </def-cat>
+    <def-cat n="gpr1">
       <cat-item tags="vblex.*.*.gpr1.*"/>
     </def-cat>
     <def-cat n="emph">
@@ -1733,9 +1736,9 @@
 
 
 
-    <rule comment="REGLA: v-gpr1 + gna2 + bugo">
+    <rule comment="REGLA: gpr1 + gna2 + bugo">
       <pattern>
-        <pattern-item n="v-gpr1"/>
+        <pattern-item n="gpr1"/>
         <pattern-item n="gna2"/>
         <pattern-item n="bugo"/>
       </pattern>
@@ -1769,9 +1772,9 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: v-gpr1 + vbser-past">
+    <rule comment="REGLA: gpr1 + vbser-past">
       <pattern>
-        <pattern-item n="v-gpr1"/>
+        <pattern-item n="gpr1"/>
         <pattern-item n="vbser-past"/>
       </pattern>
       <action>
@@ -1927,9 +1930,9 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: v-gpr1 + bugo">
+    <rule comment="REGLA: gpr1 + bugo">
       <pattern>
-        <pattern-item n="v-gpr1"/>
+        <pattern-item n="gpr1"/>
         <pattern-item n="bugo"/>
       </pattern>
       <action>
@@ -1970,6 +1973,51 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: gpr2">
+      <pattern>
+        <pattern-item n="gpr2"/>
+      </pattern>
+      <action>
+        <let><var n="число"/><lit-tag v="ND"/></let>
+        <let><var n="род"/><lit-tag v="GD"/></let>
+        <choose>
+          <when><test><or><equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="m"/></equal>
+                          <equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="nt"/></equal>
+                          <equal><clip pos="1" side="sl" part="a_class"/><lit-tag v="f"/></equal></or></test>
+                <let><var n="число"/><lit-tag v="sg"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when><test><equal><clip pos="1" side="sl" part="a_neg"/><lit-tag v="neg"/></equal></test>
+                <let><var n="neg"/><concat><lit v="^не"/><lit-tag v="adv"/><lit v="$ "/></concat></let>
+          </when>
+          <otherwise>
+            <let><var n="neg"/><lit v=""/></let>
+          </otherwise>
+        </choose>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.PAST"/></tag>
+              <tag><clip pos="1" side="sl" part="a_trans"/></tag>
+              <tag><var n="род"/></tag>
+              <tag><var n="число"/></tag>
+            </tags>
+            <var n="neg"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_aspec"/>
+              <lit-tag v="past"/>
+              <lit-tag v="4.5"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: gna2 + bugo-hečo">
       <pattern>
