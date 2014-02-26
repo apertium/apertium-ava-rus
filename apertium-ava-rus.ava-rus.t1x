@@ -169,14 +169,16 @@
       <cat-item tags="vblex.*.*.fut"/>
     </def-cat>
     <def-cat n="verb-past">
-      <cat-item tags="vblex.*.*.past"/>
       <cat-item tags="vblex.*.past"/>
-    </def-cat>
-    <def-cat n="inf">
-      <cat-item tags="vblex.*.*.inf.*"/>
+      <cat-item tags="vblex.*.*.past"/>
+      <cat-item tags="vblex.*.*.past.*"/>
+      <cat-item tags="vblex.*.past.*"/>
     </def-cat>
     <def-cat n="ger">
-      <cat-item tags="vblex.*.*.ger"/>
+      <cat-item tags="vblex.*.*.ger.*"/>
+    </def-cat>
+    <def-cat n="inf">
+      <cat-item tags="vblex.*.*.inf"/>
     </def-cat>
     <def-cat n="gna2">
       <cat-item tags="vblex.*.gna2"/>
@@ -1842,6 +1844,28 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: ger">
+      <pattern>
+        <pattern-item n="ger"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="ger" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.INF"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_aspec"/>
+              <lit-tag v="inf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: inf">
       <pattern>
         <pattern-item n="inf"/>
@@ -1864,32 +1888,10 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: ger">
-      <pattern>
-        <pattern-item n="ger"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="inf" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV.INF"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="a_aspec"/>
-              <lit-tag v="inf"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
 
-
-    <rule comment="REGLA: ger + bugo">
+    <rule comment="REGLA: inf + bugo">
       <pattern>
-        <pattern-item n="ger"/>
+        <pattern-item n="inf"/>
         <pattern-item n="bugo"/>
       </pattern>
       <action>
