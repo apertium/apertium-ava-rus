@@ -150,17 +150,19 @@
       <cat-item tags="np.al.*.loc.*"/>
     </def-cat>
     <def-cat n="vbser-past">
-      <cat-item lemma="букӏин" tags="vblex.*.past"/>
+      <cat-item lemma="букӏине" tags="vblex.*.past"/>
+      <cat-item lemma="букӏине" tags="vblex.*.past.*"/>
     </def-cat>
-    <def-cat n="vbser-ger">
-      <cat-item lemma="букӏин" tags="vblex.*.ger"/>
+    <def-cat n="vbser-inf">
+      <cat-item lemma="букӏине" tags="vblex.*.*.inf"/>
     </def-cat>
     <def-cat n="bugo">
-      <cat-item lemma="букӏин" tags="vblex.*.pres"/>
+      <cat-item lemma="букӏине" tags="vblex.*.*.pres"/>
+      <cat-item lemma="букӏине" tags="vblex.*.*.pres.*"/>
     </def-cat>
     <def-cat n="bugo-hečo">
-      <cat-item lemma="букӏин" tags="vblex.*.pres"/>
-      <cat-item lemma="букӏин" tags="vblex.*.neg"/>
+      <cat-item lemma="букӏине" tags="vblex.*.pres"/>
+      <cat-item lemma="букӏине" tags="vblex.*.neg"/>
     </def-cat>
     <def-cat n="verb-aor">
       <cat-item tags="vblex.*.*.aor"/>
@@ -179,6 +181,7 @@
     </def-cat>
     <def-cat n="inf">
       <cat-item tags="vblex.*.*.inf"/>
+      <cat-item tags="vblex.*.*.inf.*"/>
     </def-cat>
     <def-cat n="gna2">
       <cat-item tags="vblex.*.gna2"/>
@@ -1813,9 +1816,9 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: vbser-ger + bugo">
+    <rule comment="REGLA: vbser-inf + bugo">
       <pattern>
-        <pattern-item n="vbser-ger"/>
+        <pattern-item n="vbser-inf"/>
         <pattern-item n="bugo"/>
       </pattern>
       <action>
