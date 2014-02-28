@@ -897,6 +897,35 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: lquot n-gen rquot">
+      <pattern>
+        <pattern-item n="lquot"/>
+        <pattern-item n="n-gen"/>
+        <pattern-item n="rquot"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.GEN"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: lquot n-nom rquot">
       <pattern>
         <pattern-item n="lquot"/>

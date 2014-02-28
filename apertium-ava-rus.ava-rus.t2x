@@ -16,6 +16,7 @@
       <cat-item tags="SN.ADVL.*"/>
     </def-cat>
     <def-cat n="SN-GEN">
+      <cat-item tags="SN.GEN"/>
       <cat-item tags="SN.GEN.*"/>
     </def-cat>
     <def-cat n="SN-SUBJ">
@@ -306,6 +307,36 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: SN-GEN SN-GEN SN-SUBJ">
+      <pattern>
+        <pattern-item n="SN-GEN"/>
+        <pattern-item n="SN-GEN"/>
+        <pattern-item n="SN-SUBJ"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SN-GEN SN-SUBJ">
       <pattern>
