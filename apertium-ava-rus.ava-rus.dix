@@ -1041,6 +1041,10 @@
 
     <e><p><l>рос-лъади<s n="n"/><s n="nt"/></l><r>муж<g><b/>с<b/>женой</g><s n="n"/><s n="m"/><s n="aa"/></r></p></e>
 
+    <e><p><l>нухмалъулев<s n="n"/><s n="m"/></l><r>руководитель<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>нухмалъулев<s n="n"/><s n="f"/></l><r>руководительница<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e><p><l>нухмалъулев<s n="n"/><s n="mf"/><s n="pl"/></l><r>руководитель<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/></r></p></e>
+
     <!-- SECTION: Proper nouns -->
 
     <e><p><l>Дагъогни<s n="np"/><s n="top"/><s n="sg"/></l><r>Дагогни<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/></r></p></e>
@@ -1493,11 +1497,11 @@
     <e><p><l>кӀвар<b/>кьезе<s n="vblex"/></l><r>придавать<g><b/>значение</g><s n="vblex"/></r></p></e>
     <e><p><l>кьезе<s n="vblex"/></l><r>давать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>кьезе<s n="vblex"/></l><r>дать<s n="vblex"/><s n="perf"/></r></p></e>
-    <e><p><l>лъезе<s n="vblex"/></l><r>складывть<s n="vblex"/></r></p></e>
-    <e><p><l>лъезе<s n="vblex"/></l><r>класть<s n="vblex"/></r></p></e>
-    <e><p><l>лъезе<s n="vblex"/></l><r>ложить<s n="vblex"/></r></p></e>
-    <e><p><l>лъезе<s n="vblex"/></l><r>положить<s n="vblex"/></r></p></e>
-    <e><p><l>лъезе<s n="vblex"/></l><r>уложить<s n="vblex"/></r></p></e>
+    <e><p><l>лъезе<s n="vblex"/></l><r>складывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>лъезе<s n="vblex"/></l><r>класть<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>лъезе<s n="vblex"/></l><r>ложить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>лъезе<s n="vblex"/></l><r>положить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>лъезе<s n="vblex"/></l><r>уложить<s n="vblex"/><s n="perf"/></r></p></e>
 
     <e><p><l>лъезе<s n="vblex"/><s n="tv"/><s n="mfn"/><s n="ger"/></l><r>положение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
 
@@ -1590,7 +1594,7 @@
 
     <e><p><l>тӀобитӀизе<s n="vblex"/><s n="iv"/></l><r>проводиться<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>тӀобитӀизе<s n="vblex"/><s n="tv"/></l><r>проводить<s n="vblex"/><s n="impf"/></r></p></e>
-    <e><p><l>нухмалълъизе<s n="vblex"/><s n="iv"/></l><r>руководить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>нухмалълъизе<s n="vblex"/><s n="tv"/></l><r>руководить<s n="vblex"/><s n="impf"/></r></p></e>
 
     <e><p><l>байбихьизе<s n="vblex"/><s n="tv"/></l><r>начинать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>байбихьизе<s n="vblex"/><s n="tv"/></l><r>начать<s n="vblex"/><s n="perf"/></r></p></e>
