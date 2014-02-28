@@ -79,6 +79,7 @@
 
     <e><p><l>ни<s n="adv"/></l><r>бы<s n="part"/></r></p></e>
     <e><p><l>ищ<s n="qst"/></l><r>ли<s n="part"/></r></p></e>
+    <e><p><l>дай<s n="qst"/></l><r>ли<s n="part"/></r></p></e>
     <e><p><l>го<s n="emph"/></l><r>же<s n="part"/></r></p></e>
 
     <!-- SECTION: Conjunctions -->
@@ -1525,8 +1526,8 @@
     <e><p><l>биххи<s n="vblex"/></l><r>разрушиться<s n="vblex"/></r></p></e>
     <e><p><l>баччи<s n="vblex"/></l><r>вести<s n="vblex"/></r></p></e>
     <e><p><l>бакки<s n="vblex"/></l><r>появляться<s n="vblex"/></r></p></e>
-    <e><p><l>бищи<s n="vblex"/></l><r>выбирать<s n="vblex"/><s n="impf"/></r></p></e>
-    <e><p><l>бищи<s n="vblex"/></l><r>выбрать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>бищизе<s n="vblex"/><s n="tv"/></l><r>выбирать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бищизе<s n="vblex"/><s n="tv"/></l><r>выбрать<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>бати<s n="vblex"/></l><r>находиться<s n="vblex"/></r></p></e>
     <e><p><l>бати<s n="vblex"/></l><r>найтись<s n="vblex"/></r></p></e>
     <e><p><l>бачӀине<s n="vblex"/><s n="iv"/></l><r>приходить<s n="vblex"/><s n="perf"/></r></p></e>

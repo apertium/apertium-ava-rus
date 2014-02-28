@@ -77,7 +77,7 @@
       <cat-item tags="emph"/>
     </def-cat>
     <def-cat n="ni">
-      <cat-item tags="adv"/>
+      <cat-item lemma="ни" tags="adv"/>
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj"/>
@@ -166,9 +166,11 @@
     </def-cat>
     <def-cat n="verb-aor">
       <cat-item tags="vblex.*.*.aor"/>
+      <cat-item tags="vblex.*.*.aor.*"/>
     </def-cat>
     <def-cat n="verb-fut">
       <cat-item tags="vblex.*.*.fut"/>
+      <cat-item tags="vblex.*.*.fut.*"/>
     </def-cat>
     <def-cat n="verb-past">
       <cat-item tags="vblex.*.past"/>
@@ -185,6 +187,7 @@
     </def-cat>
     <def-cat n="gna2">
       <cat-item tags="vblex.*.gna2"/>
+      <cat-item tags="vblex.*.*.gna2"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
