@@ -758,7 +758,7 @@
     <e><p><l>отряд<s n="n"/><s n="nt"/></l><r>отряд<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>памятник<s n="n"/><s n="nt"/></l><r>памятник<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>памятник<s n="n"/><s n="nt"/></l><r>монумент<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
-    <e><p><l>пачалихъ<s n="n"/><s n="nt"/></l><r>государство<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>пачалихъ<s n="n"/><s n="nt"/></l><r>государство<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>поезд<s n="n"/><s n="nt"/></l><r>поезд<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>помидор<s n="n"/><s n="nt"/></l><r>помидор<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>портрет<s n="n"/><s n="nt"/></l><r>портрет<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -1144,7 +1144,7 @@
     <e><p><l>Уфа<s n="np"/><s n="top"/></l><r>Уфа<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Челябинск<s n="np"/><s n="top"/></l><r>Челябинск<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 
-    <e><p><l>РФ<s n="np"/><s n="top"/></l><r>РФ<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>РФ<s n="np"/><s n="top"/></l><r>РФ<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>ДР<s n="np"/><s n="top"/></l><r>Дагестан<s n="np"/><s n="top"/><s n="m"/></r></p></e>
     <e><p><l>ДР<s n="np"/><s n="top"/></l><r>ДР<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>АЦШ<s n="np"/><s n="top"/></l><r>США<s n="np"/><s n="top"/></r></p></e>
@@ -1158,13 +1158,13 @@
 
     <e><p><l>Дагестангазсервис<s n="np"/><s n="al"/></l><r>Дагестангазсервис<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Дагъгаз<s n="np"/><s n="al"/></l><r>Даггаз<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>МухӀамадхӀусен<s n="np"/><s n="ant"/></l><r>Мухамадхусейн<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>МухӀамадхӀусен<s n="np"/><s n="ant"/><s n="m"/></l><r>Мухамадхусейн<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Мухтар<s n="np"/><s n="ant"/><s n="m"/></l><r>Мухтар<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>АбутӀалиб<s n="np"/><s n="ant"/><s n="m"/></l><r>Абуталиб<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Францис<s n="np"/><s n="ant"/><s n="m"/></l><r>Францис<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Насрудинов<s n="np"/><s n="cog"/></l><r>Насрудинов<s n="np"/><s n="cog"/></r></p></e>
 
-    <e><p><l>ГӀабдулхаликъ<s n="np"/><s n="ant"/><s n="m"/></l><r>Абдулхалик<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>ГӀабдулхаликъ<s n="np"/><s n="ant"/><s n="m"/></l><r>Абдулхалик<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
     <e><p><l>Ражабов<s n="np"/><s n="cog"/></l><r>Ражабов<s n="np"/><s n="cog"/></r></p></e>
 
 
@@ -1203,7 +1203,7 @@
     <e><p><l>ХӀажимурадов<s n="np"/><s n="cog"/></l><r>Хажимурадов<s n="np"/><s n="cog"/></r></p></e>
     <e><p><l>Магьдиев<s n="np"/><s n="cog"/></l><r>Магдиев<s n="np"/><s n="cog"/></r></p></e>
 
-    <e><p><l>РДНТ<s n="np"/><s n="al"/></l><r>РДНТ<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>РДНТ<s n="np"/><s n="al"/></l><r>РДНТ<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e><p><l>Динамо<s n="np"/><s n="al"/></l><r>Динамо<s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></r></p></e>
  
     <!-- SECTION: Adjectives -->
@@ -1455,11 +1455,11 @@
     <e><p><l>лъугьи<s n="vblex"/></l><r>входить<s n="vblex"/></r></p></e>
     <e><p><l>хутӀи<s n="vblex"/></l><r>оставаться<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>гвангъи<s n="vblex"/></l><r>сиять<s n="vblex"/></r></p></e>
-    <e><p><l>цӀуни<s n="vblex"/></l><r>беречь<s n="vblex"/></r></p></e>
-    <e><p><l>цӀуни<s n="vblex"/></l><r>берегать<s n="vblex"/></r></p></e>
-    <e><p><l>цӀуни<s n="vblex"/></l><r>хранить<s n="vblex"/></r></p></e>
-    <e><p><l>цӀуни<s n="vblex"/></l><r>сохранять<s n="vblex"/></r></p></e>
-    <e><p><l>тӀуба<s n="vblex"/></l><r>кончаться<s n="vblex"/></r></p></e>
+    <e><p><l>цӀунизе<s n="vblex"/></l><r>беречь<s n="vblex"/></r></p></e>
+    <e><p><l>цӀунизе<s n="vblex"/></l><r>берегать<s n="vblex"/></r></p></e>
+    <e><p><l>цӀунизе<s n="vblex"/></l><r>хранить<s n="vblex"/></r></p></e>
+    <e><p><l>цӀунизе<s n="vblex"/></l><r>сохранять<s n="vblex"/></r></p></e>
+    <e><p><l>тӀубазе<s n="vblex"/></l><r>кончаться<s n="vblex"/></r></p></e>
     <e><p><l>квачазе<s n="vblex"/></l><r>охлаждаться<s n="vblex"/></r></p></e>
     <e><p><l>квачазе<s n="vblex"/></l><r>остужатьтся<s n="vblex"/></r></p></e>
     <e><p><l>къазе<s n="vblex"/></l><r>закрываться<s n="vblex"/></r></p></e>
@@ -1589,9 +1589,9 @@
     <e><p><l>тӀадецузе<s n="vblex"/></l><r>напирать<s n="vblex"/></r></p></e>
     <e><p><l>тӀадецузе<s n="vblex"/></l><r>давить<s n="vblex"/></r></p></e>
 
-    <e><p><l>рикӀкӀине<s n="vblex"/></l><r>считать<s n="vblex"/></r></p></e>
-    <e><p><l>рикӀкӀине<s n="vblex"/></l><r>сосчитать<s n="vblex"/></r></p></e>
-    <e><p><l>рикӀкӀине<s n="vblex"/></l><r>подсчитать<s n="vblex"/></r></p></e>
+    <e><p><l>рикӀкӀине<s n="vblex"/></l><r>считать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>рикӀкӀине<s n="vblex"/></l><r>сосчитать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>рикӀкӀине<s n="vblex"/></l><r>подсчитать<s n="vblex"/><s n="perf"/></r></p></e>
 
     <e><p><l>хIадурлъизе<s n="vblex"/></l><r>готовиться<s n="vblex"/><s n="impf"/></r></p></e>
 
@@ -1621,6 +1621,10 @@
     <e><p><l>бажаризе<s n="vblex"/><s n="iv"/></l><r>смочь<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>бажаризе<s n="vblex"/><s n="iv"/></l><r>уметь<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>бажаризе<s n="vblex"/><s n="iv"/></l><r>суметь<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>борцине<s n="vblex"/><s n="tv"/></l><r>мерить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>борцине<s n="vblex"/><s n="tv"/></l><r>померить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>борцине<s n="vblex"/><s n="tv"/></l><r>примерить<s n="vblex"/><s n="perf"/></r></p></e>
 
     <e><p><l>гӀуцӀизе<s n="vblex"/><s n="tv"/></l><r>организовывать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>гӀуцӀизе<s n="vblex"/><s n="tv"/></l><r>организовать<s n="vblex"/><s n="perf"/></r></p></e>
