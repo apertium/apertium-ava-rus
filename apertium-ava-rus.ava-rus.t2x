@@ -85,6 +85,15 @@
     <def-var n="number"/>
   </section-def-vars>
   <section-def-macros>
+    <def-macro n="post-govern2" npar="2">
+      <choose>
+        <when><test> 
+                <equal caseless="yes"><clip pos="1" part="lem"/><lit v="с"/></equal>
+              </test>
+              <let><clip pos="2" part="a_cas"/><lit-tag v="ins"/></let>
+        </when>
+      </choose>
+    </def-macro>
     <def-macro n="concord-nominal2" npar="2">
       <choose>
         <when><test> 
@@ -485,6 +494,10 @@
         <pattern-item n="POST"/>
       </pattern>
       <action>
+        <call-macro n="post-govern2">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
         <out>
           <chunk>
             <clip pos="3" part="lem"/>
@@ -513,6 +526,10 @@
         <pattern-item n="POST"/>
       </pattern>
       <action>
+        <call-macro n="post-govern2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk>
             <clip pos="2" part="lem"/>

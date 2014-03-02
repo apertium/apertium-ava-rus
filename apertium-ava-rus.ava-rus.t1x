@@ -307,6 +307,7 @@
     <def-var n="род"/>
     <def-var n="время"/>
     <def-var n="neg"/>
+    <def-var n="post-lema"/>
     <def-var n="syn-func"/>
     <def-var n="chunk-lema"/>
     <def-var n="current_verb"/>
@@ -606,6 +607,7 @@
             <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mfn"/></let>
           </when>
         </choose>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <out>
           <chunk name="j-n" case="caseFirstWord">
             <tags>
@@ -679,25 +681,35 @@
                      <clip pos="2" side="tl" part="a_gen"/>
                      <lit-tag v="an"/>
                      <clip pos="2" side="tl" part="a_nbr"/>
-                     <clip pos="2" side="tl" part="a_case"/></concat></let>
+                     <lit-tag v="6"/>
+                     </concat></let>
         <choose>
           <when>
             <test><equal><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
             <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mfn"/></let>
           </when>
         </choose>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <out>
           <chunk name="j-n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN.ABS"/></tag>
-              <tag><clip pos="2" side="sl" part="a_case"/></tag>
+              <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+              <tag><clip pos="2" side="tl" part="a_anim"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_case"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
             <b/>
             <lu>
-              <clip pos="2" side="tl" part="whole"/>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_anim"/>
+              <lit-tag v="5.6"/>
+              <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -2424,8 +2436,9 @@
         <pattern-item n="post"/>
       </pattern>
       <action>
+        <let><var n="post-lema"/><clip pos="1" side="tl" part="lem"/></let>
         <out>
-          <chunk name="post" case="caseFirstWord">
+          <chunk namefrom="post-lema" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="POST"/></tag>
               <tag><clip pos="1" side="sl" part="a_gen"/></tag>
