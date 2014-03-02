@@ -95,6 +95,7 @@
     </def-cat>
     <def-cat n="num">
       <cat-item tags="num"/>
+      <cat-item tags="num.pl"/>
       <cat-item lemma="чанго" tags="adv"/>
       <cat-item tags="num.dist"/>
       <cat-item tags="num.subst.*"/>
