@@ -82,7 +82,8 @@
     <e><p><l>ищ<s n="qst"/></l><r>ли<s n="part"/></r></p></e>
     <e><p><l>дай<s n="qst"/></l><r>ли<s n="part"/></r></p></e>
     <e><p><l>го<s n="emph"/></l><r>же<s n="part"/></r></p></e>
-    <e><p><l>илан<s n="quot"/></l><r></r></p></e>
+    <e r="LR"><p><l>илан<s n="quot"/></l><r></r></p></e>
+    <e r="LR"><p><l>гӏан<s n="adv"/></l><r></r></p></e>
     <e><p><l>ян<s n="quot"/></l><r>мол<s n="part"/></r></p></e>
 
     <!-- SECTION: Conjunctions -->
@@ -1066,6 +1067,15 @@
     <e><p><l>нухмалъулев<s n="n"/><s n="f"/></l><r>руководительница<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>нухмалъулев<s n="n"/><s n="mf"/><s n="pl"/></l><r>руководитель<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/></r></p></e>
 
+    <e><p><l>рухӏ<s n="n"/><s n="nt"/></l><r>душа<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>рухӏ<s n="n"/><s n="nt"/></l><r>жизнь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>рухӏ<s n="n"/><s n="nt"/></l><r>существование<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>рухӏ<s n="n"/><s n="nt"/></l><r>сила<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>рухӏ<s n="n"/><s n="nt"/></l><r>мочь<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+
+    <e><p><l>хӏинкъи<s n="n"/><s n="nt"/></l><r>страх<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>хӏинкъи<s n="n"/><s n="nt"/></l><r>боязнь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+
     <!-- SECTION: Proper nouns -->
 
     <e><p><l>Дагъогни<s n="np"/><s n="top"/><s n="sg"/></l><r>Дагогни<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/></r></p></e>
@@ -1211,6 +1221,12 @@
 
     <e><p><l>РДНТ<s n="np"/><s n="al"/></l><r>РДНТ<s n="np"/><s n="al"/><s n="m"/></r></p></e>
     <e><p><l>Динамо<s n="np"/><s n="al"/></l><r>Динамо<s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></r></p></e>
+
+    <e><p><l>Башкортостан<s n="np"/><s n="top"/></l><r>Башкортостан<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Татарстан<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+    <e><p><l>Тува<s n="np"/><s n="top"/></l><r>Тува<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+    <e><p><l>Якутия<s n="np"/><s n="top"/></l><r>Якутия<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+
  
     <!-- SECTION: Adjectives -->
 
@@ -1340,6 +1356,16 @@
     <e><p><l>магӏарул<s n="adj"/></l><r>горский<s n="adj"/></r></p></e>
     <e><p><l>къваригӏунеб<s n="adj"/></l><r>ненужный<s n="adj"/></r></p></e>
     <e><p><l>цӏакъаб<s n="adj"/></l><r>отличный<s n="adj"/></r></p></e>
+
+    <e><p><l>байбихьул<s n="adj"/></l><r>началный<s n="adj"/></r></p></e>
+    <e><p><l>бигьаяб<s n="adj"/></l><r>легкий<s n="adj"/></r></p></e>
+    <e><p><l>бигьаяб<s n="adj"/></l><r>нетрудный<s n="adj"/></r></p></e>
+    <e><p><l>гӏахьалаб<s n="adj"/></l><r>общий<s n="adj"/></r></p></e>
+    <e><p><l>гӏахьалаб<s n="adj"/></l><r>совместный<s n="adj"/></r></p></e>
+    <e><p><l>гӏахьалаб<s n="adj"/></l><r>коллективный<s n="adj"/></r></p></e>
+    <e><p><l>гӏахьалаб<s n="adj"/></l><r>общественный<s n="adj"/></r></p></e>
+    <e><p><l>экономикияб<s n="adj"/></l><r>экономический<s n="adj"/></r></p></e>
+
     
     <!-- SECTION: Adverbs -->
     <e><p><l>киб<s n="adv"/><s n="itg"/></l><r>где<s n="adv"/><s n="itg"/></r></p></e>
@@ -1644,6 +1670,49 @@
     <e><p><l>рагӏизе<s n="vblex"/><s n="iv"/></l><r>слышать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>хал<b/>гьабизе<s n="vblex"/><s n="tv"/></l><r>проверить<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>хал<b/>гьабизе<s n="vblex"/><s n="tv"/></l><r>попробовать<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>бегьизе<s n="vblex"/><s n="iv"/></l><r>быть<g><b/>вероятным</g><s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бечелъизе<s n="vblex"/><s n="iv"/></l><r>богатеть<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бечелъизе<s n="vblex"/><s n="iv"/></l><r>разбогатеть<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>бихьизабизе<s n="vblex"/><s n="tv"/></l><r>показывать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бихьизабизе<s n="vblex"/><s n="tv"/></l><r>показать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>бихьизе<s n="vblex"/><s n="iv"/></l><r>виднеться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>гара-чӏваризе<s n="vblex"/><s n="iv"/></l><r>разговаривать<s n="vblex"/><s n="impf"/></r></p></e>
+
+    <e><p><l>лъугӏизе<s n="vblex"/><s n="iv"/></l><r>кончиться<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>лъугӏизе<s n="vblex"/><s n="iv"/></l><r>закончиться<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>лъугӏизе<s n="vblex"/><s n="iv"/></l><r>кончаться<s n="vblex"/><s n="impf"/></r></p></e>
+
+    <e><p><l>тӏезе<s n="vblex"/><s n="tv"/></l><r>рвать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>тӏезе<s n="vblex"/><s n="tv"/></l><r>сорвать<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>лъугьине<s n="vblex"/><s n="iv"/></l><r>входить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>лъугьине<s n="vblex"/><s n="iv"/></l><r>войти<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>лъугьине<s n="vblex"/><s n="iv"/></l><r>выходить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>лъугьине<s n="vblex"/><s n="iv"/></l><r>выйти<s n="vblex"/><s n="impf"/></r></p></e>
+
+    <e><p><l>нахъеккезе<s n="vblex"/><s n="iv"/></l><r>оставаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>нахъеккезе<s n="vblex"/><s n="iv"/></l><r>остаться<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>речӏчӏизе<s n="vblex"/><s n="iv"/></l><r>бросаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>речӏчӏизе<s n="vblex"/><s n="iv"/></l><r>броситься<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>речӏчӏизе<s n="vblex"/><s n="iv"/></l><r>кидаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>речӏчӏизе<s n="vblex"/><s n="iv"/></l><r>кинуться<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>хӏинкъизе<s n="vblex"/><s n="iv"/></l><r>бояться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>хӏинкъизе<s n="vblex"/><s n="iv"/></l><r>пугаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>хӏинкъизе<s n="vblex"/><s n="iv"/></l><r>страшиться<s n="vblex"/><s n="impf"/></r></p></e>
+
+    <e><p><l>лъугӏун<b/>хутӏизе<s n="vblex"/><s n="iv"/></l><r>закончиться<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>хутӏизе<s n="vblex"/><s n="iv"/></l><r>оставаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>хутӏизе<s n="vblex"/><s n="iv"/></l><r>остаться<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>Чӏухӏизе<s n="vblex"/><s n="iv"/></l><r>гордиться<s n="vblex"/><s n="impf"/></r></p></e>
+
+    <e><p><l>щвезе<s n="vblex"/><s n="tv"/></l><r>достигать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>щвезе<s n="vblex"/><s n="tv"/></l><r>достичь<s n="vblex"/><s n="perf"/></r></p></e>
+
 
     <!-- SECTION: Abbreviations -->
 

@@ -3,10 +3,17 @@
     <match lemma="ДР" tags="np.top.*"><select lemma="Дагестан"/></match>
   </rule>
   <rule>
+    <match lemma="хӏинкъи" tags="n.*"><select lemma="боязнь"/></match>
+    <match lemma="букӏине"/>
+  </rule>
+  <rule>
     <match lemma="вакил" tags="n.*"><select lemma="представитель"/></match>
   </rule>
   <rule>
     <match lemma="къецал" tags="n.*"><select lemma="соревнование"/></match>
+  </rule>
+  <rule>
+    <match lemma="рухӏ" tags="n.*"><select lemma="душа"/></match>
   </rule>
   <rule>
     <match lemma="вас" tags="n.*"><select lemma="парень"/></match>
@@ -18,10 +25,10 @@
     <match lemma="бахунеб" tags="adj.*"><select lemma="заразный"/></match>
   </rule>
   <rule>
-    <match lemma="бетӀераб" tags="adj.*"><select lemma="главный"/></match>
+    <match lemma="бетӏераб" tags="adj.*"><select lemma="главный"/></match>
   </rule>
   <rule>
-    <match lemma="гӀуцӀи" tags="n.*"><select lemma="организация"/></match>
+    <match lemma="гӏуцӏи" tags="n.*"><select lemma="организация"/></match>
   </rule>
   <rule>
     <match lemma="бажаризе" tags="vblex.*"><select lemma="уметь"/></match>
@@ -36,8 +43,8 @@
     <match lemma="хъвазе" tags="vblex.*.*.fut"><select lemma="написать"/></match>
   </rule>
   <rule>
-    <match lemma="батӀайиса"/>
-    <match lemma="бичӀчӀизе" tags="vblex.*"><select lemma="восприниматься"/></match>
+    <match lemma="батӏайиса"/>
+    <match lemma="бичӏчӏизе" tags="vblex.*"><select lemma="восприниматься"/></match>
   </rule>
   <rule>
     <match lemma="кьезе" tags="vblex.*"><select lemma="давать"/></match>
@@ -52,15 +59,15 @@
     <match lemma="щай" tags="adv.itg"><select lemma="почему"/></match>
   </rule>
   <rule>
-    <match lemma="хӀукумат" tags="n.*"><select lemma="государство"/></match>
+    <match lemma="хӏукумат" tags="n.*"><select lemma="государство"/></match>
   </rule>
   <rule>
     <match lemma="рахьдал" tags="adj"><select lemma="родной"/></match>
-    <match lemma="мацӀ" tags="n.*" />
+    <match lemma="мацӏ" tags="n.*" />
   </rule>
   <rule>
-    <match lemma="магӀарул" tags="adj"><select lemma="аварский"/></match>
-    <match lemma="мацӀ" tags="n.*" />
+    <match lemma="магӏарул" tags="adj"><select lemma="аварский"/></match>
+    <match lemma="мацӏ" tags="n.*" />
   </rule>
   <rule>
     <match lemma="гьеб" tags="prn.dem.m.*"><select lemma="он" tags="prn.pers.*"/></match>
