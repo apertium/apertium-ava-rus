@@ -97,6 +97,7 @@
     <e><p><l>ай<s n="cnjadv"/></l><r>то<b/>есть<s n="cnjadv"/></r></p></e>
     <e><p><l>гьединлъидал<s n="cnjadv"/></l><r>поэтому<s n="adv"/></r></p></e>
     <e><p><l>гьелдалъун<s n="cnjadv"/></l><r>поэтому<s n="adv"/></r></p></e>
+    <e><p><l>гьелдалъун<s n="cnjadv"/></l><r>из-за<b/>этого<s n="adv"/></r></p></e>
     <e><p><l>гьанжелъагӀан<s n="cnjadv"/></l><r>до<b/>сих<b/>пор<s n="cnjadv"/></r></p></e>
     <e><p><l>гӀадин<s n="cnjadv"/></l><r>как<s n="cnjadv"/></r></p></e>
     <e><p><l>гӀадин<s n="cnjadv"/></l><r>как<b/>будто<s n="cnjadv"/></r></p></e>
@@ -223,6 +224,9 @@
     <e><p><l>азарго<s n="num"/></l><r>тысяча<s n="num"/></r></p></e>
 
     <e><p><l>цохӀо<s n="num"/></l><r>только<b/>один<s n="num"/></r></p></e>
+
+    <e><p><l>цо-цо<s n="num"/><s n="pl"/></l><r>несколько<s n="num"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+    <e><p><l>нус-нус<s n="num"/><s n="pl"/></l><r>сотни<s n="num"/><s n="sg"/></r></p></e>
 
     <e r="LR"><p><l>миллион<s n="num"/><s n="nt"/></l><r>миллион<s n="num"/><s n="m"/><s n="nn"/></r></p></e>
     <e r="RL"><p><l>миллион<s n="num"/><s n="nt"/></l><r>миллион<s n="num"/><s n="m"/></r></p></e>
@@ -1575,9 +1579,9 @@
     <e><p><l>бичӀчӀизе<s n="vblex"/></l><r>понимать<s n="vblex"/></r></p></e>
     <e><p><l>бичӀчӀизе<s n="vblex"/></l><r>понять<s n="vblex"/></r></p></e>
 
-    <e><p><l>беги<s n="vblex"/></l><r>ложать<s n="vblex"/></r></p></e>
-    <e><p><l>беги<s n="vblex"/></l><r>лечь<s n="vblex"/></r></p></e>
-    <e><p><l>беги<s n="vblex"/></l><r>ложиться<s n="vblex"/></r></p></e>
+    <e><p><l>бегизе<s n="vblex"/></l><r>ложать<s n="vblex"/></r></p></e>
+    <e><p><l>бегизе<s n="vblex"/></l><r>лечь<s n="vblex"/></r></p></e>
+    <e><p><l>бегизе<s n="vblex"/></l><r>ложиться<s n="vblex"/></r></p></e>
 
     <e><p><l>бецӀи<s n="vblex"/></l><r>гасить<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>бецӀи<s n="vblex"/></l><r>возместить<s n="vblex"/></r></p></e>
