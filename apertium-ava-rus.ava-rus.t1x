@@ -40,6 +40,9 @@
     <def-cat n="cog-gen">
       <cat-item tags="np.cog.*.gen"/>
     </def-cat>
+    <def-cat n="cog-loc">
+      <cat-item tags="np.cog.*.loc"/>
+    </def-cat>
     <def-cat n="cog-erg">
       <cat-item tags="np.cog.*.erg"/>
     </def-cat>
@@ -214,6 +217,8 @@
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+      <attr-item tags="np.ant"/>
+      <attr-item tags="np.cog"/>
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
@@ -1089,6 +1094,38 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: ant-attr cog-loc">
+      <pattern>
+        <pattern-item n="ant-attr"/>
+        <pattern-item n="cog-loc"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="ant-cog" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.ABS"/></tag>
+              <tag><clip pos="2" side="sl" part="a_gen"/></tag>
+              <tag><clip pos="2" side="sl" part="a_nbr"/></tag>
+              <tag><clip pos="2" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <lit-tag v="5"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: ant-attr cog-nom">
       <pattern>

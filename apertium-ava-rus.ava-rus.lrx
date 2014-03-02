@@ -3,6 +3,9 @@
     <match lemma="ДР" tags="np.top.*"><select lemma="Дагестан"/></match>
   </rule>
   <rule>
+    <match lemma="вакил" tags="n.*"><select lemma="представитель"/></match>
+  </rule>
+  <rule>
     <match lemma="къецал" tags="n.*"><select lemma="соревнование"/></match>
   </rule>
   <rule>
@@ -31,6 +34,10 @@
   </rule>
   <rule weight="1.1">
     <match lemma="хъвазе" tags="vblex.*.*.fut"><select lemma="написать"/></match>
+  </rule>
+  <rule>
+    <match lemma="батӀайиса"/>
+    <match lemma="бичӀчӀизе" tags="vblex.*"><select lemma="восприниматься"/></match>
   </rule>
   <rule>
     <match lemma="кьезе" tags="vblex.*"><select lemma="давать"/></match>

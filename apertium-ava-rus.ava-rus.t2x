@@ -88,10 +88,20 @@
     <def-macro n="post-govern2" npar="2">
       <choose>
         <when><test> 
-                <equal caseless="yes"><clip pos="1" part="lem"/><lit v="с"/></equal>
+                  <equal caseless="yes"><clip pos="1" part="lem"/><lit v="о"/></equal>
+              </test>
+              <let><clip pos="2" part="a_cas"/><lit-tag v="prp"/></let>
+        </when>
+
+        <when><test> 
+                <or>
+                  <equal caseless="yes"><clip pos="1" part="lem"/><lit v="с"/></equal>
+                  <equal caseless="yes"><clip pos="1" part="lem"/><lit v="в связи с"/></equal>
+                </or>
               </test>
               <let><clip pos="2" part="a_cas"/><lit-tag v="ins"/></let>
         </when>
+
       </choose>
     </def-macro>
     <def-macro n="concord-nominal2" npar="2">

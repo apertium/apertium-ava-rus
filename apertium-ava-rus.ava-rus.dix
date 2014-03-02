@@ -124,7 +124,8 @@
     <e><p><l>сверухъ<s n="post"/></l><r>кругом<s n="post"/></r></p></e>
     <e><p><l>сверухъ<s n="post"/></l><r>вокруг<s n="post"/></r></p></e>
     <e><p><l>хӀакъалъулъ<s n="post"/></l><r>вокруг<s n="post"/></r></p></e>
-    <e><p><l>хурхун<s n="post"/></l><r>в<b/>связи<b/>с<s n="post"/></r></p></e>
+    <e><p><l>хурхун<s n="post"/></l><r>в<b/>связи<b/>с<s n="pr"/></r></p></e>
+    <e><p><l>хурхун<s n="post"/></l><r>о<s n="pr"/></r></p></e>
     <e><p><l>лъун<s n="post"/></l><r>как<s n="adv"/><s n="rel"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
@@ -1578,8 +1579,9 @@
     <e><p><l>щвазе<s n="vblex"/></l><r>сыпать<s n="vblex"/></r></p></e>
     <e><p><l>щвазе<s n="vblex"/></l><r>засыпать<s n="vblex"/></r></p></e>
     <e><p><l>щвазе<s n="vblex"/></l><r>посыпать<s n="vblex"/></r></p></e>
-    <e><p><l>бичӀчӀизе<s n="vblex"/></l><r>понимать<s n="vblex"/></r></p></e>
-    <e><p><l>бичӀчӀизе<s n="vblex"/></l><r>понять<s n="vblex"/></r></p></e>
+    <e><p><l>бичӀчӀизе<s n="vblex"/></l><r>понимать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бичӀчӀизе<s n="vblex"/></l><r>восприниматься<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бичӀчӀизе<s n="vblex"/></l><r>понять<s n="vblex"/><s n="perf"/></r></p></e>
 
     <e><p><l>бегизе<s n="vblex"/></l><r>ложать<s n="vblex"/></r></p></e>
     <e><p><l>бегизе<s n="vblex"/></l><r>лечь<s n="vblex"/></r></p></e>
