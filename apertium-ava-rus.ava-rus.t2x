@@ -2,6 +2,9 @@
 <!-- -*- nxml -*- -->
 <interchunk>
   <section-def-cats>
+    <def-cat n="SA">
+      <cat-item tags="SA.*"/>
+    </def-cat>
     <def-cat n="CC">
       <cat-item tags="CC"/>
     </def-cat>
@@ -45,6 +48,12 @@
       <attr-item tags="mfn"/>
       <attr-item tags="GD"/>
     </def-attr>
+    <def-attr n="a_anim">
+      <attr-item tags="aa"/>
+      <attr-item tags="nn"/>
+      <attr-item tags="an"/>
+      <attr-item tags="AD"/>
+    </def-attr>
     <def-attr n="a_trans">
       <attr-item tags="tv"/>
       <attr-item tags="iv"/>
@@ -69,12 +78,49 @@
       <attr-item tags="ins"/>
       <attr-item tags="loc"/>
       <attr-item tags="abl"/>
+      <attr-item tags="CD"/>
     </def-attr>
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
   </section-def-vars>
   <section-def-macros>
+    <def-macro n="concord-nominal2" npar="2">
+      <choose>
+        <when><test> 
+                <and>
+                    <equal><clip pos="2" part="a_nbr"/><lit-tag v="ND"/></equal>
+                    <not><equal><clip pos="1" part="a_nbr"/><lit v=""/></equal></not>
+                </and>
+              </test>
+              <let><clip pos="2" part="a_nbr"/><clip pos="1" part="a_nbr"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when><test> 
+                <and>
+                    <equal><clip pos="2" part="a_cas"/><lit-tag v="CD"/></equal>
+                    <not><equal><clip pos="1" part="a_cas"/><lit v=""/></equal></not>
+                </and>
+              </test>
+              <let><clip pos="2" part="a_cas"/><clip pos="1" part="a_cas"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when><test> 
+                <and>
+                    <equal><clip pos="2" part="a_gen"/><lit-tag v="GD"/></equal>
+                    <not><equal><clip pos="1" part="a_gen"/><lit v=""/></equal></not>
+                </and>
+              </test>
+              <let><clip pos="2" part="a_gen"/><clip pos="1" part="a_gen"/></let>
+        </when>
+
+      </choose>
+      <let><clip pos="2" part="a_anim"/><lit-tag v="an"/></let>
+
+    </def-macro>
+
     <def-macro n="concord-pers2" npar="2">
       <choose>
         <when><test> 
@@ -359,6 +405,34 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: SN-ABS SA COP">
+      <pattern>
+        <pattern-item n="SN-ABS"/>
+        <pattern-item n="SA"/>
+        <pattern-item n="COP"/>
+      </pattern>
+      <action>
+        <call-macro n="concord-nominal2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SN-GEN SN-ABS">
       <pattern>
