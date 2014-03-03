@@ -3,8 +3,19 @@
     <match lemma="ДР" tags="np.top.*"><select lemma="Дагестан"/></match>
   </rule>
   <rule>
+    <match lemma="абизе" tags="vblex.*"><select lemma="говорить"/></match>
+    <match lemma="жакъа"/>
+  </rule>
+  <rule>
     <match lemma="хӏинкъи" tags="n.*"><select lemma="боязнь"/></match>
     <match lemma="букӏине"/>
+  </rule>
+  <rule>
+    <or>
+      <match lemma="къо"/>
+      <match lemma="лъагӀали"/>
+    </or>
+    <match lemma="жаниб" tags="post"><select lemma="на протяжении"/></match>
   </rule>
   <rule>
     <match lemma="вакил" tags="n.*"><select lemma="представитель"/></match>

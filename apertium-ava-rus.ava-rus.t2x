@@ -34,6 +34,7 @@
     <def-cat n="V-FIN">
       <cat-item tags="SV.PRES.*"/>
       <cat-item tags="SV.FUT.*"/>
+      <cat-item tags="SV.AOR.*"/>
       <cat-item tags="SV.PAST.*"/>
     </def-cat>
     <def-cat n="SENT">
@@ -78,6 +79,7 @@
       <attr-item tags="ins"/>
       <attr-item tags="loc"/>
       <attr-item tags="abl"/>
+      <attr-item tags="prp"/>
       <attr-item tags="CD"/>
     </def-attr>
   </section-def-attrs>
@@ -86,6 +88,14 @@
   </section-def-vars>
   <section-def-macros>
     <def-macro n="post-govern2" npar="2">
+      <choose>
+        <when><test> 
+                  <not><equal><clip pos="1" part="a_cas"/><lit v=""/></equal></not>
+              </test>
+              <let><clip pos="2" part="a_cas"/><clip pos="1" part="a_cas"/></let>
+        </when>
+      </choose>
+
       <choose>
         <when><test> 
                   <equal caseless="yes"><clip pos="1" part="lem"/><lit v="о"/></equal>
@@ -562,6 +572,10 @@
         <pattern-item n="POST"/>
       </pattern>
       <action>
+        <call-macro n="post-govern2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk>
             <clip pos="2" part="lem"/>

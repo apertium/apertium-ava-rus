@@ -1055,6 +1055,7 @@
             <tags>
               <tag><lit-tag v="SN.ABS"/></tag>
               <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+              <tag><clip pos="1" side="tl" part="a_anim"/></tag>
               <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
               <tag><clip pos="1" side="sl" part="a_case"/></tag>
             </tags>
@@ -1064,7 +1065,7 @@
               <clip pos="1" side="tl" part="a_gen"/>
               <clip pos="1" side="tl" part="a_anim"/>
               <clip pos="1" side="tl" part="a_nbr"/>
-              <clip pos="1" side="tl" part="a_case"/>
+              <lit-tag v="6"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -1633,14 +1634,23 @@
           <chunk name="n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN.ADVL"/></tag>
-              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+              <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+              <tag><clip pos="1" side="tl" part="a_anim"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
             </tags>
             <lu>
               <lit v="в"/><lit-tag v="pr"/>
             </lu>
             <b/>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="a_gen"/>
+              <clip pos="1" side="tl" part="a_anim"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <lit-tag v="6"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -2367,8 +2377,7 @@
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="a_aspec"/>
               <var n="время"/>
-              <lit-tag v="3"/>
-              <var n="число"/>
+              <lit-tag v="3.4"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -2489,7 +2498,7 @@
             <tags>
               <tag><lit-tag v="POST"/></tag>
               <tag><clip pos="1" side="sl" part="a_gen"/></tag>
-              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>

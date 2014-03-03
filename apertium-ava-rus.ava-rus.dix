@@ -61,6 +61,10 @@
     <sdef n="vblex"/>
     <sdef n="emph"/>
 
+    <sdef n="prp"/>
+    <sdef n="ins"/>
+    <sdef n="gen"/>
+
     <sdef n="sent"  c=""/>
     <sdef n="guio"  c=""/>
     <sdef n="cm"  c=""/>
@@ -109,6 +113,10 @@
     <e><p><l>гӏоло<s n="post"/></l><r>ради<s n="post"/></r></p></e>
     <e><p><l>гӏоло<s n="post"/></l><r>за<s n="post"/></r></p></e>
     <e><p><l>жаниб<s n="post"/></l><r>внутри<s n="post"/></r></p></e>
+    <e><p><l>жаниб<s n="post"/></l><r>на<b/>протяжении<s n="pr"/><s n="gen"/></r></p></e>
+    <e><p><l>гун<s n="post"/></l><r>с<s n="pr"/><s n="ins"/></r></p></e>
+    <e><p><l>хурхун<s n="post"/></l><r>в<b/>связи<b/>с<s n="pr"/><s n="ins"/></r></p></e>
+    <e><p><l>хурхун<s n="post"/></l><r>о<s n="pr"/><s n="prp"/></r></p></e>
     <e><p><l>тӏад<s n="post"/></l><r>над<s n="post"/></r></p></e>
     <e><p><l>гъоркь<s n="post"/></l><r>@гъоркь<s n="post"/></r></p></e>
     <e><p><l>аскӏоб<s n="post"/></l><r>@аскӏоб<s n="post"/></r></p></e>
@@ -117,7 +125,6 @@
     <e><p><l>данде<s n="post"/></l><r>против<s n="pr"/></r></p></e>
     <e><p><l>рекъон<s n="post"/></l><r>согласно<s n="post"/></r></p></e>
     <e><p><l>гурони<s n="post"/></l><r>кроме<s n="post"/></r></p></e>
-    <e><p><l>гун<s n="post"/></l><r>с<s n="pr"/></r></p></e>
     <e><p><l>гурони<s n="post"/></l><r>только<s n="post"/></r></p></e>
     <e><p><l>хӏакъалъулъ<s n="post"/></l><r>о<s n="post"/></r></p></e>
     <e><p><l>хӏакъалъулъ<s n="post"/></l><r>про<s n="post"/></r></p></e>
@@ -125,8 +132,6 @@
     <e><p><l>сверухъ<s n="post"/></l><r>кругом<s n="post"/></r></p></e>
     <e><p><l>сверухъ<s n="post"/></l><r>вокруг<s n="post"/></r></p></e>
     <e><p><l>хӏакъалъулъ<s n="post"/></l><r>вокруг<s n="post"/></r></p></e>
-    <e><p><l>хурхун<s n="post"/></l><r>в<b/>связи<b/>с<s n="pr"/></r></p></e>
-    <e><p><l>хурхун<s n="post"/></l><r>о<s n="pr"/></r></p></e>
     <e><p><l>лъун<s n="post"/></l><r>как<s n="adv"/><s n="rel"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
@@ -1075,6 +1080,7 @@
 
     <e><p><l>хӏинкъи<s n="n"/><s n="nt"/></l><r>страх<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>хӏинкъи<s n="n"/><s n="nt"/></l><r>боязнь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>речӏчӏи<s n="n"/><s n="nt"/></l><r>удар<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
