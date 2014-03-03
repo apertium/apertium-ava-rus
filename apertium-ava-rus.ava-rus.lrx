@@ -1,5 +1,8 @@
 <rules>
   <rule>
+    <match lemma="хӏакъалъулъ" tags="post"><select lemma="о"/></match>
+  </rule>
+  <rule>
     <match lemma="ДР" tags="np.top.*"><select lemma="Дагестан"/></match>
   </rule>
   <rule>

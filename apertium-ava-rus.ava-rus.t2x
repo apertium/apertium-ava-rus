@@ -507,6 +507,40 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: SN-GEN SN-ADVL POST">
+      <pattern>
+        <pattern-item n="SN-GEN"/>
+        <pattern-item n="SN-ADVL"/>
+        <pattern-item n="POST"/>
+      </pattern>
+      <action>
+        <call-macro n="post-govern2">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: SN-GEN SN-ABS POST">
       <pattern>
         <pattern-item n="SN-GEN"/>
@@ -565,6 +599,33 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: SN-GEN POST">
+      <pattern>
+        <pattern-item n="SN-GEN"/>
+        <pattern-item n="POST"/>
+      </pattern>
+      <action>
+        <call-macro n="post-govern2">
+          <with-param pos="2"/>
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SN-ABS POST">
       <pattern>

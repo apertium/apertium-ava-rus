@@ -64,6 +64,7 @@
     <sdef n="prp"/>
     <sdef n="ins"/>
     <sdef n="gen"/>
+    <sdef n="dat"/>
 
     <sdef n="sent"  c=""/>
     <sdef n="guio"  c=""/>
@@ -123,15 +124,15 @@
     <e><p><l>нахъа<s n="post"/></l><r>@нахъа<s n="post"/></r></p></e>
     <e><p><l>хадуб<s n="post"/></l><r>после<s n="pr"/></r></p></e>
     <e><p><l>данде<s n="post"/></l><r>против<s n="pr"/></r></p></e>
-    <e><p><l>рекъон<s n="post"/></l><r>согласно<s n="post"/></r></p></e>
+    <e><p><l>рекъон<s n="post"/></l><r>согласно<s n="pr"/><s n="dat"/></r></p></e>
     <e><p><l>гурони<s n="post"/></l><r>кроме<s n="pr"/><s n="gen"/></r></p></e>
     <e><p><l>гурони<s n="post"/></l><r>только<s n="post"/></r></p></e>
-    <e><p><l>хӏакъалъулъ<s n="post"/></l><r>о<s n="post"/></r></p></e>
+    <e><p><l>хӏакъалъулъ<s n="post"/></l><r>о<s n="pr"/><s n="prp"/></r></p></e>
     <e><p><l>хӏакъалъулъ<s n="post"/></l><r>про<s n="post"/></r></p></e>
     <e><p><l>цебе<s n="post"/></l><r>перед<s n="post"/></r></p></e>
     <e><p><l>сверухъ<s n="post"/></l><r>кругом<s n="post"/></r></p></e>
     <e><p><l>сверухъ<s n="post"/></l><r>вокруг<s n="post"/></r></p></e>
-    <e><p><l>хӏакъалъулъ<s n="post"/></l><r>вокруг<s n="post"/></r></p></e>
+    <!--<e><p><l>хӏакъалъулъ<s n="post"/></l><r>вокруг<s n="post"/></r></p></e>-->
     <e><p><l>лъун<s n="post"/></l><r>как<s n="adv"/><s n="rel"/></r></p></e>
 
     <!-- SECTION: Pronouns -->
@@ -1082,6 +1083,30 @@
     <e><p><l>хӏинкъи<s n="n"/><s n="nt"/></l><r>боязнь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>речӏчӏи<s n="n"/><s n="nt"/></l><r>удар<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
 
+    <e><p><l>басма<s n="n"/><s n="nt"/></l><r>печатание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>басма<s n="n"/><s n="nt"/></l><r>издание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>вазипа<s n="n"/><s n="nt"/></l><r>обязанность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>вазипа<s n="n"/><s n="nt"/></l><r>долг<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>ватӏан<s n="n"/><s n="nt"/></l><r>родина<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>ватӏан<s n="n"/><s n="nt"/></l><r>отечество<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>ватӏан<s n="n"/><s n="nt"/></l><r>отчизна<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>даража<s n="n"/><s n="nt"/></l><r>степень<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>даража<s n="n"/><s n="nt"/></l><r>уровень<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>даража<s n="n"/><s n="nt"/></l><r>ступень<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>идара<s n="n"/><s n="nt"/></l><r>управление<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>идара<s n="n"/><s n="nt"/></l><r>учреждение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>идара<s n="n"/><s n="nt"/></l><r>канцелярия<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>нигат<s n="n"/><s n="nt"/></l><r>цель<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>нигат<s n="n"/><s n="nt"/></l><r>замысел<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>нигат<s n="n"/><s n="nt"/></l><r>побуждение<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>радио<s n="n"/><s n="nt"/></l><r>радио<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>хъвай-хъвагӀай<s n="n"/><s n="nt"/></l><r>запись<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>хъвай-хъвагӀай<s n="n"/><s n="nt"/></l><r>письмо<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>хъвай-хъвагӀай<s n="n"/><s n="nt"/></l><r>письменность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>хъвай-хъвагӀай<s n="n"/><s n="nt"/></l><r>грамота<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>хъвай-хъвагӀай<s n="n"/><s n="nt"/></l><r>грамотность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+
+
     <!-- SECTION: Proper nouns -->
 
     <e><p><l>Дагъогни<s n="np"/><s n="top"/><s n="sg"/></l><r>Дагогни<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/></r></p></e>
@@ -1468,6 +1493,10 @@
     <e><p><l>гьанже<s n="adv"/></l><r>теперь<s n="adv"/></r></p></e>
     <e><p><l>гьанже<s n="adv"/></l><r>сейчас<s n="adv"/></r></p></e>
 
+    <e><p><l>гурин<s n="adv"/></l><r>смотри<s n="adv"/></r></p></e>
+    <e><p><l>гъоркь<s n="adv"/></l><r>внизу<s n="adv"/></r></p></e>
+
+
     <!-- SECTION: Verbs -->
     <e><p><l>букӏине<s n="vblex"/><s n="mfn"/><s n="pres"/><s n="neg"/></l><r>быть<s n="vbser"/><s n="neg"/><s n="pres"/></r></p></e>
     <e><p><l>букӏине<s n="vblex"/><s n="iv"/></l><r>быть<s n="vbser"/></r></p></e>
@@ -1719,6 +1748,13 @@
 
     <e><p><l>щвезе<s n="vblex"/><s n="tv"/></l><r>достигать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>щвезе<s n="vblex"/><s n="tv"/></l><r>достичь<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>белъизе<s n="vblex"/><s n="iv"/></l><r>смеяться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>белъизе<s n="vblex"/><s n="iv"/></l><r>засмеяться<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>белъизе<s n="vblex"/><s n="iv"/></l><r>рассмеяться<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>кӏалъазе<s n="vblex"/><s n="tv"/></l><r>говорить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>кӏалъазе<s n="vblex"/><s n="tv"/></l><r>поговорить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>кӏалъазе<s n="vblex"/><s n="tv"/></l><r>разговарвать<s n="vblex"/><s n="perf"/></r></p></e>
 
 
     <!-- SECTION: Abbreviations -->
