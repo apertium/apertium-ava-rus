@@ -6,6 +6,7 @@
     <sdef n="qnt"/>
     <sdef n="ger"/>
     <sdef n="quot"/>
+    <sdef n="dual"/>
     <sdef n="ord"/>
     <sdef n="neg"/>
     <sdef n="pres"/>
@@ -1757,7 +1758,10 @@
     <e><p><l>хутӏизе<s n="vblex"/><s n="iv"/></l><r>оставаться<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>хутӏизе<s n="vblex"/><s n="iv"/></l><r>остаться<s n="vblex"/><s n="perf"/></r></p></e>
 
-    <e><p><l>Чӏухӏизе<s n="vblex"/><s n="iv"/></l><r>гордиться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>чӏухӏизе<s n="vblex"/><s n="iv"/></l><r>гордиться<s n="vblex"/><s n="impf"/></r></p></e>
+
+    <e><p><l>кӏвезе<s n="vblex"/><s n="iv"/></l><r>мочь<s n="vblex"/><s n="dual"/></r></p></e>
+    <e><p><l>кӏвезе<s n="vblex"/><s n="iv"/></l><r>смочь<s n="vblex"/><s n="perf"/></r></p></e>
 
     <e><p><l>щвезе<s n="vblex"/><s n="tv"/></l><r>достигать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>щвезе<s n="vblex"/><s n="tv"/></l><r>достичь<s n="vblex"/><s n="perf"/></r></p></e>
