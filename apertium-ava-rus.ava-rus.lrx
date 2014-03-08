@@ -21,6 +21,9 @@
     <match lemma="жаниб" tags="post"><select lemma="на протяжении"/></match>
   </rule>
   <rule>
+    <match lemma="ахираб" tags="adj.*"><select lemma="последний"/></match>
+  </rule>
+  <rule>
     <match lemma="вакил" tags="n.*"><select lemma="представитель"/></match>
   </rule>
   <rule>

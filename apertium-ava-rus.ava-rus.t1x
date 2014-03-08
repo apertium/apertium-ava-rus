@@ -95,6 +95,7 @@
       <cat-item tags="num.ord.*"/>
       <cat-item tags="det.itg.*"/>
       <cat-item tags="det.dem.*"/>
+      <cat-item tags="det.ind.*"/>
     </def-cat>
     <def-cat n="num">
       <cat-item tags="num"/>
