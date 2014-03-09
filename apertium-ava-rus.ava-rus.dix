@@ -6,6 +6,7 @@
     <sdef n="qnt"/>
     <sdef n="ger"/>
     <sdef n="quot"/>
+    <sdef n="sint"/>
     <sdef n="dual"/>
     <sdef n="ord"/>
     <sdef n="neg"/>
@@ -492,8 +493,9 @@
     <e><p><l>журнал<s n="n"/><s n="nt"/></l><r>журнал<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>тарих<s n="n"/><s n="nt"/></l><r>история<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>адабият<s n="n"/><s n="nt"/></l><r>литература<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>халкъ<s n="n"/><s n="nt"/></l><r>народ<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
-    <e><p><l>халкъ<s n="n"/><s n="nt"/></l><r>публика<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
+    <e><p><l>гьури<s n="n"/><s n="nt"/></l><r>ветер<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>халкъ<s n="n"/><s n="nt"/></l><r>народ<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>халкъ<s n="n"/><s n="nt"/></l><r>публика<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>рес<s n="n"/><s n="nt"/></l><r>возможность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>конгресс<s n="n"/><s n="nt"/></l><r>конгресс<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>бакӏ<s n="n"/><s n="nt"/></l><r>место<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
@@ -1395,6 +1397,7 @@
     <e><p><l>хасаб<s n="adj"/></l><r>особый<s n="adj"/></r></p></e>
     <e><p><l>хъахӏаб<s n="adj"/></l><r>белый<s n="adj"/></r></p></e>
     <e><p><l>цӏуяб<s n="adj"/></l><r>@цӏуяб<s n="adj"/></r></p></e>
+    <e><p><l>гӏедераб<s n="adj"/></l><r>быстрый<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>кьучӏаб<s n="adj"/></l><r>достоверный<s n="adj"/></r></p></e>
     <e><p><l>кьучӏаб<s n="adj"/></l><r>основательный<s n="adj"/></r></p></e>
     <e><p><l>чӏахӏияб<s n="adj"/></l><r>крупный<s n="adj"/></r></p></e>
@@ -1786,6 +1789,11 @@
     <e><p><l>кӏалъазе<s n="vblex"/><s n="tv"/></l><r>поговорить<s n="vblex"/><s n="perf"/></r></p></e>
     <e><p><l>кӏалъазе<s n="vblex"/><s n="tv"/></l><r>разговарвать<s n="vblex"/><s n="perf"/></r></p></e>
 
+    <e><p><l>паркъезе<s n="vblex"/><s n="iv"/></l><r>сверкать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>паркъезе<s n="vblex"/><s n="iv"/></l><r>блестеть<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>паркъезе<s n="vblex"/><s n="iv"/></l><r>мерцать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>паркъезе<s n="vblex"/><s n="iv"/></l><r>блистать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>паркъезе<s n="vblex"/><s n="iv"/></l><r>мигать<s n="vblex"/><s n="impf"/></r></p></e>
 
     <!-- SECTION: Abbreviations -->
 
