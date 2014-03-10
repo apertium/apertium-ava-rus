@@ -6,6 +6,10 @@
     <match lemma="букӏине" tags="vblex.*.*.neg"/>
   </rule>
   <rule>
+    <or><match tags="adj"/><match tags="adj.*"/></or>
+    <match lemma="куц" tags="n.nt.sg.loc"><select lemma="взгляд"/></match>
+  </rule>
+  <rule>
     <match lemma="хӏакъалъулъ" tags="post"><select lemma="о"/></match>
   </rule>
   <rule>

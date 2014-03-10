@@ -703,11 +703,22 @@
             <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mfn"/></let>
           </when>
         </choose>
+        <let><var n="syn-func"/><lit-tag v="ABS"/></let>
+        <choose>
+          <when><test><or>
+                        <equal><clip pos="2" side="tl" part="a_func"/><lit-tag v="@SUBJ→"/></equal>
+                        <equal><clip pos="2" side="tl" part="a_func"/><lit-tag v="@←SUBJ"/></equal>
+                      </or>
+                </test>
+                <let><var n="syn-func"/><lit-tag v="SUBJ"/></let>
+          </when>
+        </choose>
         <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <out>
           <chunk name="j-n" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN.ABS"/></tag>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="syn-func"/></tag>
               <tag><clip pos="2" side="tl" part="a_gen"/></tag>
               <tag><clip pos="2" side="tl" part="a_anim"/></tag>
               <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
@@ -724,6 +735,171 @@
               <clip pos="2" side="tl" part="a_anim"/>
               <lit-tag v="5.6"/>
               <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: adj adj n-nom">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="n-nom"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="whole"/>
+             <concat><clip pos="1" side="tl" part="lem"/>
+                     <clip pos="1" side="tl" part="a_adj"/>
+                     <clip pos="3" side="tl" part="a_gen"/>
+                     <lit-tag v="an"/>
+                     <clip pos="3" side="tl" part="a_nbr"/>
+                     <lit-tag v="6"/>
+                     </concat></let>
+
+        <let><clip pos="2" side="tl" part="whole"/>
+             <concat><clip pos="2" side="tl" part="lem"/>
+                     <clip pos="2" side="tl" part="a_adj"/>
+                     <clip pos="3" side="tl" part="a_gen"/>
+                     <lit-tag v="an"/>
+                     <clip pos="3" side="tl" part="a_nbr"/>
+                     <lit-tag v="6"/>
+                     </concat></let>
+
+        <choose>
+          <when>
+            <test><equal><clip pos="3" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mfn"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test><equal><clip pos="3" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
+            <let><clip pos="2" side="tl" part="a_gen"/><lit-tag v="mfn"/></let>
+          </when>
+        </choose>
+        <let><var n="syn-func"/><lit-tag v="ABS"/></let>
+        <choose>
+          <when><test><or>
+                        <equal><clip pos="3" side="tl" part="a_func"/><lit-tag v="@SUBJ→"/></equal>
+                        <equal><clip pos="3" side="tl" part="a_func"/><lit-tag v="@←SUBJ"/></equal>
+                      </or>
+                </test>
+                <let><var n="syn-func"/><lit-tag v="SUBJ"/></let>
+          </when>
+        </choose>
+        <let><clip pos="3" side="tl" part="a_func"/><lit v=""/></let>
+        <out>
+          <chunk name="j-j-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="syn-func"/></tag>
+              <tag><clip pos="3" side="tl" part="a_gen"/></tag>
+              <tag><clip pos="3" side="tl" part="a_anim"/></tag>
+              <tag><clip pos="3" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="3" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="a_gen"/>
+              <clip pos="3" side="tl" part="a_anim"/>
+              <lit-tag v="5.6"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: adj coma adj n-nom">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="coma"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="n-nom"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="whole"/>
+             <concat><clip pos="1" side="tl" part="lem"/>
+                     <clip pos="1" side="tl" part="a_adj"/>
+                     <clip pos="4" side="tl" part="a_gen"/>
+                     <lit-tag v="an"/>
+                     <clip pos="4" side="tl" part="a_nbr"/>
+                     <lit-tag v="6"/>
+                     </concat></let>
+
+        <let><clip pos="3" side="tl" part="whole"/>
+             <concat><clip pos="3" side="tl" part="lem"/>
+                     <clip pos="3" side="tl" part="a_adj"/>
+                     <clip pos="4" side="tl" part="a_gen"/>
+                     <lit-tag v="an"/>
+                     <clip pos="4" side="tl" part="a_nbr"/>
+                     <lit-tag v="6"/>
+                     </concat></let>
+
+        <choose>
+          <when>
+            <test><equal><clip pos="4" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mfn"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test><equal><clip pos="4" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></test>
+            <let><clip pos="3" side="tl" part="a_gen"/><lit-tag v="mfn"/></let>
+          </when>
+        </choose>
+        <let><var n="syn-func"/><lit-tag v="ABS"/></let>
+        <choose>
+          <when><test><or>
+                        <equal><clip pos="4" side="tl" part="a_func"/><lit-tag v="@SUBJ→"/></equal>
+                        <equal><clip pos="4" side="tl" part="a_func"/><lit-tag v="@←SUBJ"/></equal>
+                      </or>
+                </test>
+                <let><var n="syn-func"/><lit-tag v="SUBJ"/></let>
+          </when>
+        </choose>
+        <let><clip pos="4" side="tl" part="a_func"/><lit v=""/></let>
+        <out>
+          <chunk name="j-,-j-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="syn-func"/></tag>
+              <tag><clip pos="4" side="tl" part="a_gen"/></tag>
+              <tag><clip pos="4" side="tl" part="a_anim"/></tag>
+              <tag><clip pos="4" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="4" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="3"/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="a_nom"/>
+              <clip pos="4" side="tl" part="a_gen"/>
+              <clip pos="4" side="tl" part="a_anim"/>
+              <lit-tag v="5.6"/>
+              <clip pos="4" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
