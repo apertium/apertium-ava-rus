@@ -15,6 +15,7 @@
     <sdef n="tv"/>
     <sdef n="abl"/>
     <sdef n="all"/>
+    <sdef n="loc"/>
     <sdef n="sg"/>
     <sdef n="pr"/>
     <sdef n="vbser"/>
@@ -115,6 +116,7 @@
 
     <!-- SECTION: Postpositions -->
 
+    <e><p><l>къ<s n="post"/><s n="loc"/></l><r>в<s n="pr"/><s n="prp"/></r></p></e>
     <e><p><l>гӏоло<s n="post"/></l><r>ради<s n="post"/></r></p></e>
     <e><p><l>гӏоло<s n="post"/></l><r>за<s n="post"/></r></p></e>
     <e><p><l>жаниб<s n="post"/></l><r>внутри<s n="post"/></r></p></e>
@@ -259,8 +261,8 @@
     <e><p><l>ясгӏадан<s n="n"/><s n="f"/></l><r>девушка<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>мацӏ<s n="n"/><s n="nt"/></l><r>язык<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>гъветӏ<s n="n"/><s n="nt"/></l><r>дерево<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
-    <e><p><l>дунял<s n="n"/><s n="nt"/></l><r>мир<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
-    <e><p><l>дунял<s n="n"/><s n="nt"/></l><r>свет<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>дуниял<s n="n"/><s n="nt"/></l><r>мир<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>дуниял<s n="n"/><s n="nt"/></l><r>свет<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>ракь<s n="n"/><s n="nt"/></l><r>земля<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>батӏалъи<s n="n"/><s n="nt"/></l><r>разница<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>зоб<s n="n"/><s n="nt"/></l><r>небо<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
@@ -1154,6 +1156,11 @@
     <e><p><l>террор<s n="n"/><s n="nt"/></l><r>террор<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>хъвадарухъан<s n="n"/><s n="m"/></l><r>писатель<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
 
+    <e><p><l>лидер<s n="n"/><s n="m"/></l><r>лидер<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+
+    <e><p><l>мутӏигӏлъи<s n="n"/><s n="nt"/></l><r>покорность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>мутӏигӏлъи<s n="n"/><s n="nt"/></l><r>послушание<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>мутӏигӏлъи<s n="n"/><s n="nt"/></l><r>преданность<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
 
     <!-- SECTION: Proper nouns -->
 
@@ -1311,7 +1318,7 @@
     <e><p><l>Якутия<s n="np"/><s n="top"/></l><r>Якутия<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
     <e><p><l>Иосиф<s n="np"/><s n="ant"/><s n="m"/></l><r>Иосиф<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Сталин<s n="np"/><s n="cog"/><s n="m"/></l><r>Сталин<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сталин<s n="np"/><s n="cog"/><s n="m"/></l><r>Сталин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
  
     <!-- SECTION: Adjectives -->
@@ -1461,6 +1468,10 @@
     <e><p><l>официалияб<s n="adj"/></l><r>официалный<s n="adj"/></r></p></e>
     <e><p><l>ракълилаб<s n="adj"/></l><r>мирный<s n="adj"/></r></p></e>
 
+    <e><p><l>талихӏаб<s n="adj"/></l><r>счастливый<s n="adj"/></r></p></e>
+    <e><p><l>талихӏаб<s n="adj"/></l><r>удачный<s n="adj"/></r></p></e>
+
+    <e><p><l>гениалияб<s n="adj"/></l><r>гениальный<s n="adj"/></r></p></e>
     
     <!-- SECTION: Adverbs -->
     <e><p><l>киб<s n="adv"/><s n="itg"/></l><r>где<s n="adv"/><s n="itg"/></r></p></e>

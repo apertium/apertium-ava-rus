@@ -27,6 +27,7 @@
     </def-cat>
     <def-cat n="SN-ABS">
       <cat-item tags="SN.ABS.*"/>
+      <cat-item tags="SN.OBL.*"/>
     </def-cat>
     <def-cat n="COP">
       <cat-item tags="COP"/>

@@ -33,7 +33,13 @@
     <match lemma="рухӏ" tags="n.*"><select lemma="душа"/></match>
   </rule>
   <rule>
+    <match lemma="дуниял" tags="n.*"><select lemma="мир"/></match>
+  </rule>
+  <rule>
     <match lemma="вас" tags="n.*"><select lemma="парень"/></match>
+  </rule>
+  <rule>
+    <match lemma="талихӏ" tags="n.*"><select lemma="счастье"/></match>
   </rule>
   <rule>
     <match lemma="росу" tags="n.*"><select lemma="село"/></match>

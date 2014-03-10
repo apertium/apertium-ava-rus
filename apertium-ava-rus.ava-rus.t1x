@@ -30,6 +30,7 @@
     </def-cat>
     <def-cat n="post">
       <cat-item tags="post"/>
+      <cat-item tags="post.*"/>
       <cat-item lemma="гьоркьоб" tags="adv.*"/>
       <cat-item lemma="гӏадин" tags="cnjadv"/>
     </def-cat>
@@ -136,6 +137,10 @@
       <cat-item tags="n.*.*.*.gen"/>
       <cat-item tags="num.*.*.gen"/>
       <cat-item tags="np.al.gen"/>
+    </def-cat>
+    <def-cat n="n-obl">
+      <cat-item tags="n.*.*.obl"/>
+      <cat-item tags="n.*.*.obl.*"/>
     </def-cat>
     <def-cat n="n-erg">
       <cat-item tags="n.*.*.erg"/>
@@ -297,6 +302,7 @@
     <def-attr n="a_case">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
+      <attr-item tags="obl"/>
       <attr-item tags="tra"/>
       <attr-item tags="dat"/>
       <attr-item tags="gen"/>
@@ -1045,6 +1051,37 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: n-obl">
+      <pattern>
+        <pattern-item n="n-obl"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.OBL"/></tag>
+              <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+              <tag><clip pos="1" side="tl" part="a_anim"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+              <tag><lit-tag v="CD"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="a_gen"/>
+              <clip pos="1" side="tl" part="a_anim"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
+              <lit-tag v="6"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="REGLA: n-nom">
       <pattern>
