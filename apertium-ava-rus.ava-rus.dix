@@ -294,9 +294,15 @@
     <e><p><l>гьава<b/>-бакъ<s n="n"/><s n="nt"/></l><r>погода<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
     <e><p><l>бахӏарчи<s n="n"/><s n="m"/></l><r>смельчак<s n="n"/><s n="m"/><s n="AD"/></r></p></e>
     <e><p><l>хъизан<s n="n"/><s n="nt"/></l><r>семья<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
+
+    <e><p><l>магӏарулав<s n="n"/><s n="m"/></l><r>аварец<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>магӏарулав<s n="n"/><s n="f"/></l><r>аварка<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e><p><l>магӏарулав<s n="n"/><s n="mf"/><s n="pl"/></l><r>аварец<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/></r></p></e>
+
     <e><p><l>автор<s n="n"/><s n="m"/></l><r>автор<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>автор<s n="n"/><s n="f"/></l><r>автор<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>автор<s n="n"/><s n="mf"/><s n="pl"/></l><r>автор<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/></r></p></e>
+
     <e><p><l>агент<s n="n"/><s n="m"/></l><r>агент<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>агент<s n="n"/><s n="f"/></l><r>агент<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
     <e><p><l>академик<s n="n"/><s n="m"/></l><r>академик<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
@@ -1779,6 +1785,29 @@
 
     <e><p><l>кӏвезе<s n="vblex"/><s n="iv"/></l><r>мочь<s n="vblex"/><s n="dual"/></r></p></e>
     <e><p><l>кӏвезе<s n="vblex"/><s n="iv"/></l><r>смочь<s n="vblex"/><s n="perf"/></r></p></e>
+
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>подниматься<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>подняться<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>лезть<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>взбираться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>залезать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>расти<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>расти<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>становиться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>подниматься<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>переправляться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>переправиться<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>получать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>получить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>доходить<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>доходить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>дойти<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>заразиться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>достигаться<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>мазать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>намазать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>бахине<s n="vblex"/><s n="iv"/></l><r>намазывать<s n="vblex"/><s n="impf"/></r></p></e>
+
 
     <e><p><l>базе<s n="vblex"/><s n="tv"/></l><r>висеть<s n="vblex"/><s n="impf"/></r></p></e>
 
