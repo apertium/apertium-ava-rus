@@ -110,6 +110,8 @@
     <e><p><l>гӏадин<s n="cnjadv"/></l><r>как<s n="cnjadv"/></r></p></e>
     <e><p><l>гӏадин<s n="cnjadv"/></l><r>как<b/>будто<s n="cnjadv"/></r></p></e>
 
+    <e><p><l>щайгурелъул<s n="cnjadv"/></l><r>потому<b/>что<s n="cnjadv"/></r></p></e>
+    <e><p><l>щайгурелъул<s n="cnjadv"/></l><r>за<b/>то<b/>что<s n="cnjadv"/></r></p></e>
 
     <!-- SECTION: Postpositions -->
 
@@ -294,6 +296,11 @@
     <e><p><l>гьава<b/>-бакъ<s n="n"/><s n="nt"/></l><r>погода<s n="n"/><s n="f"/><s n="AD"/></r></p></e>
     <e><p><l>бахӏарчи<s n="n"/><s n="m"/></l><r>смельчак<s n="n"/><s n="m"/><s n="AD"/></r></p></e>
     <e><p><l>хъизан<s n="n"/><s n="nt"/></l><r>семья<s n="n"/><s n="nt"/><s n="AD"/></r></p></e>
+
+    <e><p><l>аварав<s n="n"/><s n="m"/></l><r>аварец<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>аварав<s n="n"/><s n="f"/></l><r>аварка<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
+    <e><p><l>аварав<s n="n"/><s n="mf"/><s n="pl"/></l><r>аварец<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/></r></p></e>
+
 
     <e><p><l>магӏарулав<s n="n"/><s n="m"/></l><r>аварец<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
     <e><p><l>магӏарулав<s n="n"/><s n="f"/></l><r>аварка<s n="n"/><s n="f"/><s n="aa"/></r></p></e>
@@ -1134,6 +1141,20 @@
 
     <e><p><l>эбел-эмен<s n="n"/><s n="m"/><s n="sg"/></l><r>родитель<s n="n"/><s n="m"/><s n="aa"/><s n="pl"/></r></p></e>
 
+    <e><p><l>гӏасру<s n="n"/><s n="nt"/></l><r>век<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>гӏорхъи<s n="n"/><s n="nt"/></l><r>граница<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>гӏорхъи<s n="n"/><s n="nt"/></l><r>рубеж<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>гӏорхъи<s n="n"/><s n="nt"/></l><r>предел<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>коллективизация<s n="n"/><s n="nt"/></l><r>коллективизация<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>куц<s n="n"/><s n="nt"/></l><r>форма<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
+    <e><p><l>куц<s n="n"/><s n="nt"/></l><r>образец<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>талихӏ<s n="n"/><s n="nt"/></l><r>счастье<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>талихӏ<s n="n"/><s n="nt"/></l><r>удача<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
+    <e><p><l>тарихчи<s n="n"/><s n="m"/></l><r>историк<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+    <e><p><l>террор<s n="n"/><s n="nt"/></l><r>террор<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>хъвадарухъан<s n="n"/><s n="m"/></l><r>писатель<s n="n"/><s n="m"/><s n="aa"/></r></p></e>
+
+
     <!-- SECTION: Proper nouns -->
 
     <e><p><l>Дагъогни<s n="np"/><s n="top"/><s n="sg"/></l><r>Дагогни<s n="np"/><s n="top"/><s n="mfn"/><s n="pl"/></r></p></e>
@@ -1289,6 +1310,9 @@
     <e><p><l>Тува<s n="np"/><s n="top"/></l><r>Тува<s n="np"/><s n="top"/><s n="f"/></r></p></e>
     <e><p><l>Якутия<s n="np"/><s n="top"/></l><r>Якутия<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
+    <e><p><l>Иосиф<s n="np"/><s n="ant"/><s n="m"/></l><r>Иосиф<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сталин<s n="np"/><s n="cog"/><s n="m"/></l><r>Сталин<s n="np"/><s n="cog"/><s n="m"/><s n="sg"/></r></p></e>
+
  
     <!-- SECTION: Adjectives -->
 
@@ -1434,6 +1458,9 @@
     <e><p><l>гӏахьалаб<s n="adj"/></l><r>общественный<s n="adj"/></r></p></e>
     <e><p><l>экономикияб<s n="adj"/></l><r>экономический<s n="adj"/></r></p></e>
 
+    <e><p><l>официалияб<s n="adj"/></l><r>официалный<s n="adj"/></r></p></e>
+    <e><p><l>ракълилаб<s n="adj"/></l><r>мирный<s n="adj"/></r></p></e>
+
     
     <!-- SECTION: Adverbs -->
     <e><p><l>киб<s n="adv"/><s n="itg"/></l><r>где<s n="adv"/><s n="itg"/></r></p></e>
@@ -1532,6 +1559,12 @@
 
     <e><p><l>гурин<s n="adv"/></l><r>смотри<s n="adv"/></r></p></e>
     <e><p><l>гъоркь<s n="adv"/></l><r>внизу<s n="adv"/></r></p></e>
+
+    <e><p><l>бищунго<s n="adv"/></l><r>самый<s n="adv"/></r></p></e>
+    <e><p><l>бищунго<s n="adv"/></l><r>най<s n="adv"/></r></p></e>
+    <e><p><l>гьениб<s n="adv"/></l><r>там<s n="adv"/></r></p></e>
+    <e><p><l>гьениб<s n="adv"/></l><r>тут<s n="adv"/></r></p></e>
+
 
 
     <!-- SECTION: Verbs -->
@@ -1826,6 +1859,14 @@
     <e><p><l>паркъезе<s n="vblex"/><s n="iv"/></l><r>мерцать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>паркъезе<s n="vblex"/><s n="iv"/></l><r>блистать<s n="vblex"/><s n="impf"/></r></p></e>
     <e><p><l>паркъезе<s n="vblex"/><s n="iv"/></l><r>мигать<s n="vblex"/><s n="impf"/></r></p></e>
+
+    <e><p><l>бахъине<s n="vblex"/><s n="iv"/></l><r>вставать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>бахъине<s n="vblex"/><s n="iv"/></l><r>встать<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>камизе<s n="vblex"/><s n="iv"/></l><r>не<b/>хватать<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>камизе<s n="vblex"/><s n="iv"/></l><r>не<b/>хватить<s n="vblex"/><s n="perf"/></r></p></e>
+    <e><p><l>камизе<s n="vblex"/><s n="iv"/></l><r>терять<s n="vblex"/><s n="impf"/></r></p></e>
+    <e><p><l>камизе<s n="vblex"/><s n="iv"/></l><r>потерять<s n="vblex"/><s n="perf"/></r></p></e>
+
 
     <!-- SECTION: Abbreviations -->
 
