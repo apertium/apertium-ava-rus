@@ -2326,6 +2326,7 @@
         <pattern-item n="bugo-hečo"/>
       </pattern>
       <action>
+        <let><var n="chunk-lema"/><lit v="v"/></let>
         <choose>
           <when><test><or><equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="m"/></equal>
                           <equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="nt"/></equal>
@@ -2341,13 +2342,14 @@
         <choose>
           <when><test><equal><clip pos="2" side="sl" part="a_neg"/><lit-tag v="neg"/></equal></test>
                 <let><var n="neg"/><concat><lit v="^не"/><lit-tag v="adv"/><lit v="$ "/></concat></let>
+                <let><var n="chunk-lema"/><lit v="adv-v"/></let>
           </when>
           <otherwise>
             <let><var n="neg"/><lit v=""/></let>
           </otherwise>
         </choose>
         <out>
-          <chunk name="v" case="caseFirstWord">
+          <chunk namefrom="chunk-lema" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV.PAST"/></tag>
               <tag><clip pos="1" side="sl" part="a_trans"/></tag>

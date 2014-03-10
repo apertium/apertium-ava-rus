@@ -56,6 +56,10 @@
       <attr-item tags="an"/>
       <attr-item tags="AD"/>
     </def-attr>
+    <def-attr n="a_tens">
+      <attr-item tags="PAST"/>
+      <attr-item tags="PRES"/>
+    </def-attr>
     <def-attr n="a_trans">
       <attr-item tags="tv"/>
       <attr-item tags="iv"/>
@@ -191,6 +195,17 @@
               <let><clip pos="2" part="a_pers"/><clip pos="1" part="a_pers"/></let>
         </when>
       </choose>
+      <choose>
+        <when><test> 
+                <and>
+                  <equal><clip pos="2" part="a_nbr"/><lit-tag v="pl"/></equal>
+                  <equal><clip pos="2" part="a_tens"/><lit-tag v="PAST"/></equal>
+                </and>
+              </test>
+              <let><clip pos="2" part="a_gen"/><lit-tag v="mfn"/></let>
+        </when>
+      </choose>
+
     </def-macro>
   </section-def-macros>
   <section-rules>

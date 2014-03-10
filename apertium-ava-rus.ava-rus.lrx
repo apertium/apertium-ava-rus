@@ -1,5 +1,11 @@
 <rules>
   <rule>
+    <match lemma="жеги" tags="adv"><select lemma="ещё"/></match>
+    <match/>
+    <match tags="vblex.*"/>
+    <match lemma="букӏине" tags="vblex.*.*.neg"/>
+  </rule>
+  <rule>
     <match lemma="хӏакъалъулъ" tags="post"><select lemma="о"/></match>
   </rule>
   <rule>
