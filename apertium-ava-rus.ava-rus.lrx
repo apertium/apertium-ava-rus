@@ -91,6 +91,10 @@
   <rule>
     <match lemma="щай" tags="adv.itg"><select lemma="почему"/></match>
   </rule>
+  <rule weight="2.0">
+    <match lemma="хӏукумат" tags="n.*"><select lemma="правительство"/></match>
+    <match lemma="председатель" tags="n.*" />
+  </rule>
   <rule>
     <match lemma="хӏукумат" tags="n.*"><select lemma="государство"/></match>
   </rule>

@@ -202,10 +202,17 @@
       <cat-item tags="vblex.*.*.inf"/>
       <cat-item tags="vblex.*.*.inf.*"/>
     </def-cat>
+    <def-cat n="gna1">
+      <cat-item tags="vblex.*.gna1"/>
+      <cat-item tags="vblex.*.*.gna1"/>
+    </def-cat>
+
+
     <def-cat n="gna2">
       <cat-item tags="vblex.*.gna2"/>
       <cat-item tags="vblex.*.*.gna2"/>
     </def-cat>
+
     <def-cat n="gi">
       <cat-item lemma="ги" tags="cnjcoo"/>
     </def-cat>
@@ -1494,6 +1501,38 @@
     </rule>
 
 
+    <rule comment="REGLA: cog-nom ant-erg">
+      <pattern>
+        <pattern-item n="cog-nom"/>
+        <pattern-item n="ant-erg"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="nom"/></let>
+        <let><clip pos="2" side="tl" part="a_attr"/><lit v=""/></let>
+        <let><clip pos="2" side="tl" part="whole"/>
+             <concat><clip pos="2" side="tl" part="whole"/><lit-tag v="nom"/></concat></let>
+        <out>
+          <chunk name="ant-cog" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.SUBJ"/></tag>
+              <tag><clip pos="1" side="tl" part="a_gen"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
     <rule comment="REGLA: ant-attr cog-erg">
       <pattern>
         <pattern-item n="ant-attr"/>
@@ -2610,6 +2649,30 @@
               <clip pos="1" side="tl" part="a_aspec"/>
               <lit-tag v="past"/>
               <lit-tag v="4.5"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: gna1">
+      <pattern>
+        <pattern-item n="gna1"/>
+      </pattern>
+      <action>
+        <let><var n="chunk-lema"/><lit v="pprs-adv"/></let>
+        <out>
+          <chunk namefrom="chunk-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ADVL.PPRS"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_aspec"/>
+              <lit-tag v="pprs.adv"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
