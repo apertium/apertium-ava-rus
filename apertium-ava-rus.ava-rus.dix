@@ -4681,11 +4681,15 @@
     <!-- SECTION: Abbreviations -->
 
     <e><p><l>ва<b/>гь.<b/>ц.<s n="abbr"/></l><r>и<b/>т.<b/>п<s n="abbr"/></r></p></e>
+    <e><p><l>ва<b/>гь.<b/>г.<b/>ц.<s n="abbr"/></l><r>и<b/>т.<b/>п<s n="abbr"/></r></p></e>
     <e><p><l>кг<s n="abbr"/></l><r>кг<s n="abbr"/></r></p></e>
     <e><p><l>км<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
+    <e><p><l>кв<b/>км<s n="abbr"/></l><r>кв<b/>км<s n="abbr"/></r></p></e>
     <e><p><l>см<s n="abbr"/></l><r>см<s n="abbr"/></r></p></e>
     <e><p><l>млн<s n="abbr"/></l><r>млн<s n="abbr"/></r></p></e>
     <e><p><l>млрд<s n="abbr"/></l><r>млрд<s n="abbr"/></r></p></e>
+    <e><p><l>норв.<s n="abbr"/></l><r>норв.<s n="abbr"/></r></p></e>
+    <e><p><l>инг.<s n="abbr"/></l><r>инг.<s n="abbr"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 
