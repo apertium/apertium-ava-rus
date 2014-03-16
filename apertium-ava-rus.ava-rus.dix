@@ -720,6 +720,7 @@
     <e><p><l>байрам<s n="n"/><s n="nt"/></l><r>праздник<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>балет<s n="n"/><s n="nt"/></l><r>балет<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>банк<s n="n"/><s n="nt"/></l><r>банк<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
+    <e><p><l>сбербанк<s n="n"/><s n="nt"/></l><r>сбербанк<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>банкет<s n="n"/><s n="nt"/></l><r>банкет<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>бланк<s n="n"/><s n="nt"/></l><r>бланк<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>вагон<s n="n"/><s n="nt"/></l><r>вагон<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -1441,7 +1442,6 @@
     <e><p><l>гъира<s n="n"/><s n="nt"/></l><r>сильный<s n="adj"/><s n="nt"/><s n="an"/></r></p></e>
     <e><p><l>гъира<s n="n"/><s n="nt"/></l><r>страсть<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>гъира<s n="n"/><s n="nt"/></l><r>стремление<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
-    <e><p><l>гъирачилъи<s n="n"/><s n="nt"/></l><r>редко<s n="adv"/></r></p></e>
     <e><p><l>гъуй<s n="n"/><s n="nt"/></l><r>колодец<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>гъулбас<s n="n"/><s n="nt"/></l><r>подпись<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>гьава¹<s n="n"/><s n="nt"/></l><r>воздух<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
@@ -1619,7 +1619,6 @@
     <e><p><l>квербакъи<s n="n"/><s n="nt"/></l><r>помощь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
     <e><p><l>квербакъи<s n="n"/><s n="nt"/></l><r>содействие<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>кверкъел<s n="n"/><s n="nt"/></l><r>ручка<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
-    <e><p><l>кверщелчилъи<s n="n"/><s n="nt"/></l><r>редко<s n="adv"/></r></p></e>
     <e><p><l>квешлъи<s n="n"/><s n="nt"/></l><r>вред<s n="n"/><s n="m"/><s n="nn"/></r></p></e>
     <e><p><l>квешлъи<s n="n"/><s n="nt"/></l><r>зло<s n="n"/><s n="nt"/><s n="nn"/></r></p></e>
     <e><p><l>керен<s n="n"/><s n="nt"/></l><r>грудь<s n="n"/><s n="f"/><s n="nn"/></r></p></e>
@@ -2676,6 +2675,132 @@
     <e><p><l>Якутия<s n="np"/><s n="top"/></l><r>Якутия<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
     <e><p><l>Иосиф<s n="np"/><s n="ant"/><s n="m"/></l><r>Иосиф<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+
+    <e><p><l>Абакар<s n="np"/><s n="ant"/><s n="m"/></l><r>Абакар<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Абу<s n="np"/><s n="ant"/><s n="m"/></l><r>Абу<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Абубакар<s n="np"/><s n="ant"/><s n="m"/></l><r>Абубакар<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Абулмуслим<s n="np"/><s n="ant"/><s n="m"/></l><r>Абулмуслим<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Адам<s n="np"/><s n="ant"/><s n="m"/></l><r>Адам<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Азамат<s n="np"/><s n="ant"/><s n="m"/></l><r>Азамат<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Айтемир<s n="np"/><s n="ant"/><s n="m"/></l><r>Айтемир<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Алексей<s n="np"/><s n="ant"/><s n="m"/></l><r>Алексей<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Альберт<s n="np"/><s n="ant"/><s n="m"/></l><r>Альберт<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Анатолий<s n="np"/><s n="ant"/><s n="m"/></l><r>Анатолий<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Анварбег<s n="np"/><s n="ant"/><s n="m"/></l><r>Анварбег<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Андрей<s n="np"/><s n="ant"/><s n="m"/></l><r>Андрей<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Арсен<s n="np"/><s n="ant"/><s n="m"/></l><r>Арсен<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Артур<s n="np"/><s n="ant"/><s n="m"/></l><r>Артур<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Аслан<s n="np"/><s n="ant"/><s n="m"/></l><r>Аслан<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Аслудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Аслудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Аюб<s n="np"/><s n="ant"/><s n="m"/></l><r>Аюб<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Багьавудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Багьавудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Бадрудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Бадрудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Бахтияр<s n="np"/><s n="ant"/><s n="m"/></l><r>Бахтияр<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Башир<s n="np"/><s n="ant"/><s n="m"/></l><r>Башир<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Бозигит<s n="np"/><s n="ant"/><s n="m"/></l><r>Бозигит<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Борис<s n="np"/><s n="ant"/><s n="m"/></l><r>Борис<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Валерий<s n="np"/><s n="ant"/><s n="m"/></l><r>Валерий<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Вячеслав<s n="np"/><s n="ant"/><s n="m"/></l><r>Вячеслав<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Григорий<s n="np"/><s n="ant"/><s n="m"/></l><r>Григорий<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Гьарун<s n="np"/><s n="ant"/><s n="m"/></l><r>Гьарун<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Давид<s n="np"/><s n="ant"/><s n="m"/></l><r>Давид<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Давуд<s n="np"/><s n="ant"/><s n="m"/></l><r>Давуд<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Даку<s n="np"/><s n="ant"/><s n="m"/></l><r>Даку<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Даниял<s n="np"/><s n="ant"/><s n="m"/></l><r>Даниял<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Дмитрий<s n="np"/><s n="ant"/><s n="m"/></l><r>Дмитрий<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Евгений<s n="np"/><s n="ant"/><s n="m"/></l><r>Евгений<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Жалалудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Жалалудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Жамал<s n="np"/><s n="ant"/><s n="m"/></l><r>Жамал<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Жамалудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Жамалудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Жапар<s n="np"/><s n="ant"/><s n="m"/></l><r>Жапар<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Зайнудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Зайнудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Закар<s n="np"/><s n="ant"/><s n="m"/></l><r>Закар<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Закари<s n="np"/><s n="ant"/><s n="m"/></l><r>Закари<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Закаря<s n="np"/><s n="ant"/><s n="m"/></l><r>Закаря<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Закир<s n="np"/><s n="ant"/><s n="m"/></l><r>Закир<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Заур<s n="np"/><s n="ant"/><s n="m"/></l><r>Заур<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Зикрула<s n="np"/><s n="ant"/><s n="m"/></l><r>Зикрула<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Зиявудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Зиявудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Игорь<s n="np"/><s n="ant"/><s n="m"/></l><r>Игорь<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Икрамудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Икрамудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Ильяс<s n="np"/><s n="ant"/><s n="m"/></l><r>Ильяс<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Иляс<s n="np"/><s n="ant"/><s n="m"/></l><r>Иляс<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Инхоса<s n="np"/><s n="ant"/><s n="m"/></l><r>Инхоса<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Камалудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Камалудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Камил<s n="np"/><s n="ant"/><s n="m"/></l><r>Камил<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Карим<s n="np"/><s n="ant"/><s n="m"/></l><r>Карим<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Лаврентий<s n="np"/><s n="ant"/><s n="m"/></l><r>Лаврентий<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Лев<s n="np"/><s n="ant"/><s n="m"/></l><r>Лев<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Майкл<s n="np"/><s n="ant"/><s n="m"/></l><r>Майкл<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Максим<s n="np"/><s n="ant"/><s n="m"/></l><r>Максим<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Малик<s n="np"/><s n="ant"/><s n="m"/></l><r>Малик<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Марат<s n="np"/><s n="ant"/><s n="m"/></l><r>Марат<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Михаил<s n="np"/><s n="ant"/><s n="m"/></l><r>Михаил<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Муртуз<s n="np"/><s n="ant"/><s n="m"/></l><r>Муртуз<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Муршид<s n="np"/><s n="ant"/><s n="m"/></l><r>Муршид<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Муса<s n="np"/><s n="ant"/><s n="m"/></l><r>Муса<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Муслим<s n="np"/><s n="ant"/><s n="m"/></l><r>Муслим<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Наби<s n="np"/><s n="ant"/><s n="m"/></l><r>Наби<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Надир<s n="np"/><s n="ant"/><s n="m"/></l><r>Надир<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Нажмудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Нажмудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Назир<s n="np"/><s n="ant"/><s n="m"/></l><r>Назир<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Нариман<s n="np"/><s n="ant"/><s n="m"/></l><r>Нариман<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Насрудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Насрудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Низами<s n="np"/><s n="ant"/><s n="m"/></l><r>Низами<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Николай<s n="np"/><s n="ant"/><s n="m"/></l><r>Николай<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Нурудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Нурудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Олег<s n="np"/><s n="ant"/><s n="m"/></l><r>Олег<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Омари<s n="np"/><s n="ant"/><s n="m"/></l><r>Омари<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Павел<s n="np"/><s n="ant"/><s n="m"/></l><r>Павел<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Пазлудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Пазлудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Пайзудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Пайзудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Петр<s n="np"/><s n="ant"/><s n="m"/></l><r>Петр<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Ражаб<s n="np"/><s n="ant"/><s n="m"/></l><r>Ражаб<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Раисат<s n="np"/><s n="ant"/><s n="m"/></l><r>Раисат<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Рамазан<s n="np"/><s n="ant"/><s n="m"/></l><r>Рамазан<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Рамзан<s n="np"/><s n="ant"/><s n="m"/></l><r>Рамзан<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Расул<s n="np"/><s n="ant"/><s n="m"/></l><r>Расул<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Рашид<s n="np"/><s n="ant"/><s n="m"/></l><r>Рашид<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Ризван<s n="np"/><s n="ant"/><s n="m"/></l><r>Ризван<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Роберт<s n="np"/><s n="ant"/><s n="m"/></l><r>Роберт<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Руслан<s n="np"/><s n="ant"/><s n="m"/></l><r>Руслан<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Рустам<s n="np"/><s n="ant"/><s n="m"/></l><r>Рустам<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сабир<s n="np"/><s n="ant"/><s n="m"/></l><r>Сабир<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сайгид<s n="np"/><s n="ant"/><s n="m"/></l><r>Сайгид<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сайгидпаша<s n="np"/><s n="ant"/><s n="m"/></l><r>Сайгидпаша<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сайпудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Сайпудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Салман<s n="np"/><s n="ant"/><s n="m"/></l><r>Салман<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сергей<s n="np"/><s n="ant"/><s n="m"/></l><r>Сергей<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сиражудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Сиражудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сулайман<s n="np"/><s n="ant"/><s n="m"/></l><r>Сулайман<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сулейман<s n="np"/><s n="ant"/><s n="m"/></l><r>Сулейман<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Султан<s n="np"/><s n="ant"/><s n="m"/></l><r>Султан<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Султанмурад<s n="np"/><s n="ant"/><s n="m"/></l><r>Султанмурад<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Сурхай<s n="np"/><s n="ant"/><s n="m"/></l><r>Сурхай<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Тажудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Тажудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Темир<s n="np"/><s n="ant"/><s n="m"/></l><r>Темир<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Темирхан<s n="np"/><s n="ant"/><s n="m"/></l><r>Темирхан<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Тимур<s n="np"/><s n="ant"/><s n="m"/></l><r>Тимур<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Умалат<s n="np"/><s n="ant"/><s n="m"/></l><r>Умалат<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Фейзудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Фейзудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Фикрет<s n="np"/><s n="ant"/><s n="m"/></l><r>Фикрет<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Хайрудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Хайрудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Хидир<s n="np"/><s n="ant"/><s n="m"/></l><r>Хидир<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Хинштейн<s n="np"/><s n="ant"/><s n="m"/></l><r>Хинштейн<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Шагьабудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Шагьабудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Шагьрудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Шагьрудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Шамсудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Шамсудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Шамхал<s n="np"/><s n="ant"/><s n="m"/></l><r>Шамхал<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Шарапудин<s n="np"/><s n="ant"/><s n="m"/></l><r>Шарапудин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Шарафдин<s n="np"/><s n="ant"/><s n="m"/></l><r>Шарафдин<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Эдуард<s n="np"/><s n="ant"/><s n="m"/></l><r>Эдуард<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Элдар<s n="np"/><s n="ant"/><s n="m"/></l><r>Элдар<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Юнус<s n="np"/><s n="ant"/><s n="m"/></l><r>Юнус<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Юрий<s n="np"/><s n="ant"/><s n="m"/></l><r>Юрий<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Юсуп<s n="np"/><s n="ant"/><s n="m"/></l><r>Юсуп<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>Яраш<s n="np"/><s n="ant"/><s n="m"/></l><r>Яраш<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+
+
     <e><p><l>Сталин<s n="np"/><s n="cog"/><s n="m"/></l><r>Сталин<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 
     <e><p><l>Дагъмединститут<s n="np"/><s n="al"/></l><r>Дагъмединститут<s n="np"/><s n="al"/><s n="sg"/></r></p></e>
@@ -3045,6 +3170,10 @@
     <e><p><l>гуро<s n="adv"/></l><r>нет<s n="adv"/></r></p></e>
 
     <e><p><l>зодиб<s n="adv"/></l><r>в<b/>небе<s n="adv"/></r></p></e>
+
+    <e><p><l>хадуб<s n="adv"/></l><r>сзади<s n="adv"/></r></p></e>
+    <e><p><l>хадуб<s n="adv"/></l><r>позади<s n="adv"/></r></p></e>
+    <e><p><l>хадуб<s n="adv"/></l><r>вслед<s n="adv"/></r></p></e>
 
     <e><p><l>радал<s n="adv"/></l><r>утром<s n="adv"/></r></p></e>
     <e><p><l>хекко<s n="adv"/></l><r>быстро<s n="adv"/></r></p></e>
