@@ -140,9 +140,6 @@
     <e><p><l>хурхун<s n="post"/></l><r>в<b/>связи<b/>с<s n="pr"/><s n="ins"/></r></p></e>
     <e><p><l>хурхун<s n="post"/></l><r>о<s n="pr"/><s n="prp"/></r></p></e>
     <e><p><l>тӏад<s n="post"/></l><r>над<s n="post"/></r></p></e>
-    <e><p><l>гъоркь<s n="post"/></l><r>@гъоркь<s n="post"/></r></p></e>
-    <e><p><l>аскӏоб<s n="post"/></l><r>@аскӏоб<s n="post"/></r></p></e>
-    <e><p><l>нахъа<s n="post"/></l><r>@нахъа<s n="post"/></r></p></e>
     <e><p><l>хадуб<s n="post"/></l><r>после<s n="pr"/></r></p></e>
     <e><p><l>данде<s n="post"/></l><r>против<s n="pr"/></r></p></e>
     <e><p><l>рекъон<s n="post"/></l><r>согласно<s n="pr"/><s n="dat"/></r></p></e>
@@ -241,6 +238,10 @@
     <e><p><l>гьеб<s n="det"/><s n="dem"/><s n="pl"/></l><r>тот<s n="det"/><s n="dem"/><s n="mfn"/><s n="an"/><s n="pl"/></r></p></e>
 
     <e><p><l>гьеб<s n="det"/><s n="dem"/><s n="nt"/></l><r>этот<s n="det"/><s n="dem"/><s n="nt"/><s n="an"/></r></p></e>
+
+    <e><p><l>гӏадинаб<s n="det"/><s n="ind"/></l><r>такой<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>гьединаб<s n="det"/><s n="ind"/></l><r>такой<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>гьадинаб<s n="det"/><s n="ind"/></l><r>такой<s n="det"/><s n="ind"/></r></p></e>
  
     <!-- SECTION: Numerals -->
 
