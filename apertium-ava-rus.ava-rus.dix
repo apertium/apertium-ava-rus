@@ -156,6 +156,22 @@
     <!--<e><p><l>хӏакъалъулъ<s n="post"/></l><r>вокруг<s n="post"/></r></p></e>-->
     <e><p><l>лъун<s n="post"/></l><r>как<s n="adv"/><s n="rel"/></r></p></e>
 
+    <e><p><l>щвезегӏан<s n="post"/></l><r>до<s n="pr"/><s n="gen"/></r></p></e>
+    <e><p><l>сабаблъун<s n="post"/></l><r>из-за<b/>этого<s n="pr"/></r></p></e>
+    <e><p><l>сабаблъун<s n="post"/></l><r>поэтому<s n="pr"/></r></p></e>
+    <e><p><l>рахъалдехун<s n="post"/></l><r>по<b/>направлению<s n="pr"/></r></p></e>
+    <e><p><l>нахъе<s n="post"/></l><r>после<s n="pr"/><s n="gen"/></r></p></e>
+    <e><p><l>нахъа<s n="post"/></l><r>после<s n="pr"/><s n="gen"/></r></p></e>
+    <e><p><l>нахъ<s n="post"/></l><r>за<s n="pr"/></r></p></e>
+    <e><p><l>гӏунтӏун<s n="post"/></l><r>до<s n="pr"/><s n="gen"/></r></p></e>
+    <e><p><l>гӏебеде<s n="post"/></l><r>вдоль<s n="pr"/></r></p></e>
+    <e><p><l>гӏагарун<s n="post"/></l><r>около<s n="pr"/></r></p></e>
+    <e><p><l>гъоркь<s n="post"/></l><r>под<s n="pr"/><s n="ins"/></r></p></e>
+    <e><p><l>гуродай<s n="post"/></l><r>не<b/>ли<s n="pr"/></r></p></e> <!-- гуродай послелог не... ли -->
+    <e><p><l>гурого<s n="post"/></l><r>кроме<s n="pr"/><s n="gen"/></r></p></e>
+    <e><p><l>аскӏоб<s n="post"/></l><r>рядом<b/>с<s n="pr"/><s n="ins"/></r></p></e>
+
+
     <!-- SECTION: Pronouns -->
 
     <e><p><l>дун<s n="prn"/><s n="pers"/><s n="p1"/></l><r>я<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
@@ -4667,6 +4683,10 @@
 
     <e><p><l>ва<b/>гь.<b/>ц.<s n="abbr"/></l><r>и<b/>т.<b/>п<s n="abbr"/></r></p></e>
     <e><p><l>кг<s n="abbr"/></l><r>кг<s n="abbr"/></r></p></e>
+    <e><p><l>км<s n="abbr"/></l><r>км<s n="abbr"/></r></p></e>
+    <e><p><l>см<s n="abbr"/></l><r>см<s n="abbr"/></r></p></e>
+    <e><p><l>млн<s n="abbr"/></l><r>млн<s n="abbr"/></r></p></e>
+    <e><p><l>млрд<s n="abbr"/></l><r>млрд<s n="abbr"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
 
