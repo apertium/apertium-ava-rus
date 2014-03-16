@@ -5,6 +5,9 @@
     <def-cat n="SA">
       <cat-item tags="SA.*"/>
     </def-cat>
+    <def-cat n="SV-GPR">
+      <cat-item tags="SV.GPR.*"/>
+    </def-cat>
     <def-cat n="CC">
       <cat-item tags="CC"/>
     </def-cat>
@@ -134,6 +137,16 @@
         <when><test> 
                 <and>
                     <equal><clip pos="2" part="a_cas"/><lit-tag v="CD"/></equal>
+                    <equal><clip pos="1" part="a_cas"/><lit-tag v="GEN"/></equal>
+                </and>
+              </test>
+              <let><clip pos="2" part="a_cas"/><lit-tag v="gen"/></let>
+        </when>
+
+
+        <when><test> 
+                <and>
+                    <equal><clip pos="2" part="a_cas"/><lit-tag v="CD"/></equal>
                     <not><equal><clip pos="1" part="a_cas"/><lit v=""/></equal></not>
                 </and>
               </test>
@@ -141,6 +154,7 @@
         </when>
       </choose>
       <choose>
+
         <when><test> 
                 <and>
                     <equal><clip pos="2" part="a_gen"/><lit-tag v="GD"/></equal>
@@ -702,6 +716,40 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: SN-ADVL SV-GPR SN-GEN">
+      <pattern>
+        <pattern-item n="SN-ADVL"/>
+        <pattern-item n="SV-GPR"/>
+        <pattern-item n="SN-GEN"/>
+      </pattern>
+      <action>
+        <call-macro n="concord-nominal2">
+          <with-param pos="3"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: SN-ADVL POST">
       <pattern>

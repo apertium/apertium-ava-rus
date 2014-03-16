@@ -83,6 +83,7 @@
     </def-cat>
     <def-cat n="gpr1">
       <cat-item tags="vblex.*.*.gpr1.*"/>
+      <cat-item tags="vblex.*.gpr1.*"/>
     </def-cat>
     <def-cat n="emph">
       <cat-item tags="emph"/>
@@ -211,6 +212,7 @@
     <def-cat n="gna2">
       <cat-item tags="vblex.*.gna2"/>
       <cat-item tags="vblex.*.*.gna2"/>
+      <cat-item tags="vblex.*.*.*.gna2"/>
     </def-cat>
 
     <def-cat n="gi">
@@ -2012,7 +2014,7 @@
           <chunk name="n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN.ADVL"/></tag>
-              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+              <tag><clip pos="2" side="sl" part="a_case"/></tag>
             </tags>
             <lu>
               <lit v="в"/><lit-tag v="pr"/>
@@ -2623,8 +2625,9 @@
           <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV.PRES"/></tag>
+              <tag><clip pos="1" side="sl" part="a_trans"/></tag>
               <tag><lit-tag v="PD"/></tag>
-              <tag><var n="число"/></tag>
+              <tag><lit-tag v="ND"/></tag>
             </tags>
             <var n="neg"/>
             <lu>
@@ -2632,8 +2635,7 @@
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="a_aspec"/>
               <var n="время"/>
-              <lit-tag v="3"/>
-              <var n="число"/>
+              <lit-tag v="4.5"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -2924,6 +2926,93 @@
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="a_aspec"/>
               <lit-tag v="past.4.5"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: gna2">
+      <pattern>
+        <pattern-item n="gna2"/>
+      </pattern>
+      <action>
+        <let><var n="chunk-lema"/><lit v="v"/></let>
+        <choose>
+          <when><test><or><equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="m"/></equal>
+                          <equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="nt"/></equal>
+                          <equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="f"/></equal></or></test>
+                <let><var n="число"/><lit-tag v="sg"/></let>
+                <let><var n="род"/><clip pos="2" side="tl" part="a_gen"/></let>
+          </when>
+          <otherwise>
+                <let><var n="число"/><lit-tag v="ND"/></let>
+                <let><var n="род"/><lit-tag v="GD"/></let>
+          </otherwise>
+        </choose>
+        <choose>
+          <when><test><equal><clip pos="2" side="sl" part="a_neg"/><lit-tag v="neg"/></equal></test>
+                <let><var n="neg"/><concat><lit v="^не"/><lit-tag v="adv"/><lit v="$ "/></concat></let>
+                <let><var n="chunk-lema"/><lit v="adv-v"/></let>
+          </when>
+          <otherwise>
+            <let><var n="neg"/><lit v=""/></let>
+          </otherwise>
+        </choose>
+        <out>
+          <chunk namefrom="chunk-lema" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.ADVL"/></tag>
+              <tag><clip pos="1" side="sl" part="a_trans"/></tag>
+              <tag><var n="род"/></tag>
+              <tag><var n="число"/></tag>
+            </tags>
+            <var n="neg"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_aspec"/>
+              <lit-tag v="pp.adv"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: gpr1">
+      <pattern>
+        <pattern-item n="gpr1"/>
+      </pattern>
+      <action>
+        <choose>
+          <when><test><or><equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="m"/></equal>
+                          <equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="nt"/></equal>
+                          <equal><clip pos="2" side="sl" part="a_class"/><lit-tag v="f"/></equal></or></test>
+                <let><var n="число"/><lit-tag v="sg"/></let>
+                <let><var n="род"/><clip pos="2" side="tl" part="a_gen"/></let>
+          </when>
+          <otherwise>
+                <let><var n="число"/><lit-tag v="pl"/></let>
+                <let><var n="род"/><lit-tag v="mfn"/></let>
+          </otherwise>
+        </choose>
+        <out>
+          <chunk name="gpr" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.GPR"/></tag>
+              <tag><var n="род"/></tag>
+              <tag><lit-tag v="AD"/></tag>
+              <tag><var n="число"/></tag>
+              <tag><lit-tag v="CD"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_aspec"/>
+              <lit-tag v="pprs.actv"/>
+              <lit-tag v="3.4.5.6"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>

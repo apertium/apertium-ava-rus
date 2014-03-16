@@ -31,6 +31,12 @@
     <match lemma="жаниб" tags="post"><select lemma="на протяжении"/></match>
   </rule>
   <rule>
+    <match lemma="хьвадизе" tags="vblex.*"><select lemma="ходить"/></match>
+  </rule>
+  <rule>
+    <match lemma="гьанже" tags="adv.loc"><select lemma="сейчас"/></match>
+  </rule>
+  <rule>
     <match lemma="ахираб" tags="adj.*"><select lemma="последний"/></match>
   </rule>
   <rule>
@@ -133,6 +139,11 @@
   </rule>
   <rule>
     <match lemma="гьаб" tags="prn.dem.pl.*"><select lemma="они" tags="prn.pers.*"/></match>
+  </rule>
+  <rule>
+    <match lemma="къадар" tags="n.*"><select lemma="количество"/></match>
+    <match/>
+    <match lemma="балагьизе"/>
   </rule>
 
 </rules>
