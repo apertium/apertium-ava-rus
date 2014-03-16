@@ -17,6 +17,7 @@ dev/test_sentences.rus.txt -text svneol=unset#application/octet-stream
 dev/test_sentences.txt -text svneol=unset#application/octet-stream
 dev/testvoc/inconsistency-summary.sh -text
 dev/testvoc/inconsistency.sh -text
+dev/testvoc/testvoc-summary.ava-rus.txt -text
 dev/testvoc/testvoc.sh -text
 /modes.xml -text
 /pending-tests.sh -text
