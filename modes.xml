@@ -13,7 +13,7 @@
         <file name="ava-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc -m"> 
-        <file name="ava-rus.lrx.bin"/> 
+        <file name="ava-rus.autolex.bin"/> 
       </program> 
       <program name="apertium-transfer -b">
         <file name="apertium-ava-rus.ava-rus.t1x"/>
@@ -50,7 +50,7 @@
         <file name="ava-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc -m"> 
-        <file name="ava-rus.lrx.bin"/> 
+        <file name="ava-rus.autolex.bin"/> 
       </program> 
       <program name="apertium-transfer -b">
         <file name="apertium-ava-rus.ava-rus.t1x"/>
@@ -131,7 +131,7 @@
         <file name="ava-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc -m -t">
-        <file name="ava-rus.lrx.bin"/>
+        <file name="ava-rus.autolex.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -150,7 +150,7 @@
         <file name="ava-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc -m"> 
-        <file name="ava-rus.lrx.bin"/> 
+        <file name="ava-rus.autolex.bin"/> 
       </program> 
       <program name="apertium-transfer -b -t">
         <file name="apertium-ava-rus.ava-rus.t1x"/>
@@ -172,7 +172,7 @@
         <file name="ava-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc -m"> 
-        <file name="ava-rus.lrx.bin"/> 
+        <file name="ava-rus.autolex.bin"/> 
       </program> 
       <program name="apertium-transfer -b">
         <file name="apertium-ava-rus.ava-rus.t1x"/>
@@ -198,7 +198,7 @@
         <file name="ava-rus.autobil.bin"/>
       </program>
       <program name="lrx-proc -m"> 
-        <file name="ava-rus.lrx.bin"/> 
+        <file name="ava-rus.autolex.bin"/> 
       </program> 
       <program name="apertium-transfer -b">
         <file name="apertium-ava-rus.ava-rus.t1x"/>
