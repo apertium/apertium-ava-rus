@@ -189,6 +189,11 @@
 
     <e><p><l>гьеб<s n="prn"/><s n="dem"/><s n="nt"/></l><r>это<s n="prn"/><s n="dem"/><s n="nt"/><s n="an"/></r></p></e>
 
+    <e><p><l>гъоб<s n="prn"/><s n="dem"/><s n="m"/></l><r>тот<s n="prn"/><s n="dem"/><s n="m"/><s n="an"/></r></p></e>
+    <e><p><l>гъоб<s n="prn"/><s n="dem"/><s n="f"/></l><r>тот<s n="prn"/><s n="dem"/><s n="f"/><s n="an"/></r></p></e>
+    <e><p><l>гъоб<s n="prn"/><s n="dem"/><s n="nt"/></l><r>тот<s n="prn"/><s n="dem"/><s n="nt"/><s n="an"/></r></p></e>
+    <e><p><l>гъоб<s n="prn"/><s n="dem"/><s n="pl"/></l><r>тот<s n="prn"/><s n="dem"/><s n="mfn"/><s n="an"/><s n="pl"/></r></p></e>
+
     <e><p><l>гьеб<s n="prn"/><s n="dem"/><s n="m"/></l><r>тот<s n="prn"/><s n="dem"/><s n="m"/><s n="an"/></r></p></e>
     <e><p><l>гьеб<s n="prn"/><s n="dem"/><s n="f"/></l><r>тот<s n="prn"/><s n="dem"/><s n="f"/><s n="an"/></r></p></e>
     <e><p><l>гьеб<s n="prn"/><s n="dem"/><s n="nt"/></l><r>тот<s n="prn"/><s n="dem"/><s n="nt"/><s n="an"/></r></p></e>
@@ -222,6 +227,13 @@
     <e><p><l>жиб<s n="prn"/><s n="ref"/></l><r>сам<s n="prn"/><s n="ref"/></r></p></e>
 
     <e><p><l>кинаб<s n="prn"/><s n="itg"/></l><r>какой<s n="prn"/><s n="itg"/></r></p></e>
+    <e><p><l>щибаб<s n="prn"/></l><r>каждый<s n="prn"/></r></p></e>
+    <e><p><l>щибаб<s n="prn"/></l><r>всякий<s n="prn"/></r></p></e>
+    <e><p><l>щинаб<s n="prn"/></l><r>каждый<s n="prn"/></r></p></e>
+    <e><p><l>щибниги<s n="prn"/></l><r>ничего<s n="prn"/></r></p></e>
+    <e><p><l>гӏадинаб<s n="prn"/></l><r>такой<s n="prn"/></r></p></e>
+    <e><p><l>гьединаб<s n="prn"/></l><r>такой<s n="prn"/></r></p></e>
+    <e><p><l>гьадинаб<s n="prn"/></l><r>такой<s n="prn"/></r></p></e>
 
     <!-- SECTION: Determiners -->
 
