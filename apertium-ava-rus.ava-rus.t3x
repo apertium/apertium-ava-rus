@@ -8,6 +8,9 @@
     <def-cat n="adv-v">
       <cat-item name="adv-v"/>
     </def-cat>
+    <def-cat n="j">
+      <cat-item name="j"/>
+    </def-cat>
     <def-cat n="v">
       <cat-item name="v"/>
     </def-cat>
@@ -16,6 +19,17 @@
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+
+    <def-attr n="a_anim">
+      <attr-item tags="an"/>
+      <attr-item tags="AD"/>
+    </def-attr>
+
+    <def-attr n="a_case">
+      <attr-item tags="nom"/>
+      <attr-item tags="CD"/>
+    </def-attr>
+
 
     <def-attr n="a_gen">
       <attr-item tags="m"/>
@@ -155,6 +169,49 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="CHUNK: j">
+      <pattern>
+        <pattern-item n="j"/>
+      </pattern>
+      <action>
+        <choose>
+          <when><test><equal> 
+                        <clip pos="1" part="a_nbr"/><lit-tag v="ND"/>
+                      </equal></test>
+                <let><clip pos="1" part="a_nbr"/><lit-tag v="sg"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when><test><equal> 
+                        <clip pos="1" part="a_gen"/><lit-tag v="GD"/>
+                      </equal></test>
+                <let><clip pos="1" part="a_gen"/><lit-tag v="m"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when><test><equal> 
+                        <clip pos="1" part="a_anim"/><lit-tag v="AD"/>
+                      </equal></test>
+                <let><clip pos="1" part="a_anim"/><lit-tag v="an"/></let>
+          </when>
+        </choose>
+
+        <choose>
+          <when><test><equal> 
+                        <clip pos="1" part="a_case"/><lit-tag v="CD"/>
+                      </equal></test>
+                <let><clip pos="1" part="a_case"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="CHUNK: sent">
       <pattern>
