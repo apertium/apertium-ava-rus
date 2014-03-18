@@ -96,6 +96,7 @@
       <cat-item tags="adj.*"/>
       <cat-item tags="num.ord.*"/>
       <cat-item tags="det.itg.*"/>
+      <cat-item tags="det.def.*"/>
       <cat-item tags="det.dem.*"/>
       <cat-item tags="det.ind.*"/>
     </def-cat>
