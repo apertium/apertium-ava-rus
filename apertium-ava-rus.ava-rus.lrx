@@ -37,6 +37,9 @@
     <match lemma="гьанже" tags="adv.loc"><select lemma="сейчас"/></match>
   </rule>
   <rule>
+    <match lemma="кӏудияб" tags="adj.*"><select lemma="большой"/></match>
+  </rule>
+  <rule>
     <match lemma="ахираб" tags="adj.*"><select lemma="последний"/></match>
   </rule>
   <rule>
