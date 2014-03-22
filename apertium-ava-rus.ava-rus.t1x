@@ -498,6 +498,60 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: num n-obl">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="n-obl"/>
+      </pattern>
+      <action>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
+        <choose>
+          <when>
+            <test><or><equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="один"/></equal>
+                      <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="только один"/></equal>
+                  </or></test>
+            <let><clip pos="1" side="tl" part="a_gen_gd"/><clip pos="2" side="tl" part="a_gen"/></let>
+          </when>
+          <when>
+            <test><or><equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="два"/></equal>
+                      <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="три"/></equal>
+                      <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="четыре"/></equal></or>
+            </test>
+            <let><clip pos="2" side="tl" part="a_case"/><lit-tag v="gen"/></let>
+          </when>
+          <otherwise>
+            <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
+            <let><clip pos="2" side="tl" part="a_case"/><lit-tag v="gen"/></let>
+          </otherwise>
+        </choose>
+
+        <out>
+          <chunk name="z-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN.OBL"/></tag>
+              <tag><clip pos="2" side="tl" part="a_gen"/></tag>
+              <tag><clip pos="2" side="tl" part="a_anim"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+              <tag><lit-tag v="CD"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="a_gen"/>
+              <clip pos="2" side="tl" part="a_anim"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <lit-tag v="6"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: num n-erg">
       <pattern>
         <pattern-item n="num"/>
