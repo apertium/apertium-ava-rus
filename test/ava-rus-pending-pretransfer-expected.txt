@@ -1,0 +1,112 @@
+[-dTo96wGRpUP#0] ^Гьеб<prn><dem><f><sg><nom><@SUBJ→>$ ^ине<vblex><iv><mfn><gpr1><f>$ ^букӏине<vblex><iv><f><pres>$ ^зодиб<adv><f><loc>$
+[/-dTo96wGRpUP]
+[082yeT3b2Cum#0] ^Дун<prn><pers><p1><sg><erg>$ ^мун<prn><pers><p2><sg><all>$ ^ги<cnjcoo>$ ^хъвазе<vblex><tv><mfn><fut>$^.<sent>$
+[/082yeT3b2Cum]
+[123hl_P_NM4c#0] ^Гьанжелъагӏан<cnjadv>$ ^гьеб\<det\><dem><m>$ ^хӏалтӏизе<vblex><iv><mfn><gpr1><m>$ ^букӏине<vblex><iv><m><gna2>$ ^букӏине<vblex><iv><m><pres>$ ^гьеб\<det\><dem><nt>$ ^го<emph>$ ^гӏуцӏи<n><nt><sg><gen>$ ^бетӏераб<adj><m>$ ^бухгалтер<n><f><sg><nom>$ ^лъун<post>$^.<sent>$
+[/123hl_P_NM4c]
+[2osrXv-TK4xt#0] ^Асма<np><ant><f><erg>$ ^ретӏел<n><nt><sg><nom>$ ^хисизе<vblex><iv><mfn><inf>$ ^букӏине<vblex><iv><nt><pres>$^.<sent>$
+[/2osrXv-TK4xt]
+[501UpZGDJ_2R#0] ^Нуж<prn><pers><p2><pl><gen>$ ^го<emph>$ ^рахьдал<adj>$ ^мацӏ<n><nt><sg><gen>$ ^дарс<n><nt><pl><nom>$ ^букӏине<vblex><iv><pl><past>$ ^ищ<qst>$^?<sent>$
+[/501UpZGDJ_2R]
+[B1xIc95TV73Q#0] ^Гьеб<prn><dem><m><sg><nom>$ ^зодиб<adv><abl>$ ^бачӏине<vblex><iv><m><past>$^.<sent>$
+[/B1xIc95TV73Q]
+[D9-_qx1NDgaB#0] ^Цебе<adv>$ ^щибаб<prn><nt><sg><nom>$ ^район<n><nt><sg><loc>$ ^букӏине<vblex><iv><pl><past>$ ^найихъан<n><nt><pl><gen>$ ^цолъи<n><nt><pl><nom>$^.<sent>$ ^Жакъа<adv>$ ^букӏине<vblex><iv><pl><pres>$ ^ищ<qst>$ ^гьеб<prn><dem><pl><nom><@←SUBJ>$^?<sent>$
+[/D9-_qx1NDgaB]
+[EVexRjaejW7C#0] ^Мун<prn><pers><p2><sg><erg><@SUBJ→>$ ^гьабизе<vblex><tv><nt><gpr1><nt>$ ^жо<n><nt><sg><nom>$ ^щиб<prn><itg><nt><sg><nom>$^?<sent>$
+[/EVexRjaejW7C]
+[EiGxn-Cp9OrQ#0] ^Гьеб<prn><dem><m><sg><nom>$ ^зодиб<adv><m><all>$ ^бачӏине<vblex><iv><m><past>$^.<sent>$
+[/EiGxn-Cp9OrQ]
+[G9KGq4RkLkNG#0] ^Тӏубанго<adv><nt>$ ^лъугӏизе<vblex><iv><mfn><gpr2><pl>$ ^кинабго<adj><pl>$ ^мацӏ<n><nt><pl><gen>$ ^ахӏвал-хӏал<n><nt><sg><nom>$ ^данде<adv>$ ^кквезе<vblex><iv><mfn><past>$ ^дун<prn><pers><p1><sg><erg>$^.<sent>$
+[/G9KGq4RkLkNG]
+[INixi71qDh2o#0] ^Сайт<n><nt><sg><loc>$ ^лъезе<vblex><tv><mfn><inf>$ ^материал<n><nt><sg><nom>$ ^киб<adv><itg><abl>$ ^балагьизе<vblex><tv><nt><gpr1><nt>$^?<sent>$
+[/INixi71qDh2o]
+[IOyubhr28D54#0] ^Дун<prn><pers><p1><sg><nom><@SUBJ→>$ ^букӏине<vblex><iv><m><inf>$ ^букӏине<vblex><iv><m><pres>$ ^ахихъан<n><m><sg><nom>$^.<sent>$
+[/IOyubhr28D54]
+[IlBjjTzVkwZv#0] ^Мун<prn><pers><p2><sg><erg>$ ^гьеб<prn><dem><nt><sg><nom>$ ^гьабизе<vblex><tv><nt><past>$ ^ни<mod>$ ^гурони<post>$^,<cm>$ ^гьабизе<vblex><tv><nt><aor><neg>$ ^дун<prn><pers><p1><sg><erg><@←SUBJ>$ ^гьеб<prn><dem><nt><sg><nom>$^.<sent>$
+[/IlBjjTzVkwZv]
+[KAVMqAoJ_csK#0] ^Гьеб<prn><dem><m><sg><nom>$ ^зодиб<adv><m><all>$ ^шагьар<n><nt><sg><abl>$ ^бачӏине<vblex><iv><m><past>$^.<sent>$
+[/KAVMqAoJ_csK]
+[KnCuJf9IUj3P#0] ^Тӏад<adv><loc>$ ^ретӏине<vblex><tv><mfn><gpr2><nt>$ ^*ретIель$ ^гьеб<prn><dem><f><sg><nom>$ ^яс<n><f><sg><gen>$ ^гун<post>$ ^букӏине<vblex><iv><nt><past><neg>$^.<sent>$
+[/KnCuJf9IUj3P]
+[KxF8yK7f3kwr#0] ^Дун<prn><pers><p1><sg><nom>$ ^Махӏачхъала<np><top><sg><all>$ ^Буйнакск<np><top><sg><abl>$ ^бачӏине<vblex><iv><m><past>$^.<sent>$
+[/KxF8yK7f3kwr]
+[Lx72NrPsfAcO#0] ^Мун<prn><pers><p2><sg><nom><@SUBJ→>$ ^букӏине<vblex><iv><f><pres>$ ^дун<prn><pers><p1><sg><gen>$ ^гьудул<n><f><sg><nom>$^.<sent>$
+[/Lx72NrPsfAcO]
+[NgrN4qBqDxPi#0] ^Дун<prn><pers><p1><sg><nom>$ ^экзамен<n><nt><pl><all>$ ^хӏадурлъизе<vblex><iv><mfn><gpr1><f>$ ^букӏине<vblex><iv><f><past>$^.<sent>$
+[/NgrN4qBqDxPi]
+[NwcKOX3VVxcX#0] ^Гьеб<prn><dem><pl><gen>$ ^кечӏ<n><nt><pl><nom>$ ^рахьдал<adj>$ ^мацӏ<n><nt><sg><loc>$ ^лъазе<vblex><tv><mfn><fut>$^?<sent>$
+[/NwcKOX3VVxcX]
+[PL2rD0AZ0reT#0] ^Амма<cnjsub>$ ^гьеб\<det\><dem><nt>$ ^гӏайиб<n><nt><sg><nom>$ ^мун<prn><pers><p2><sg><gen>$ ^го<emph>$ ^букӏине<vblex><iv><nt><pres>$^.<sent>$
+[/PL2rD0AZ0reT]
+[Pfj3K7MjnJz_#0] ^Чан<adv><itg>$ ^чи<n><m><sg><nom>$ ^бачӏине<vblex><iv><m><gpr2><m>$^?<sent>$
+[/Pfj3K7MjnJz_]
+[QANO4mgU6ZAx#0] ^Лъазе<vblex><tv><mfn><fut><neg>$^,<cm>$ ^бажаризе<vblex><iv><mfn><fut>$ ^дай<qst>$ ^*духъа$ ^гьеб\<det\><dem><nt>$ ^хӏалтӏи<n><nt><sg><nom>$ ^гьабизе<vblex><tv><nt><gna2>$^.<sent>$
+[/QANO4mgU6ZAx]
+[RsFoY5482xjg#0] ^Кинаб\<det\><itg><nt>$ ^батӏалъи<n><nt><sg><nom>$ ^бугеб<prn><nt><rel><nt>$ ^реализм<n><nt><sg><loc>$ ^ва<cnjcoo>$ ^романтизм<n><nt><sg><loc>$ ^гьоркьоб<adv><nt><loc>$^?<sent>$
+[/RsFoY5482xjg]
+[SNXfAC1QiBR5#0] ^Гьеб<prn><dem><f><sg><nom>$ ^букӏине<vblex><iv><f><past>$^.<sent>$
+[/SNXfAC1QiBR5]
+[Sr_7urjAf2QL#0] ^Колхозчи<n><m><pl><nom>$  ^жакъа<adv>$  ^ах<n><nt><sg><obl>$ ^кь<post><all>$ ^бетӏаризе<vblex><iv><pl><inf>$ ^бахъине<vblex><iv><pl><gna2>$ ^букӏине<vblex><iv><pl><pres>$^.<sent>$
+[/Sr_7urjAf2QL]
+[T4690nAZ4oLS#0] ^Лъабго<num>$ ^чи<n><m><sg><nom>$ ^бегизе<vblex><iv><m><gpr1><nt>$ ^палата<n><nt><sg><nom><@SUBJ→>$ ^букӏине<vblex><iv><nt><past>$ ^гьеб<prn><dem><nt><sg><nom><@←SUBJ>$^.<sent>$
+[/T4690nAZ4oLS]
+[T8lDpUEEIEYA#0] ^Гьеб<prn><dem><nt><sg><nom>$ ^букӏине<vblex><iv><nt><past>$^.<sent>$
+[/T8lDpUEEIEYA]
+[TZUJOXdQnYvY#0] ^Дун<prn><pers><p1><sg><nom><@SUBJ→>$ ^борчӏизе<vblex><iv><m><past>$ ^радал<adv>$ ^хеккого<adv>$^.<sent>$
+[/TZUJOXdQnYvY]
+[Tz8zRo3-VwW8#0] ^*тукатІа$ ^гуродай<post>$ ^доб<prn><dem><m><sg><nom><@SUBJ→>$ ^хӏалтӏизе<vblex><iv><mfn><gpr1><m>$ ^бугеб<prn><m><rel><m>$
+[/Tz8zRo3-VwW8]
+[UyMT5MjcRAZb#0] ^Гьеб<prn><dem><nt><sg><nom>$ ^зодиб<adv><nt><all>$ ^бачӏине<vblex><iv><nt><past>$^.<sent>$
+[/UyMT5MjcRAZb]
+[VIrwKIhpD-AE#0] ^Гьеб<prn><dem><pl><nom>$ ^букӏине<vblex><iv><pl><past>$^.<sent>$
+[/VIrwKIhpD-AE]
+[WKFUn9G_cYnp#0] ^Гьеб\<det\><dem><nt>$ ^хабар<n><nt><sg><nom>$ ^дун<prn><pers><p1><sg><loc>$ ^рагӏизе<vblex><iv><mfn><past>$^.<sent>$
+[/WKFUn9G_cYnp]
+[WLDs_SQ7NrIY#0] ^Щиб<prn><itg><f><sg><erg>$ ^щиб<prn><itg><nt><sg><nom>$ ^мун<prn><pers><p2><sg><loc>$ ^абизе<vblex><tv><nt><gpr2><nt>$^?<sent>$
+[/WLDs_SQ7NrIY]
+[WkIwWv3HR97-#0] ^Зодиб<adv><tra>$ ^*гьодобе$ ^бачӏине<vblex><iv><nt><past>$ ^цо<num>$ ^жо<n><nt><sg><nom>$^.<sent>$
+[/WkIwWv3HR97-]
+[YLwB5gGiSh1n#0] ^Мун<prn><pers><p2><sg><loc>$ ^мун<prn><pers><p2><sg><gen>$ ^го<emph>$ ^мацӏ<n><nt><sg><nom>$ ^лъикӏ<adv>$ ^лъазе<vblex><tv><mfn><fut>$ ^ищ<qst>$^?<sent>$
+[/YLwB5gGiSh1n]
+[Z-mO7-_RkJ8o#0] ^Гьадинаб\<ind\><prn><nt><sg><nom>$ ^чӏухӏи<n><nt><sg><nom><@SUBJ→>$ ^гун<post>$ ^ине<vblex><iv><mfn><past>$ ^доб<prn><dem><m><sg><nom><@←SUBJ>$ ^гьаб<prn><dem><nt><sg><nom>$ ^ракь<n><nt><sg><abl>$^.<sent>$
+[/Z-mO7-_RkJ8o]
+[cS6Fi66fkhFU#0] ^Гьелдалъун<cnjadv>$ ^пачалихъ<n><nt><sg><dat>$ ^ккезе<vblex><iv><mfn><gpr2><nt>$ ^зарал<n><nt><sg><nom><@←SUBJ>$ ^нус-нус<num><pl>$ ^миллион<num><nt><pl><erg>$ ^борцине<vblex><tv><nt><aor>$^.<sent>$
+[/cS6Fi66fkhFU]
+[cglbjWjKn5b7#0] ^вац<n><m><sg><nom>$ ^гурони<post>$^,<cm>$ ^кумек<n><nt><sg><dat>$ ^чи<n><m><sg><nom>$ ^бачӏине<vblex><iv><m><past><neg>$
+[/cglbjWjKn5b7]
+[crd9IISHPUCY#0] ^Машидат<np><ant><f><gen>$ ^букӏине<vblex><iv><f><pres>$ ^щуго<num>$ ^яц<n><f><sg><nom>$ ^ги<cnjcoo>$ ^цо<num>$ ^вац<n><m><sg><nom>$ ^ги<cnjcoo>$^.<sent>$
+[/crd9IISHPUCY]
+[dgq-FxtaLzd0#0] ^Гьеб<prn><dem><nt><sg><nom>$ ^зодиб<adv><abl>$ ^бачӏине<vblex><iv><nt><past>$^.<sent>$
+[/dgq-FxtaLzd0]
+[fhp8q_7MgMRM#0] ^мун<prn><pers><p2><sg><gen>$ ^эмен<n><m><sg><nom>$ ^гуродай<post>$ ^бачӏине<vblex><iv><m><gpr1><m>$ ^бугеб<prn><m><rel><m>$
+[/fhp8q_7MgMRM]
+[gYGL-qnJ3qHo#0] ^Гьеб<prn><dem><f><sg><nom>$ ^*зодойе$ ^бачӏине<vblex><iv><f><past>$^.<sent>$
+[/gYGL-qnJ3qHo]
+[iJlxe6isn8KG#0] ^Амма<cnjsub>$ ^гьеб<prn><dem><nt><sg><loc>$ ^данде<post>$ ^абизе<vblex><tv><nt><inf>$ ^жо<n><nt><sg><nom>$ ^Насрудинов<np><cog><m><sg><gen>$ ^адвокат<n><m><sg><gen>$ ^ги<cnjcoo>$ ^букӏине<vblex><iv><nt><pres>$^.<sent>$
+[/iJlxe6isn8KG]
+[jHvbxZZgXXM9#0] ^Гьеб<prn><dem><nt><sg><nom><@SUBJ→>$ ^ине<vblex><iv><mfn><gpr1><nt>$ ^букӏине<vblex><iv><nt><pres>$ ^*зодобу$
+[/jHvbxZZgXXM9]
+[k2Nnk286fV29#0] ^Гьеб<prn><dem><nt><sg><abl>$ ^хадуб<post>$ ^Мухтар<np><ant><m><erg>$ ^росу<n><nt><sg><nom>$ ^тезе<vblex><tv><mfn><past>$^.<sent>$
+[/k2Nnk286fV29]
+[keVirT7L7a_B#0] ^М.\<mf\><np><ant><attr>$ ^Насрудинов<np><cog><m><sg><loc>$ ^хурхине<vblex><iv><mfn><gna2>$ ^прокуратура<n><nt><sg><erg>$ ^цӏех-рех<n><nt><sg><nom>$ ^гьабизе<vblex><tv><nt><ger><nom>$ ^батӏайиса<adv>$ ^бичӏчӏизе<vblex><tv><nt><gpr1><nt>$ ^букӏине<vblex><iv><nt><pres>$ ^«\<lquot\>$^Дагестангазсервис<np><al><gen>$^»\<rquot\>$ ^цо-цо<num><pl>$ ^вакил<n><m><pl><loc>$^.<sent>$
+[/keVirT7L7a_B]
+[kiQXacun6CJn#0] ^лъабго<num>$ ^рукъ<n><nt><sg><nom>$^.<sent>$
+[/kiQXacun6CJn]
+[lxpwvHxkluJz#0] ^лъабго<num>$ ^рукъ<n><nt><sg><obl>$ ^хъ<post><loc>$ ^кӏиго<num>$ ^гъветӏ<n><nt><sg><nom>$^.<sent>$
+[/lxpwvHxkluJz]
+[nOEwMZDB6Bzq#0] ^Дун<prn><pers><p1><sg><nom>$ ^гьанже<adv><loc>$ ^*сахълъун$ ^букӏине<vblex><iv><f><pres>$^,<cm>$ ^кӏодо<n><f><sg><nom>$^.<sent>$
+[/nOEwMZDB6Bzq]
+[nZYj_Y3mHWK8#0] ^Гьеб<prn><dem><m><sg><nom><@SUBJ→>$ ^ине<vblex><iv><mfn><gpr1><m>$ ^букӏине<vblex><iv><m><pres>$ ^зодиб<adv><m><all>$
+[/nZYj_Y3mHWK8]
+[oGd98FiR7pM2#0] ^Мун<prn><pers><p2><sg><erg><@SUBJ→>$ ^бицине<vblex><tv><nt><gpr1><nt>$ ^жо<n><nt><sg><nom>$ ^щиб<prn><itg><nt><sg><nom>$^,<cm>$ ^кӏодо<n><f><sg><nom>$^?<sent>$
+[/oGd98FiR7pM2]
+[pQbd6c6ZHk1P#0] ^Гьеб<prn><dem><m><sg><nom>$ ^букӏине<vblex><iv><m><past>$^.<sent>$
+[/pQbd6c6ZHk1P]
+[rEhPsdvjt4BZ#0] ^Дун<prn><pers><p1><sg><nom><@SUBJ→>$ ^бухӏизе<vblex><iv><m><gpr1><m>$ ^букӏине<vblex><iv><m><pres>$^.<sent>$
+[/rEhPsdvjt4BZ]
+[wdxzQCPkR-q9#0] ^Гьеб<prn><dem><f><sg><nom>$ ^зодиб<adv><abl>$ ^бачӏине<vblex><iv><f><past>$^.<sent>$
+[/wdxzQCPkR-q9]
+[xsiN7kWubs3A#0] ^Гьеб\<det\><dem><nt>$ ^нилъ<prn><pers><p1i><pl><gen>$ ^бергьенлъи<n><nt><sg><nom>$ ^букӏине<vblex><iv><nt><inf>$ ^букӏине<vblex><iv><nt><pres>$^.<sent>$
+[/xsiN7kWubs3A]
+[xt2tN3hJ59y4#0] ^Дун<prn><pers><p1><sg><nom>$ ^Махӏачхъала<np><top><sg><all>$ ^Буйнакск<np><top><sg><tra>$ ^бачӏине<vblex><iv><m><past>$^.<sent>$
+[/xt2tN3hJ59y4]

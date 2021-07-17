@@ -1,0 +1,112 @@
+[-dTo96wGRpUP#0] ^Гьей/гьеб<prn><dem><f><sg><nom>/гьеб\<det\><dem><f>$ ^уней/ине<vblex><iv><mfn><gpr1><f>$ ^йиго/букӏине<vblex><iv><f><pres>$ ^зодой/зодиб<adv><f><loc>$
+[/-dTo96wGRpUP]
+[082yeT3b2Cum#0] ^Дица/дун<prn><pers><p1><sg><erg>$ ^дудеги/мун<prn><pers><p2><sg><all>+ги<cnjcoo>$ ^хъвала/хъвазе<vblex><tv><mfn><fut>/хъвазе<vblex><tv><mfn><aor>$^./.<sent>$
+[/082yeT3b2Cum]
+[123hl_P_NM4c#0] ^ГьанжелъизегӀан/гьанжелъагӏан<cnjadv>$ ^гьев/гьеб<prn><dem><m><sg><nom>/гьеб\<det\><dem><m>$ ^хӀалтӀулев/хӏалтӏизе<vblex><iv><mfn><gpr1><m>$ ^вукӀун/букӏине<vblex><iv><m><gna2>$ ^вуго/букӏине<vblex><iv><m><pres>$ ^гьебго/гьеб<prn><dem><nt><sg><nom>+го<emph>/гьеб\<det\><dem><nt>+го<emph>$ ^гӀуцӀиялъул/гӏуцӏи<n><nt><sg><gen>/гӏуцӏизе<vblex><tv><mfn><ger><gen>$ ^бетӀерав/бетӏераб<adj><m>$ ^бухгалтерлъун/бухгалтер<n><f><sg><nom>+лъун<post>/бухгалтер<n><m><sg><nom>+лъун<post>$^./.<sent>$
+[/123hl_P_NM4c]
+[2osrXv-TK4xt#0] ^Асмаца/Асма<np><ant><f><erg>$ ^ретIел/ретӏел<n><nt><sg><nom>$ ^хисизе/хисизе<vblex><iv><mfn><inf>/хисизе<vblex><tv><mfn><inf>$ ^буго/букӏине<vblex><iv><nt><pres>$^./.<sent>$
+[/2osrXv-TK4xt]
+[501UpZGDJ_2R#0] ^Нужерго/нуж<prn><pers><p2><pl><gen>+го<emph>$ ^рахьдал/рахь<n><nt><sg><gen>/рахьдал<adj>$ ^мацIалъул/мацӏ<n><nt><sg><gen>$ ^дарсал/дарс<n><nt><pl><nom>$ ^рукIанищ/букӏине<vblex><iv><pl><past>+ищ<qst>$^?/?<sent>$
+[/501UpZGDJ_2R]
+[B1xIc95TV73Q#0] ^Гьев/гьеб<prn><dem><m><sg><nom>/гьеб\<det\><dem><m>$ ^зодоса/зодиб<adv><abl>$ ^вачIана/бачӏине<vblex><iv><m><past>$^./.<sent>$
+[/B1xIc95TV73Q]
+[D9-_qx1NDgaB#0] ^Цебе/цебе<adv>/цебе<post>/цебе<adv><nt><all>$ ^щибаб/щибаб<prn><nt><sg><nom>/щибаб\<det\>\<def\><nt>$ ^районалда/район<n><nt><sg><loc>$ ^рукӀана/букӏине<vblex><iv><pl><past>$ ^найихъабазул/найихъан<n><nt><pl><gen>$ ^цолъаби/цолъи<n><nt><pl><nom>$^./.<sent>$ ^Жакъа/жакъа<adv>$ ^ругищ/букӏине<vblex><iv><pl><pres>+ищ<qst>$ ^гьел/гьеб<prn><dem><pl><nom>/гьеб\<det\><dem><pl>$^?/?<sent>$
+[/D9-_qx1NDgaB]
+[EVexRjaejW7C#0] ^Дуца/мун<prn><pers><p2><sg><erg>$ ^гьабулеб/гьабизе<vblex><tv><nt><gpr1><nt>$ ^жо/жо<n><nt><sg><nom>$ ^щиб/щиб<prn><itg><nt><sg><nom>$^?/?<sent>$
+[/EVexRjaejW7C]
+[EiGxn-Cp9OrQ#0] ^Гьев/гьеб<prn><dem><m><sg><nom>/гьеб\<det\><dem><m>$ ^зодове/зодиб<adv><m><all>$ ^вачIана/бачӏине<vblex><iv><m><past>$^./.<sent>$
+[/EiGxn-Cp9OrQ]
+[G9KGq4RkLkNG#0] ^ТӀубанго/тӏубанго<adv><nt>$ ^лъугӀарал/лъугӏизе<vblex><iv><mfn><gpr2><pl>$ ^киналго/кинабго<adj><pl>/кинаб\<det\><itg><pl>+го<emph>/кинаб<prn><itg><pl><nom>+го<emph>/кини<n><nt><pl><nom>+го<emph>$ ^мацӀазул/мацӏ<n><nt><pl><gen>$ ^ахӀвал-хӀал/ахӏвал-хӏал<n><nt><sg><nom>$ ^данде/данде<adv>/данде<post>$ ^ккуна/кквезе<vblex><iv><mfn><past>$ ^дица/дун<prn><pers><p1><sg><erg>$^./.<sent>$
+[/G9KGq4RkLkNG]
+[INixi71qDh2o#0] ^Сайталда/сайт<n><nt><sg><loc>$ ^лъезе/лъезе<vblex><tv><mfn><inf>$ ^материал/материал<n><nt><sg><nom>$ ^киса/киб<adv><itg><abl>$ ^балагьулеб/балагьизе<vblex><tv><nt><gpr1><nt>$^?/?<sent>$
+[/INixi71qDh2o]
+[IOyubhr28D54#0] ^Дун/дун<prn><pers><p1><sg><nom>$ ^вукIине/букӏине<vblex><iv><m><inf>$ ^вуго/букӏине<vblex><iv><m><pres>$ ^ахихъан/ах<n><nt><sg><obl>+хъ<post><abl>/ах<n><nt><sg><obl>+хъ<post><tra>/ахихъан<n><m><sg><nom>/ахихъан<n><f><sg><nom>$^./.<sent>$
+[/IOyubhr28D54]
+[IlBjjTzVkwZv#0] ^Дуца/мун<prn><pers><p2><sg><erg>$ ^гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$ ^гьабунани/гьабизе<vblex><tv><nt><past>+ни<mod>$ ^гурони/гурони<post>$^,/,<cm>$ ^гьабуларо/гьабизе<vblex><tv><nt><aor><neg>$ ^дица/дун<prn><pers><p1><sg><erg>$ ^гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$^./.<sent>$
+[/IlBjjTzVkwZv]
+[KAVMqAoJ_csK#0] ^Гьев/гьеб<prn><dem><m><sg><nom>/гьеб\<det\><dem><m>$ ^зодове/зодиб<adv><m><all>$ ^шагьаралдаса/шагьар<n><nt><sg><abl>$ ^вачIана/бачӏине<vblex><iv><m><past>$^./.<sent>$
+[/KAVMqAoJ_csK]
+[KnCuJf9IUj3P#0] ^ТIад/тӏад<adv><loc>/тӏад<post>$ ^ретIараб/ретӏине<vblex><tv><mfn><gpr2><nt>$ ^ретIель/*ретIель$ ^гьей/гьеб<prn><dem><f><sg><nom>/гьеб\<det\><dem><f>$ ^ясалъулгун/яс<n><f><sg><gen>+гун<post>$ ^букIинчIо/букӏине<vblex><iv><nt><past><neg>$^./.<sent>$
+[/KnCuJf9IUj3P]
+[KxF8yK7f3kwr#0] ^Дун/дун<prn><pers><p1><sg><nom>$ ^МахIачхъалаялде/Махӏачхъала<np><top><sg><all>$ ^Буйнакскиялдаса/Буйнакск<np><top><sg><abl>$ ^вачIана/бачӏине<vblex><iv><m><past>$^./.<sent>$
+[/KxF8yK7f3kwr]
+[Lx72NrPsfAcO#0] ^Мун/мун<prn><pers><p2><sg><nom>$ ^йиго/букӏине<vblex><iv><f><pres>$ ^дир/дун<prn><pers><p1><sg><gen>$ ^гьудул/гьудул<n><f><sg><nom>/гьудул<n><m><sg><nom>$^./.<sent>$
+[/Lx72NrPsfAcO]
+[NgrN4qBqDxPi#0] ^Дун/дун<prn><pers><p1><sg><nom>$ ^экзаменазде/экзамен<n><nt><pl><all>$ ^хIадурлъулей/хӏадурлъизе<vblex><iv><mfn><gpr1><f>$ ^йикIана/букӏине<vblex><iv><f><past>$^./.<sent>$
+[/NgrN4qBqDxPi]
+[NwcKOX3VVxcX#0] ^Гьезул/гьеб<prn><dem><pl><gen>$ ^кучIдул/кечӏ<n><nt><pl><nom>$ ^рахьдал/рахь<n><nt><sg><gen>/рахьдал<adj>$ ^мацIалда/мацӏ<n><nt><sg><loc>$ ^лъала/лъазе<vblex><tv><mfn><fut>/лъазе<vblex><tv><mfn><aor>$^?/?<sent>$
+[/NwcKOX3VVxcX]
+[PL2rD0AZ0reT#0] ^Амма/амма<cnjsub>$ ^гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$ ^гӀайиб/гӏайиб<n><nt><sg><nom>$ ^дурго/мун<prn><pers><p2><sg><gen>+го<emph>$ ^буго/букӏине<vblex><iv><nt><pres>$^./.<sent>$
+[/PL2rD0AZ0reT]
+[Pfj3K7MjnJz_#0] ^Чан/чан<adv><itg>$ ^чи/чи<n><m><sg><nom>$ ^вачIарав/бачӏине<vblex><iv><m><gpr2><m>$^?/?<sent>$
+[/Pfj3K7MjnJz_]
+[QANO4mgU6ZAx#0] ^Лъаларо/лъазе<vblex><tv><mfn><fut><neg>/лъазе<vblex><tv><mfn><aor><neg>$^,/,<cm>$ ^бажариладай/бажаризе<vblex><iv><mfn><fut>+дай<qst>$ ^духъа/*духъа$ ^гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$ ^хIалтIи/хӏалтӏизе<vblex><iv><mfn><ger><nom>/хӏалтӏи<n><nt><sg><nom>/хӏалтӏи<n><nt><sg><nom>$ ^гьабун/гьабизе<vblex><tv><nt><gna2>$^./.<sent>$
+[/QANO4mgU6ZAx]
+[RsFoY5482xjg#0] ^Кинаб/кинаб\<det\><itg><nt>/кинаб<prn><itg><nt><sg><nom>$ ^батIалъи/батӏалъизе<vblex><iv><nt><ger><nom>/батӏалъи<n><nt><sg><nom>$ ^бугеб/бугеб<prn><nt><rel><nt>$ ^реализмалда/реализм<n><nt><sg><loc>$ ^ва/ва<cnjcoo>$ ^романтизмалда/романтизм<n><nt><sg><loc>$ ^гьоркьоб/гьоркьоб<adv><nt><loc>$^?/?<sent>$
+[/RsFoY5482xjg]
+[SNXfAC1QiBR5#0] ^Гьей/гьеб<prn><dem><f><sg><nom>/гьеб\<det\><dem><f>$ ^йикIана/букӏине<vblex><iv><f><past>$^./.<sent>$
+[/SNXfAC1QiBR5]
+[Sr_7urjAf2QL#0] ^КолхозчагІи/колхозчи<n><m><pl><nom>$  ^жакъа/жакъа<adv>$  ^ахикье/ах<n><nt><sg><obl>+кь<post><all>$ ^ретІаризе/бетӏаризе<vblex><iv><pl><inf>$ ^рахъун/бахъине<vblex><iv><pl><gna2>/бахъизе<vblex><iv><pl><gna2>$ ^руго/букӏине<vblex><iv><pl><pres>$^./.<sent>$
+[/Sr_7urjAf2QL]
+[T4690nAZ4oLS#0] ^Лъабго/лъабго<num>$ ^чи/чи<n><m><sg><nom>$ ^вегулеб/бегизе<vblex><iv><m><gpr1><nt>$ ^палата/палата<n><nt><sg><nom>$ ^букIана/букӏине<vblex><iv><nt><past>$ ^гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$^./.<sent>$
+[/T4690nAZ4oLS]
+[T8lDpUEEIEYA#0] ^Гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$ ^букIана/букӏине<vblex><iv><nt><past>$^./.<sent>$
+[/T8lDpUEEIEYA]
+[TZUJOXdQnYvY#0] ^Дун/дун<prn><pers><p1><sg><nom>$ ^ворчIана/борчӏизе<vblex><iv><m><past>$ ^радал/радал<adv>$ ^хеккого/хеккого<adv>$^./.<sent>$
+[/TZUJOXdQnYvY]
+[Tz8zRo3-VwW8#0] ^тукатІа/*тукатІа$ ^гуродай/гуродай<post>$ ^дов/доб<prn><dem><m><sg><nom>$ ^хІалтІулев/хӏалтӏизе<vblex><iv><mfn><gpr1><m>$ ^вугев/бугеб<prn><m><rel><m>$
+[/Tz8zRo3-VwW8]
+[UyMT5MjcRAZb#0] ^Гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$ ^зодобе/зодиб<adv><nt><all>$ ^бачIана/бачӏине<vblex><iv><nt><past>$^./.<sent>$
+[/UyMT5MjcRAZb]
+[VIrwKIhpD-AE#0] ^Гьел/гьеб<prn><dem><pl><nom>/гьеб\<det\><dem><pl>$ ^рукIана/букӏине<vblex><iv><pl><past>$^./.<sent>$
+[/VIrwKIhpD-AE]
+[WKFUn9G_cYnp#0] ^Гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$ ^хабар/хабар<n><nt><sg><nom>$ ^дида/дун<prn><pers><p1><sg><loc>$ ^рагІана/рагӏизе<vblex><iv><mfn><past>$^./.<sent>$
+[/WKFUn9G_cYnp]
+[WLDs_SQ7NrIY#0] ^Лъица/щиб<prn><itg><f><sg><erg>/щиб<prn><itg><m><sg><erg>$ ^щиб/щиб<prn><itg><nt><sg><nom>$ ^дуда/мун<prn><pers><p2><sg><loc>$ ^абураб/абизе<vblex><tv><nt><gpr2><nt>$^?/?<sent>$
+[/WLDs_SQ7NrIY]
+[WkIwWv3HR97-#0] ^Зодосан/зодиб<adv><tra>$ ^гьодобе/*гьодобе$ ^бачIана/бачӏине<vblex><iv><nt><past>$ ^цо/цо<num>$ ^жо/жо<n><nt><sg><nom>$^./.<sent>$
+[/WkIwWv3HR97-]
+[YLwB5gGiSh1n#0] ^Дуда/мун<prn><pers><p2><sg><loc>$ ^дурго/мун<prn><pers><p2><sg><gen>+го<emph>$ ^мацI/мацӏ<n><nt><sg><nom>$ ^лъикI/лъикӏ<adv>$ ^лъалищ/лъазе<vblex><tv><mfn><fut>+ищ<qst>/лъазе<vblex><tv><mfn><aor>+ищ<qst>$^?/?<sent>$
+[/YLwB5gGiSh1n]
+[Z-mO7-_RkJ8o#0] ^Гьадинаб/гьадинаб<prn>\<ind\><nt><sg><nom>/гьадинаб\<det\>\<ind\><nt>$ ^чIухIигун/чӏухӏизе<vblex><iv><mfn><ger><nom>+гун<post>/чӏухӏи<n><nt><sg><nom>+гун<post>$ ^ана/ине<vblex><iv><mfn><past>$ ^дов/доб<prn><dem><m><sg><nom>$ ^гьаб/гьаб<prn><dem><nt><sg><nom>/гьаб\<det\><dem><nt>$ ^ракьалдаса/ракь<n><nt><sg><abl>$^./.<sent>$
+[/Z-mO7-_RkJ8o]
+[cS6Fi66fkhFU#0] ^Гьелдалъун/гьелдалъун<cnjadv>$ ^пачалихъалъе/пачалихъ<n><nt><sg><dat>$ ^ккараб/ккезе<vblex><iv><mfn><gpr2><nt>$ ^зарал/зарал<n><nt><sg><nom>$ ^нус-нус/нус-нус<num><pl>$ ^миллионаз/миллион<num><nt><pl><erg>$ ^борцуна/борцине<vblex><tv><nt><aor>$^./.<sent>$
+[/cS6Fi66fkhFU]
+[cglbjWjKn5b7#0] ^вац/вац<n><m><sg><nom>$ ^гурони/гурони<post>$^,/,<cm>$ ^кумекалъе/кумек<n><nt><sg><dat>$ ^чи/чи<n><m><sg><nom>$ ^вачІинчІо/бачӏине<vblex><iv><m><past><neg>$
+[/cglbjWjKn5b7]
+[crd9IISHPUCY#0] ^Машидатил/Машидат<np><ant><f><gen>$ ^йиго/букӏине<vblex><iv><f><pres>$ ^щуго/щуго<num>$ ^яцги/яц<n><f><sg><nom>+ги<cnjcoo>$ ^цо/цо<num>$ ^вацги/вац<n><m><sg><nom>+ги<cnjcoo>$^./.<sent>$
+[/crd9IISHPUCY]
+[dgq-FxtaLzd0#0] ^Гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$ ^зодоса/зодиб<adv><abl>$ ^бачIана/бачӏине<vblex><iv><nt><past>$^./.<sent>$
+[/dgq-FxtaLzd0]
+[fhp8q_7MgMRM#0] ^дур/мун<prn><pers><p2><sg><gen>$ ^эмен/эмен<n><m><sg><nom>$ ^гуродай/гуродай<post>$ ^вачІунев/бачӏине<vblex><iv><m><gpr1><m>$ ^вугев/бугеб<prn><m><rel><m>$
+[/fhp8q_7MgMRM]
+[gYGL-qnJ3qHo#0] ^Гьей/гьеб<prn><dem><f><sg><nom>/гьеб\<det\><dem><f>$ ^зодойе/*зодойе$ ^ячIана/бачӏине<vblex><iv><f><past>$^./.<sent>$
+[/gYGL-qnJ3qHo]
+[iJlxe6isn8KG#0] ^Амма/амма<cnjsub>$ ^гьелда/гьеб<prn><dem><f><sg><loc>/гьеб<prn><dem><nt><sg><loc>$ ^данде/данде<adv>/данде<post>$ ^абизе/абизе<vblex><tv><nt><inf>$ ^жо/жо<n><nt><sg><nom>$ ^Насрудиновасул/Насрудинов<np><cog><m><sg><gen>$ ^адвокатасулги/адвокат<n><m><sg><gen>+ги<cnjcoo>$ ^буго/букӏине<vblex><iv><nt><pres>$^./.<sent>$
+[/iJlxe6isn8KG]
+[jHvbxZZgXXM9#0] ^Гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$ ^унеб/ине<vblex><iv><mfn><gpr1><nt>$ ^буго/букӏине<vblex><iv><nt><pres>$ ^зодобу/*зодобу$
+[/jHvbxZZgXXM9]
+[k2Nnk286fV29#0] ^Гьелдаса/гьеб<prn><dem><f><sg><abl>/гьеб<prn><dem><nt><sg><abl>$ ^хадуб/хадуб<post>/хадуб<adv><nt><loc>$ ^Мухтарица/Мухтар<np><ant><m><erg>$ ^росу/росу<n><nt><sg><nom>$ ^тана/тезе<vblex><tv><mfn><past>$^./.<sent>$
+[/k2Nnk286fV29]
+[keVirT7L7a_B#0] ^М./М.<np><ant>\<mf\><attr>$ ^Насрудиновасда/Насрудинов<np><cog><m><sg><loc>$ ^хурхун/хурхине<vblex><iv><mfn><gna2>/хурхун<post>$ ^прокуратураялъ/прокуратура<n><nt><sg><erg>$ ^цӀех-рех/цӏех-рех<n><nt><sg><nom>$ ^гьаби/гьабизе<vblex><tv><nt><ger><nom>$ ^батӀайисан/батӏайиса<adv>$ ^бичӀчӀулеб/бичӏчӏизе<vblex><tv><nt><gpr1><nt>$ ^буго/букӏине<vblex><iv><nt><pres>$ ^«/«\<lquot\>$^Дагестангазсервисалъул/Дагестангазсервис<np><al><gen>$^»/»\<rquot\>$ ^цо-цо/цо-цо<num><pl>$ ^вакилзабазда/вакил<n><m><pl><loc>$^./.<sent>$
+[/keVirT7L7a_B]
+[kiQXacun6CJn#0] ^лъабго/лъабго<num>$ ^рукъ/рукъ<n><nt><sg><nom>$^./.<sent>$
+[/kiQXacun6CJn]
+[lxpwvHxkluJz#0] ^лъабго/лъабго<num>$ ^рукъалъухъ/рукъ<n><nt><sg><obl>+хъ<post><loc>$ ^кӏиго/кӏиго<num>$ ^гъветӏ/гъветӏ<n><nt><sg><nom>$^./.<sent>$
+[/lxpwvHxkluJz]
+[nOEwMZDB6Bzq#0] ^Дун/дун<prn><pers><p1><sg><nom>$ ^гьанже/гьанже<adv><loc>$ ^сахълъун/*сахълъун$ ^йиго/букӏине<vblex><iv><f><pres>$^,/,<cm>$ ^кIодо/кӏодо<n><f><sg><nom>$^./.<sent>$
+[/nOEwMZDB6Bzq]
+[nZYj_Y3mHWK8#0] ^Гьев/гьеб<prn><dem><m><sg><nom>/гьеб\<det\><dem><m>$ ^унев/ине<vblex><iv><mfn><gpr1><m>$ ^вуго/букӏине<vblex><iv><m><pres>$ ^зодове/зодиб<adv><m><all>$
+[/nZYj_Y3mHWK8]
+[oGd98FiR7pM2#0] ^Дуца/мун<prn><pers><p2><sg><erg>$ ^бицунеб/бицине<vblex><tv><nt><gpr1><nt>$ ^жо/жо<n><nt><sg><nom>$ ^щиб/щиб<prn><itg><nt><sg><nom>$^,/,<cm>$ ^кIодо/кӏодо<n><f><sg><nom>$^?/?<sent>$
+[/oGd98FiR7pM2]
+[pQbd6c6ZHk1P#0] ^Гьев/гьеб<prn><dem><m><sg><nom>/гьеб\<det\><dem><m>$ ^вукIана/букӏине<vblex><iv><m><past>$^./.<sent>$
+[/pQbd6c6ZHk1P]
+[rEhPsdvjt4BZ#0] ^Дун/дун<prn><pers><p1><sg><nom>$ ^вухIулев/бухӏизе<vblex><iv><m><gpr1><m>$ ^вуго/букӏине<vblex><iv><m><pres>$^./.<sent>$
+[/rEhPsdvjt4BZ]
+[wdxzQCPkR-q9#0] ^Гьей/гьеб<prn><dem><f><sg><nom>/гьеб\<det\><dem><f>$ ^зодоса/зодиб<adv><abl>$ ^ячIана/бачӏине<vblex><iv><f><past>$^./.<sent>$
+[/wdxzQCPkR-q9]
+[xsiN7kWubs3A#0] ^Гьеб/гьеб<prn><dem><nt><sg><nom>/гьеб\<det\><dem><nt>$ ^нилъер/нилъ<prn><pers><p1i><pl><gen>$ ^бергьенлъи/бергьенлъи<n><nt><sg><nom>$ ^букIине/букӏине<vblex><iv><nt><inf>$ ^буго/букӏине<vblex><iv><nt><pres>$^./.<sent>$
+[/xsiN7kWubs3A]
+[xt2tN3hJ59y4#0] ^Дун/дун<prn><pers><p1><sg><nom>$ ^МахIачхъалаялде/Махӏачхъала<np><top><sg><all>$ ^Буйнакскиялдасан/Буйнакск<np><top><sg><tra>$ ^вачIана/бачӏине<vblex><iv><m><past>$^./.<sent>$
+[/xt2tN3hJ59y4]
